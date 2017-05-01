@@ -78,10 +78,10 @@
     <Compile Include="emp.designer.cs">
       <DependentUpon>emp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Examination.cs">
+    <Compile Include="group L\Examination.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Examination.designer.cs">
+    <Compile Include="group L\Examination.designer.cs">
       <DependentUpon>Examination.cs</DependentUpon>
     </Compile>
     <Compile Include="fol_serv.cs">
@@ -127,16 +127,16 @@
       <DependentUpon>frm_past_history.cs</DependentUpon>
     </Compile>
     <Compile Include="group i\validationcs.cs" />
-    <Compile Include="groupH.cs">
+    <Compile Include="group H\groupH.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="groupH.designer.cs">
+    <Compile Include="group H\groupH.designer.cs">
       <DependentUpon>groupH.cs</DependentUpon>
     </Compile>
-    <Compile Include="groupc.cs">
+    <Compile Include="group C\groupc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="groupc.designer.cs">
+    <Compile Include="group C\groupc.designer.cs">
       <DependentUpon>groupc.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
@@ -186,7 +186,7 @@
       <DependentUpon>emp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ested3a.rdlc" />
-    <EmbeddedResource Include="Examination.resx">
+    <EmbeddedResource Include="group L\Examination.resx">
       <DependentUpon>Examination.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fol_serv.resx">
@@ -211,10 +211,10 @@
       <DependentUpon>frm_past_history.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="rpt_past_history.rdlc" />
-    <EmbeddedResource Include="groupH.resx">
+    <EmbeddedResource Include="group H\groupH.resx">
       <DependentUpon>groupH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="groupc.resx">
+    <EmbeddedResource Include="group C\groupc.resx">
       <DependentUpon>groupc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
