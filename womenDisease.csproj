@@ -55,10 +55,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="doc.cs">
+    <Compile Include="group C\doc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="doc.designer.cs">
+    <Compile Include="group C\doc.designer.cs">
       <DependentUpon>doc.cs</DependentUpon>
     </Compile>
     <Compile Include="dst_past_history.Designer.cs">
@@ -72,10 +72,10 @@
     <Compile Include="Group E\e.designer.cs">
       <DependentUpon>e.cs</DependentUpon>
     </Compile>
-    <Compile Include="emp.cs">
+    <Compile Include="group C\emp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="emp.designer.cs">
+    <Compile Include="group C\emp.designer.cs">
       <DependentUpon>emp.cs</DependentUpon>
     </Compile>
     <Compile Include="group L\Examination.cs">
@@ -152,37 +152,37 @@
       <DependentUpon>hysteroscopy.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="أذن دخول مريضة.cs">
+    <Compile Include="group C\أذن دخول مريضة.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="أذن دخول مريضة.designer.cs">
+    <Compile Include="group C\أذن دخول مريضة.designer.cs">
       <DependentUpon>أذن دخول مريضة.cs</DependentUpon>
     </Compile>
-    <Compile Include="بحث.cs">
+    <Compile Include="group C\بحث.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="بحث.designer.cs">
+    <Compile Include="group C\بحث.designer.cs">
       <DependentUpon>بحث.cs</DependentUpon>
     </Compile>
-    <Compile Include="بحث_عن_مريضه.cs">
+    <Compile Include="group C\بحث_عن_مريضه.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="بحث_عن_مريضه.designer.cs">
+    <Compile Include="group C\بحث_عن_مريضه.designer.cs">
       <DependentUpon>بحث_عن_مريضه.cs</DependentUpon>
     </Compile>
-    <Compile Include="تنظيم الأسرة والصحة الانجابية.cs">
+    <Compile Include="group C\تنظيم الأسرة والصحة الانجابية.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="تنظيم الأسرة والصحة الانجابية.designer.cs">
+    <Compile Include="group C\تنظيم الأسرة والصحة الانجابية.designer.cs">
       <DependentUpon>تنظيم الأسرة والصحة الانجابية.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="doc.resx">
+    <EmbeddedResource Include="group C\doc.resx">
       <DependentUpon>doc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Group E\e.resx">
       <DependentUpon>e.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="emp.resx">
+    <EmbeddedResource Include="group C\emp.resx">
       <DependentUpon>emp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ested3a.rdlc" />
@@ -223,16 +223,16 @@
     <EmbeddedResource Include="hysteroscopy.resx">
       <DependentUpon>hysteroscopy.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="أذن دخول مريضة.resx">
+    <EmbeddedResource Include="group C\أذن دخول مريضة.resx">
       <DependentUpon>أذن دخول مريضة.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="بحث.resx">
+    <EmbeddedResource Include="group C\بحث.resx">
       <DependentUpon>بحث.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="بحث_عن_مريضه.resx">
+    <EmbeddedResource Include="group C\بحث_عن_مريضه.resx">
       <DependentUpon>بحث_عن_مريضه.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="تنظيم الأسرة والصحة الانجابية.resx">
+    <EmbeddedResource Include="group C\تنظيم الأسرة والصحة الانجابية.resx">
       <DependentUpon>تنظيم الأسرة والصحة الانجابية.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="DataSet1.xsc">
