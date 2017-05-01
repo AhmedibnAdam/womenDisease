@@ -428,6 +428,12 @@ namespace womenDisease
             gr.Show();
         }
 
+        private void تقريرالسجلالمرضيToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frm_past_history frm = new frm_past_history();
+            frm.Show();
+        }
+
 
     }
 }

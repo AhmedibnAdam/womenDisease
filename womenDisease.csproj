@@ -61,6 +61,11 @@
     <Compile Include="doc.designer.cs">
       <DependentUpon>doc.cs</DependentUpon>
     </Compile>
+    <Compile Include="dst_past_history.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dst_past_history.xsd</DependentUpon>
+    </Compile>
     <Compile Include="e.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +120,13 @@
     <Compile Include="Form4.designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="group i\frm_past_history.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="group i\frm_past_history.designer.cs">
+      <DependentUpon>frm_past_history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="group i\validationcs.cs" />
     <Compile Include="groupH.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,18 +151,7 @@
     <Compile Include="hysteroscopy.designer.cs">
       <DependentUpon>hysteroscopy.cs</DependentUpon>
     </Compile>
-    <Compile Include="past_History.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>past_History.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="p_history.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="p_history.designer.cs">
-      <DependentUpon>p_history.cs</DependentUpon>
-    </Compile>
     <Compile Include="أذن دخول مريضة.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +207,10 @@
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="group i\frm_past_history.resx">
+      <DependentUpon>frm_past_history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rpt_past_history.rdlc" />
     <EmbeddedResource Include="groupH.resx">
       <DependentUpon>groupH.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,11 +223,6 @@
     <EmbeddedResource Include="hysteroscopy.resx">
       <DependentUpon>hysteroscopy.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="p_history.resx">
-      <DependentUpon>p_history.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Report1.rdlc" />
-    <EmbeddedResource Include="Report2.rdlc" />
     <EmbeddedResource Include="أذن دخول مريضة.resx">
       <DependentUpon>أذن دخول مريضة.cs</DependentUpon>
     </EmbeddedResource>
@@ -246,16 +246,16 @@
     <None Include="DataSet1.xss">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
-    <None Include="past_History.xsc">
-      <DependentUpon>past_History.xsd</DependentUpon>
+    <None Include="dst_past_history.xsc">
+      <DependentUpon>dst_past_history.xsd</DependentUpon>
     </None>
-    <None Include="past_History.xsd">
+    <None Include="dst_past_history.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>past_History.Designer.cs</LastGenOutput>
+      <LastGenOutput>dst_past_history.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="past_History.xss">
-      <DependentUpon>past_History.xsd</DependentUpon>
+    <None Include="dst_past_history.xss">
+      <DependentUpon>dst_past_history.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
