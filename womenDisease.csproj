@@ -90,11 +90,11 @@
     <Compile Include="fol_serv.designer.cs">
       <DependentUpon>fol_serv.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form.cs">
+    <Compile Include="Group j\afterOPeration.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form.designer.cs">
-      <DependentUpon>Form.cs</DependentUpon>
+    <Compile Include="Group j\afterOPeration.designer.cs">
+      <DependentUpon>afterOPeration.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -192,8 +192,8 @@
     <EmbeddedResource Include="fol_serv.resx">
       <DependentUpon>fol_serv.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form.resx">
-      <DependentUpon>Form.cs</DependentUpon>
+    <EmbeddedResource Include="Group j\afterOPeration.resx">
+      <DependentUpon>afterOPeration.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

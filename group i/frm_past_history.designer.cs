@@ -83,9 +83,9 @@
             this.label1.Font = new System.Drawing.Font("Times New Roman", 12F);
             this.label1.Location = new System.Drawing.Point(682, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 19);
+            this.label1.Size = new System.Drawing.Size(65, 19);
             this.label1.TabIndex = 2;
-            this.label1.Text = "رقم الزيادة";
+            this.label1.Text = "رقم الزيارة";
             // 
             // txt_visit_id
             // 

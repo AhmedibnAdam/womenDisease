@@ -433,6 +433,14 @@ namespace womenDisease
             frm_past_history frm = new frm_past_history();
             frm.Show();
         }
+       
+        private void بعدالعمليةToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            afterOPerations afterOP = new afterOPerations();
+            afterOP.Show();
+        }
+
+       
 
 
     }
