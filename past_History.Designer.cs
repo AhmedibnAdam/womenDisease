@@ -1097,7 +1097,7 @@ SELECT abdominal_examination_id, fundal_level, fundal_grip, umbilical_grip, plev
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::womenDisease.Properties.Settings.Default.NEW_PHISConnectionString;
+           // this._connection.ConnectionString = global::womenDisease.Properties.Settings.Default.NEW_PHISConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
