@@ -55,6 +55,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Group G\fol_serv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Group G\fol_serv.designer.cs">
+      <DependentUpon>fol_serv.cs</DependentUpon>
+    </Compile>
     <Compile Include="group C\doc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,12 +89,6 @@
     </Compile>
     <Compile Include="group L\Examination.designer.cs">
       <DependentUpon>Examination.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Group G\fol_serv.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Group G\fol_serv.designer.cs">
-      <DependentUpon>fol_serv.cs</DependentUpon>
     </Compile>
     <Compile Include="Group J\afterOPeration.cs">
       <SubType>Form</SubType>
@@ -133,11 +133,11 @@
     <Compile Include="group H\groupH.designer.cs">
       <DependentUpon>groupH.cs</DependentUpon>
     </Compile>
-    <Compile Include="group C\groupc.cs">
+    <Compile Include="HHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="group C\groupc.designer.cs">
-      <DependentUpon>groupc.cs</DependentUpon>
+    <Compile Include="HHome.Designer.cs">
+      <DependentUpon>HHome.cs</DependentUpon>
     </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
@@ -176,6 +176,14 @@
     <Compile Include="group C\تنظيم الأسرة والصحة الانجابية.designer.cs">
       <DependentUpon>تنظيم الأسرة والصحة الانجابية.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Group G\fol_serv.resx">
+      <DependentUpon>fol_serv.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="group C\doc.resx">
       <DependentUpon>doc.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,9 +196,6 @@
     <EmbeddedResource Include="ested3a.rdlc" />
     <EmbeddedResource Include="group L\Examination.resx">
       <DependentUpon>Examination.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Group G\fol_serv.resx">
-      <DependentUpon>fol_serv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Group J\afterOPeration.resx">
       <DependentUpon>afterOPeration.cs</DependentUpon>
@@ -210,12 +215,16 @@
     <EmbeddedResource Include="group I\frm_past_history.resx">
       <DependentUpon>frm_past_history.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="HHome.resx">
+      <DependentUpon>HHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="rpt_past_history.rdlc" />
     <EmbeddedResource Include="group H\groupH.resx">
       <DependentUpon>groupH.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="group C\groupc.resx">
-      <DependentUpon>groupc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
@@ -261,14 +270,7 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="group A\" />
-    <Folder Include="group B\" />
-    <Folder Include="group D\" />
-    <Folder Include="group F\" />
-    <Folder Include="group K\" />
-    <Folder Include="Properties\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

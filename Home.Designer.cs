@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
@@ -40,6 +37,7 @@
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.بعدالعمليةToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.تقاريرToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.تقريرالسجلالمرضيToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
@@ -265,7 +263,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label108 = new System.Windows.Forms.Label();
@@ -388,7 +385,6 @@
             this.label145 = new System.Windows.Forms.Label();
             this.label146 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
-            this.بعدالعمليةToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -500,6 +496,13 @@
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Text = "استمارة منتفعة بخدمات تنظيم الاسرة";
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Click += new System.EventHandler(this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem_Click);
             // 
+            // بعدالعمليةToolStripMenuItem
+            // 
+            this.بعدالعمليةToolStripMenuItem.Name = "بعدالعمليةToolStripMenuItem";
+            this.بعدالعمليةToolStripMenuItem.Size = new System.Drawing.Size(238, 22);
+            this.بعدالعمليةToolStripMenuItem.Text = "بعد العملية ";
+            this.بعدالعمليةToolStripMenuItem.Click += new System.EventHandler(this.بعدالعمليةToolStripMenuItem_Click);
+            // 
             // تقاريرToolStripMenuItem
             // 
             this.تقاريرToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -603,7 +606,7 @@
             this.label43.AutoSize = true;
             this.label43.Location = new System.Drawing.Point(742, 171);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(69, 13);
+            this.label43.Size = new System.Drawing.Size(70, 13);
             this.label43.TabIndex = 132;
             this.label43.Text = "Doctor Name";
             // 
@@ -762,7 +765,7 @@
             this.label92.AutoSize = true;
             this.label92.Location = new System.Drawing.Point(389, 369);
             this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(59, 13);
+            this.label92.Size = new System.Drawing.Size(61, 13);
             this.label92.TabIndex = 102;
             this.label92.Text = "نوع الدخول ";
             // 
@@ -780,7 +783,7 @@
             this.label93.AutoSize = true;
             this.label93.Location = new System.Drawing.Point(869, 362);
             this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(94, 13);
+            this.label93.Size = new System.Drawing.Size(88, 13);
             this.label93.TabIndex = 101;
             this.label93.Text = "اسم موظف الدخول";
             // 
@@ -816,7 +819,7 @@
             this.label94.AutoSize = true;
             this.label94.Location = new System.Drawing.Point(864, -20);
             this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(85, 13);
+            this.label94.Size = new System.Drawing.Size(74, 13);
             this.label94.TabIndex = 112;
             this.label94.Text = "رقم المستشفى\r\n";
             // 
@@ -848,7 +851,7 @@
             this.label96.AutoSize = true;
             this.label96.Location = new System.Drawing.Point(382, 305);
             this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(61, 26);
+            this.label96.Size = new System.Drawing.Size(67, 26);
             this.label96.TabIndex = 108;
             this.label96.Text = "تاريخ الخروج\r\n\r\n";
             // 
@@ -857,7 +860,7 @@
             this.label97.AutoSize = true;
             this.label97.Location = new System.Drawing.Point(886, 316);
             this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(59, 13);
+            this.label97.Size = new System.Drawing.Size(61, 13);
             this.label97.TabIndex = 107;
             this.label97.Text = "حالة الخروج\r\n";
             // 
@@ -882,7 +885,7 @@
             this.label99.AutoSize = true;
             this.label99.Location = new System.Drawing.Point(885, 106);
             this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(62, 13);
+            this.label99.Size = new System.Drawing.Size(66, 13);
             this.label99.TabIndex = 104;
             this.label99.Text = "تاريخ الدخول\r\n";
             // 
@@ -891,7 +894,7 @@
             this.label100.AutoSize = true;
             this.label100.Location = new System.Drawing.Point(388, 93);
             this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(68, 13);
+            this.label100.Size = new System.Drawing.Size(66, 13);
             this.label100.TabIndex = 100;
             this.label100.Text = "ساعة الدخول\r\n";
             // 
@@ -907,7 +910,7 @@
             this.label101.AutoSize = true;
             this.label101.Location = new System.Drawing.Point(373, 261);
             this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(89, 13);
+            this.label101.Size = new System.Drawing.Size(85, 13);
             this.label101.TabIndex = 98;
             this.label101.Text = "التشخيص النهائى";
             // 
@@ -941,7 +944,7 @@
             this.label102.AutoSize = true;
             this.label102.Location = new System.Drawing.Point(388, 130);
             this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(68, 13);
+            this.label102.Size = new System.Drawing.Size(61, 13);
             this.label102.TabIndex = 94;
             this.label102.Text = "اسم المريضة";
             // 
@@ -957,7 +960,7 @@
             this.label103.AutoSize = true;
             this.label103.Location = new System.Drawing.Point(896, 142);
             this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(61, 13);
+            this.label103.Size = new System.Drawing.Size(62, 13);
             this.label103.TabIndex = 92;
             this.label103.Text = "كود المريضة";
             // 
@@ -987,7 +990,7 @@
             this.label104.AutoSize = true;
             this.label104.Location = new System.Drawing.Point(869, 268);
             this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(93, 13);
+            this.label104.Size = new System.Drawing.Size(85, 13);
             this.label104.TabIndex = 88;
             this.label104.Text = "التشخيص المبدئي";
             // 
@@ -996,7 +999,7 @@
             this.label105.AutoSize = true;
             this.label105.Location = new System.Drawing.Point(365, 165);
             this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(91, 13);
+            this.label105.Size = new System.Drawing.Size(84, 13);
             this.label105.TabIndex = 87;
             this.label105.Text = "اسم طبيب الدخول";
             // 
@@ -1014,7 +1017,7 @@
             this.label107.AutoSize = true;
             this.label107.Location = new System.Drawing.Point(516, -20);
             this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(131, 13);
+            this.label107.Size = new System.Drawing.Size(122, 13);
             this.label107.TabIndex = 85;
             this.label107.Text = "الجهة المرسل منها المريض";
             // 
@@ -1088,7 +1091,7 @@
             this.label64.AutoSize = true;
             this.label64.Location = new System.Drawing.Point(263, 119);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(49, 13);
+            this.label64.Size = new System.Drawing.Size(47, 13);
             this.label64.TabIndex = 35;
             this.label64.Text = "المحافظة";
             // 
@@ -1097,7 +1100,7 @@
             this.label65.AutoSize = true;
             this.label65.Location = new System.Drawing.Point(264, 92);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(39, 13);
+            this.label65.Size = new System.Drawing.Size(36, 13);
             this.label65.TabIndex = 33;
             this.label65.Text = "المدينة";
             // 
@@ -1113,7 +1116,7 @@
             this.label66.AutoSize = true;
             this.label66.Location = new System.Drawing.Point(856, 117);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(71, 13);
+            this.label66.Size = new System.Drawing.Size(67, 13);
             this.label66.TabIndex = 31;
             this.label66.Text = "الرقم  القومي";
             // 
@@ -1129,7 +1132,7 @@
             this.label67.AutoSize = true;
             this.label67.Location = new System.Drawing.Point(533, 122);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(102, 13);
+            this.label67.Size = new System.Drawing.Size(97, 13);
             this.label67.TabIndex = 29;
             this.label67.Text = "رقم التليفون-محمول ";
             // 
@@ -1146,7 +1149,7 @@
             this.label68.AutoSize = true;
             this.label68.Location = new System.Drawing.Point(276, 57);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(36, 13);
+            this.label68.Size = new System.Drawing.Size(33, 13);
             this.label68.TabIndex = 27;
             this.label68.Text = "المهنة";
             // 
@@ -1162,7 +1165,7 @@
             this.label69.AutoSize = true;
             this.label69.Location = new System.Drawing.Point(866, 97);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(61, 13);
+            this.label69.Size = new System.Drawing.Size(58, 13);
             this.label69.TabIndex = 25;
             this.label69.Text = "محل الاقامة";
             // 
@@ -1189,7 +1192,7 @@
             this.label70.AutoSize = true;
             this.label70.Location = new System.Drawing.Point(560, 54);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(61, 13);
+            this.label70.Size = new System.Drawing.Size(60, 13);
             this.label70.TabIndex = 17;
             this.label70.Text = "درجة القرابة";
             // 
@@ -1205,7 +1208,7 @@
             this.label71.AutoSize = true;
             this.label71.Location = new System.Drawing.Point(888, 54);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(36, 13);
+            this.label71.Size = new System.Drawing.Size(30, 13);
             this.label71.TabIndex = 15;
             this.label71.Text = "الاسم";
             // 
@@ -1285,7 +1288,7 @@
             this.label74.AutoSize = true;
             this.label74.Location = new System.Drawing.Point(530, 218);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(55, 13);
+            this.label74.Size = new System.Drawing.Size(59, 13);
             this.label74.TabIndex = 67;
             this.label74.Text = "فترة الزواج\r\n";
             // 
@@ -1303,7 +1306,7 @@
             this.label75.AutoSize = true;
             this.label75.Location = new System.Drawing.Point(874, 208);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(57, 13);
+            this.label75.Size = new System.Drawing.Size(63, 13);
             this.label75.TabIndex = 65;
             this.label75.Text = "تاريخ الزواج\r\n";
             // 
@@ -1334,7 +1337,7 @@
             this.label76.AutoSize = true;
             this.label76.Location = new System.Drawing.Point(222, 219);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(70, 13);
+            this.label76.Size = new System.Drawing.Size(68, 13);
             this.label76.TabIndex = 38;
             this.label76.Text = "عنوان المريض";
             // 
@@ -1343,7 +1346,7 @@
             this.label77.AutoSize = true;
             this.label77.Location = new System.Drawing.Point(866, 68);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(62, 13);
+            this.label77.Size = new System.Drawing.Size(66, 13);
             this.label77.TabIndex = 60;
             this.label77.Text = "تاريخ الدخول";
             // 
@@ -1377,7 +1380,7 @@
             this.label78.AutoSize = true;
             this.label78.Location = new System.Drawing.Point(229, 190);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(63, 13);
+            this.label78.Size = new System.Drawing.Size(61, 13);
             this.label78.TabIndex = 26;
             this.label78.Text = "عنوان العمل";
             // 
@@ -1393,7 +1396,7 @@
             this.label79.AutoSize = true;
             this.label79.Location = new System.Drawing.Point(229, 165);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(63, 13);
+            this.label79.Size = new System.Drawing.Size(61, 13);
             this.label79.TabIndex = 24;
             this.label79.Text = "رقم التليفون";
             // 
@@ -1479,7 +1482,7 @@
             this.label80.AutoSize = true;
             this.label80.Location = new System.Drawing.Point(530, 192);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(71, 13);
+            this.label80.Size = new System.Drawing.Size(67, 13);
             this.label80.TabIndex = 13;
             this.label80.Text = "الرقم  القومي";
             // 
@@ -1497,7 +1500,7 @@
             this.label82.AutoSize = true;
             this.label82.Location = new System.Drawing.Point(868, 151);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(61, 13);
+            this.label82.Size = new System.Drawing.Size(58, 13);
             this.label82.TabIndex = 11;
             this.label82.Text = "محل الاقامة";
             // 
@@ -1506,7 +1509,7 @@
             this.label83.AutoSize = true;
             this.label83.Location = new System.Drawing.Point(874, 183);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(55, 13);
+            this.label83.Size = new System.Drawing.Size(52, 13);
             this.label83.TabIndex = 10;
             this.label83.Text = "اسم الزوج";
             // 
@@ -1515,7 +1518,7 @@
             this.label84.AutoSize = true;
             this.label84.Location = new System.Drawing.Point(844, 129);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(71, 13);
+            this.label84.Size = new System.Drawing.Size(67, 13);
             this.label84.TabIndex = 9;
             this.label84.Text = "الرقم  القومي";
             // 
@@ -1524,7 +1527,7 @@
             this.label85.AutoSize = true;
             this.label85.Location = new System.Drawing.Point(222, 135);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(83, 13);
+            this.label85.Size = new System.Drawing.Size(80, 13);
             this.label85.TabIndex = 8;
             this.label85.Text = "الحالة الاجتماعية";
             // 
@@ -1533,7 +1536,7 @@
             this.label86.AutoSize = true;
             this.label86.Location = new System.Drawing.Point(555, 106);
             this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(46, 13);
+            this.label86.Size = new System.Drawing.Size(42, 13);
             this.label86.TabIndex = 7;
             this.label86.Text = "الجنسية";
             // 
@@ -1542,7 +1545,7 @@
             this.label87.AutoSize = true;
             this.label87.Location = new System.Drawing.Point(555, 75);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(33, 13);
+            this.label87.Size = new System.Drawing.Size(29, 13);
             this.label87.TabIndex = 6;
             this.label87.Text = "السن";
             // 
@@ -1551,7 +1554,7 @@
             this.label88.AutoSize = true;
             this.label88.Location = new System.Drawing.Point(879, 102);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(36, 13);
+            this.label88.Size = new System.Drawing.Size(30, 13);
             this.label88.TabIndex = 4;
             this.label88.Text = "الاسم";
             // 
@@ -1560,7 +1563,7 @@
             this.label89.AutoSize = true;
             this.label89.Location = new System.Drawing.Point(249, 109);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(36, 13);
+            this.label89.Size = new System.Drawing.Size(33, 13);
             this.label89.TabIndex = 5;
             this.label89.Text = "المهنة";
             // 
@@ -1569,7 +1572,7 @@
             this.label90.AutoSize = true;
             this.label90.Location = new System.Drawing.Point(254, 96);
             this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(55, 13);
+            this.label90.Size = new System.Drawing.Size(59, 13);
             this.label90.TabIndex = 58;
             this.label90.Text = "فترة الزواج\r\n";
             // 
@@ -1667,7 +1670,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(666, 294);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(47, 13);
+            this.label25.Size = new System.Drawing.Size(46, 13);
             this.label25.TabIndex = 11;
             this.label25.Text = "Allergies";
             // 
@@ -1676,7 +1679,7 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(340, 294);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(150, 13);
+            this.label24.Size = new System.Drawing.Size(147, 13);
             this.label24.TabIndex = 11;
             this.label24.Text = "Blood tranfusion & its indication";
             // 
@@ -1685,7 +1688,7 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(32, 399);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(35, 13);
+            this.label28.Size = new System.Drawing.Size(33, 13);
             this.label28.TabIndex = 11;
             this.label28.Text = "Other";
             // 
@@ -1703,7 +1706,7 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(6, 300);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(115, 13);
+            this.label23.Size = new System.Drawing.Size(118, 13);
             this.label23.TabIndex = 11;
             this.label23.Text = "Chronic Medical Diseas";
             // 
@@ -1789,7 +1792,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(349, 222);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(45, 13);
+            this.label17.Size = new System.Drawing.Size(49, 13);
             this.label17.TabIndex = 6;
             this.label17.Text = "FEMALE";
             // 
@@ -1798,7 +1801,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(152, 222);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(33, 13);
+            this.label16.Size = new System.Drawing.Size(36, 13);
             this.label16.TabIndex = 6;
             this.label16.Text = "MALE";
             // 
@@ -1807,7 +1810,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(6, 222);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(131, 13);
+            this.label15.Size = new System.Drawing.Size(130, 13);
             this.label15.TabIndex = 6;
             this.label15.Text = "Number Of Living Children";
             // 
@@ -1816,7 +1819,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(9, 181);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(104, 13);
+            this.label13.Size = new System.Drawing.Size(106, 13);
             this.label13.TabIndex = 6;
             this.label13.Text = "Last Deliveries Since";
             // 
@@ -1825,7 +1828,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(349, 149);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(90, 13);
+            this.label12.Size = new System.Drawing.Size(89, 13);
             this.label12.TabIndex = 6;
             this.label12.Text = "Indications Of CS";
             // 
@@ -1898,7 +1901,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(461, 39);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(13, 13);
+            this.label20.Size = new System.Drawing.Size(14, 13);
             this.label20.TabIndex = 2;
             this.label20.Text = "P";
             // 
@@ -1907,7 +1910,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(9, 117);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(73, 13);
+            this.label10.Size = new System.Drawing.Size(72, 13);
             this.label10.TabIndex = 2;
             this.label10.Text = "Specify If Yes";
             // 
@@ -1916,7 +1919,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(50, 44);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(14, 13);
+            this.label19.Size = new System.Drawing.Size(15, 13);
             this.label19.TabIndex = 2;
             this.label19.Text = "G";
             // 
@@ -1925,7 +1928,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(9, 82);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(101, 13);
+            this.label9.Size = new System.Drawing.Size(100, 13);
             this.label9.TabIndex = 2;
             this.label9.Text = "Abnormal Deliveries";
             // 
@@ -2114,7 +2117,7 @@
             this.label51.AutoSize = true;
             this.label51.Location = new System.Drawing.Point(528, 407);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(61, 13);
+            this.label51.Size = new System.Drawing.Size(62, 13);
             this.label51.TabIndex = 150;
             this.label51.Text = "Bony Pelvis";
             // 
@@ -2146,7 +2149,7 @@
             this.label53.AutoSize = true;
             this.label53.Location = new System.Drawing.Point(29, 400);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(41, 13);
+            this.label53.Size = new System.Drawing.Size(40, 13);
             this.label53.TabIndex = 146;
             this.label53.Text = "Station";
             // 
@@ -2162,7 +2165,7 @@
             this.label50.AutoSize = true;
             this.label50.Location = new System.Drawing.Point(523, 366);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(81, 13);
+            this.label50.Size = new System.Drawing.Size(79, 13);
             this.label50.TabIndex = 144;
             this.label50.Text = "Presenting Part";
             // 
@@ -2178,7 +2181,7 @@
             this.label49.AutoSize = true;
             this.label49.Location = new System.Drawing.Point(284, 366);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(62, 13);
+            this.label49.Size = new System.Drawing.Size(61, 13);
             this.label49.TabIndex = 142;
             this.label49.Text = "Effacement";
             // 
@@ -2194,7 +2197,7 @@
             this.label48.AutoSize = true;
             this.label48.Location = new System.Drawing.Point(13, 363);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(93, 13);
+            this.label48.Size = new System.Drawing.Size(92, 13);
             this.label48.TabIndex = 140;
             this.label48.Text = "Cervical Dilatation";
             // 
@@ -2664,7 +2667,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(24, 213);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(46, 13);
+            this.label5.Size = new System.Drawing.Size(45, 13);
             this.label5.TabIndex = 119;
             this.label5.Text = "Address";
             // 
@@ -2673,7 +2676,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(498, 177);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 13);
+            this.label6.Size = new System.Drawing.Size(72, 13);
             this.label6.TabIndex = 120;
             this.label6.Text = "Married Since";
             // 
@@ -2718,7 +2721,6 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
@@ -2729,18 +2731,6 @@
             this.tabControl1.TabIndex = 4;
             this.tabControl1.Tag = "";
             this.tabControl1.DoubleClick += new System.EventHandler(this.ShowNewForm);
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage4.BackgroundImage")));
-            this.tabPage4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1077, 690);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Home";
-            this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // tabPage1
             // 
@@ -3065,23 +3055,7 @@
             // 
             // dataGridView2
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView2.Location = new System.Drawing.Point(211, 495);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(580, 150);
@@ -4120,13 +4094,6 @@
             this.button21.Text = "Search";
             this.button21.UseVisualStyleBackColor = true;
             // 
-            // بعدالعمليةToolStripMenuItem
-            // 
-            this.بعدالعمليةToolStripMenuItem.Name = "بعدالعمليةToolStripMenuItem";
-            this.بعدالعمليةToolStripMenuItem.Size = new System.Drawing.Size(238, 22);
-            this.بعدالعمليةToolStripMenuItem.Text = "بعد العملية ";
-            this.بعدالعمليةToolStripMenuItem.Click += new System.EventHandler(this.بعدالعمليةToolStripMenuItem_Click);
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4226,7 +4193,6 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DateTimePicker dateTimePicker5;
         private System.Windows.Forms.Button button1;
