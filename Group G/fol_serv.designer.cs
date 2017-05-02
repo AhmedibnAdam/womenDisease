@@ -55,6 +55,7 @@
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
@@ -72,7 +73,6 @@
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
@@ -85,51 +85,29 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.label41 = new System.Windows.Forms.Label();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.radioButton17 = new System.Windows.Forms.RadioButton();
-            this.radioButton18 = new System.Windows.Forms.RadioButton();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.radioButton15 = new System.Windows.Forms.RadioButton();
-            this.radioButton16 = new System.Windows.Forms.RadioButton();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.radioButton13 = new System.Windows.Forms.RadioButton();
-            this.radioButton14 = new System.Windows.Forms.RadioButton();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
+            this.panel45 = new System.Windows.Forms.Panel();
             this.textBox19 = new System.Windows.Forms.TextBox();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.textBox17 = new System.Windows.Forms.TextBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.radioButton9 = new System.Windows.Forms.RadioButton();
-            this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.radioButton17 = new System.Windows.Forms.RadioButton();
+            this.radioButton18 = new System.Windows.Forms.RadioButton();
+            this.label44 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.radioButton15 = new System.Windows.Forms.RadioButton();
+            this.radioButton16 = new System.Windows.Forms.RadioButton();
+            this.label39 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.radioButton13 = new System.Windows.Forms.RadioButton();
+            this.radioButton14 = new System.Windows.Forms.RadioButton();
+            this.label33 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.radioButton9 = new System.Windows.Forms.RadioButton();
+            this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.label24 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
@@ -382,6 +360,33 @@
             this.label113 = new System.Windows.Forms.Label();
             this.label114 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.panel46 = new System.Windows.Forms.Panel();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.panel47 = new System.Windows.Forms.Panel();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.panel48 = new System.Windows.Forms.Panel();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -395,6 +400,7 @@
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.panel45.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -439,6 +445,9 @@
             this.panel27.SuspendLayout();
             this.panel26.SuspendLayout();
             this.panel24.SuspendLayout();
+            this.panel46.SuspendLayout();
+            this.panel47.SuspendLayout();
+            this.panel48.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -494,7 +503,6 @@
             this.label6.Size = new System.Drawing.Size(58, 13);
             this.label6.TabIndex = 5;
             this.label6.Text = "اعلى مؤهل";
-            
             // 
             // label7
             // 
@@ -513,7 +521,6 @@
             this.label8.Size = new System.Drawing.Size(82, 13);
             this.label8.TabIndex = 7;
             this.label8.Text = "العنوان بالتفصيل";
-           
             // 
             // label9
             // 
@@ -523,7 +530,6 @@
             this.label9.Size = new System.Drawing.Size(52, 13);
             this.label9.TabIndex = 8;
             this.label9.Text = "اسم الزوج";
-            
             // 
             // label10
             // 
@@ -678,6 +684,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.dateTimePicker2);
             this.tabPage1.Controls.Add(this.numericUpDown6);
             this.tabPage1.Controls.Add(this.numericUpDown5);
             this.tabPage1.Controls.Add(this.numericUpDown3);
@@ -689,7 +696,6 @@
             this.tabPage1.Controls.Add(this.panel4);
             this.tabPage1.Controls.Add(this.panel3);
             this.tabPage1.Controls.Add(this.textBox13);
-            this.tabPage1.Controls.Add(this.textBox11);
             this.tabPage1.Controls.Add(this.textBox10);
             this.tabPage1.Controls.Add(this.label21);
             this.tabPage1.Controls.Add(this.label20);
@@ -709,6 +715,13 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "التاريخ الانجابى";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(803, 105);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.TabIndex = 27;
             // 
             // numericUpDown6
             // 
@@ -846,7 +859,6 @@
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "لا";
             this.radioButton6.UseVisualStyleBackColor = true;
-           
             // 
             // radioButton5
             // 
@@ -866,14 +878,7 @@
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(330, 20);
             this.textBox13.TabIndex = 14;
-            
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(693, 109);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(330, 20);
-            this.textBox11.TabIndex = 12;
+            this.textBox13.Text = "0";
             // 
             // textBox10
             // 
@@ -881,6 +886,7 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(330, 20);
             this.textBox10.TabIndex = 11;
+            this.textBox10.Text = "0";
             // 
             // label21
             // 
@@ -953,7 +959,6 @@
             this.label14.Size = new System.Drawing.Size(81, 13);
             this.label14.TabIndex = 2;
             this.label14.Text = "عدد الابناء احياء";
-            //this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // label13
             // 
@@ -975,43 +980,17 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.textBox28);
-            this.tabPage2.Controls.Add(this.label41);
-            this.tabPage2.Controls.Add(this.textBox27);
-            this.tabPage2.Controls.Add(this.textBox29);
+            this.tabPage2.Controls.Add(this.panel48);
+            this.tabPage2.Controls.Add(this.panel47);
+            this.tabPage2.Controls.Add(this.panel46);
+            this.tabPage2.Controls.Add(this.panel45);
             this.tabPage2.Controls.Add(this.panel9);
-            this.tabPage2.Controls.Add(this.label40);
-            this.tabPage2.Controls.Add(this.label42);
-            this.tabPage2.Controls.Add(this.label43);
             this.tabPage2.Controls.Add(this.label44);
-            this.tabPage2.Controls.Add(this.textBox24);
-            this.tabPage2.Controls.Add(this.textBox25);
-            this.tabPage2.Controls.Add(this.textBox26);
             this.tabPage2.Controls.Add(this.panel8);
-            this.tabPage2.Controls.Add(this.label35);
-            this.tabPage2.Controls.Add(this.label36);
-            this.tabPage2.Controls.Add(this.label37);
-            this.tabPage2.Controls.Add(this.label38);
             this.tabPage2.Controls.Add(this.label39);
-            this.tabPage2.Controls.Add(this.textBox22);
-            this.tabPage2.Controls.Add(this.textBox23);
-            this.tabPage2.Controls.Add(this.label29);
-            this.tabPage2.Controls.Add(this.label34);
-            this.tabPage2.Controls.Add(this.textBox20);
-            this.tabPage2.Controls.Add(this.textBox21);
             this.tabPage2.Controls.Add(this.panel7);
-            this.tabPage2.Controls.Add(this.label30);
-            this.tabPage2.Controls.Add(this.label31);
-            this.tabPage2.Controls.Add(this.label32);
             this.tabPage2.Controls.Add(this.label33);
-            this.tabPage2.Controls.Add(this.textBox19);
-            this.tabPage2.Controls.Add(this.textBox18);
-            this.tabPage2.Controls.Add(this.textBox17);
             this.tabPage2.Controls.Add(this.panel5);
-            this.tabPage2.Controls.Add(this.label28);
-            this.tabPage2.Controls.Add(this.label27);
-            this.tabPage2.Controls.Add(this.label26);
-            this.tabPage2.Controls.Add(this.label25);
             this.tabPage2.Controls.Add(this.label24);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -1021,35 +1000,79 @@
             this.tabPage2.Text = "بيانات استخدام وسائل منع الحمل";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // textBox28
+            // panel45
             // 
-            this.textBox28.Location = new System.Drawing.Point(488, 425);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(468, 20);
-            this.textBox28.TabIndex = 52;
+            this.panel45.Controls.Add(this.textBox19);
+            this.panel45.Controls.Add(this.textBox18);
+            this.panel45.Controls.Add(this.textBox17);
+            this.panel45.Controls.Add(this.label28);
+            this.panel45.Controls.Add(this.label27);
+            this.panel45.Controls.Add(this.label26);
+            this.panel45.Controls.Add(this.label25);
+            this.panel45.Location = new System.Drawing.Point(100, 71);
+            this.panel45.Name = "panel45";
+            this.panel45.Size = new System.Drawing.Size(1062, 39);
+            this.panel45.TabIndex = 53;
             // 
-            // label41
+            // textBox19
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(962, 428);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(79, 13);
-            this.label41.TabIndex = 51;
-            this.label41.Text = "الأعراض الجانبية";
+            this.textBox19.Location = new System.Drawing.Point(32, 9);
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(188, 20);
+            this.textBox19.TabIndex = 27;
+            this.textBox19.Text = "1";
             // 
-            // textBox27
+            // textBox18
             // 
-            this.textBox27.Location = new System.Drawing.Point(488, 386);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(188, 20);
-            this.textBox27.TabIndex = 50;
+            this.textBox18.Location = new System.Drawing.Point(351, 9);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(163, 20);
+            this.textBox18.TabIndex = 26;
+            this.textBox18.Text = "No reason";
             // 
-            // textBox29
+            // textBox17
             // 
-            this.textBox29.Location = new System.Drawing.Point(796, 379);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(188, 20);
-            this.textBox29.TabIndex = 48;
+            this.textBox17.Location = new System.Drawing.Point(618, 6);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(188, 20);
+            this.textBox17.TabIndex = 25;
+            this.textBox17.Text = "No reason";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(226, 13);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(90, 13);
+            this.label28.TabIndex = 24;
+            this.label28.Text = "جهة الحصول عليها";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(517, 13);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(68, 13);
+            this.label27.TabIndex = 23;
+            this.label27.Text = "مدة الاستخدام";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(812, 9);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(60, 13);
+            this.label26.TabIndex = 22;
+            this.label26.Text = "نوع الوسيلة";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(983, 9);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(66, 13);
+            this.label25.TabIndex = 21;
+            this.label25.Text = "فى حالة نعم:";
             // 
             // panel9
             // 
@@ -1063,7 +1086,7 @@
             // radioButton17
             // 
             this.radioButton17.AutoSize = true;
-            this.radioButton17.Location = new System.Drawing.Point(80, 8);
+            this.radioButton17.Location = new System.Drawing.Point(60, 8);
             this.radioButton17.Name = "radioButton17";
             this.radioButton17.Size = new System.Drawing.Size(31, 17);
             this.radioButton17.TabIndex = 1;
@@ -1074,7 +1097,7 @@
             // radioButton18
             // 
             this.radioButton18.AutoSize = true;
-            this.radioButton18.Location = new System.Drawing.Point(130, 8);
+            this.radioButton18.Location = new System.Drawing.Point(145, 8);
             this.radioButton18.Name = "radioButton18";
             this.radioButton18.Size = new System.Drawing.Size(40, 17);
             this.radioButton18.TabIndex = 0;
@@ -1082,33 +1105,6 @@
             this.radioButton18.Text = "نعم";
             this.radioButton18.UseVisualStyleBackColor = true;
             this.radioButton18.CheckedChanged += new System.EventHandler(this.radioButton18_CheckedChanged);
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(682, 386);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(90, 13);
-            this.label40.TabIndex = 46;
-            this.label40.Text = "جهة الحصول عليها";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(990, 382);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(60, 13);
-            this.label42.TabIndex = 44;
-            this.label42.Text = "اسم الوسيلة";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(1065, 382);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(66, 13);
-            this.label43.TabIndex = 43;
-            this.label43.Text = "فى حالة نعم:";
             // 
             // label44
             // 
@@ -1118,27 +1114,6 @@
             this.label44.Size = new System.Drawing.Size(263, 13);
             this.label44.TabIndex = 42;
             this.label44.Text = "4- هل حدثت اعراض جانبية أثناء استخدام إحدى الوسائل؟";
-            // 
-            // textBox24
-            // 
-            this.textBox24.Location = new System.Drawing.Point(244, 286);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(188, 20);
-            this.textBox24.TabIndex = 41;
-            // 
-            // textBox25
-            // 
-            this.textBox25.Location = new System.Drawing.Point(544, 287);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(163, 20);
-            this.textBox25.TabIndex = 40;
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(836, 290);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(188, 20);
-            this.textBox26.TabIndex = 39;
             // 
             // panel8
             // 
@@ -1152,7 +1127,7 @@
             // radioButton15
             // 
             this.radioButton15.AutoSize = true;
-            this.radioButton15.Location = new System.Drawing.Point(80, 8);
+            this.radioButton15.Location = new System.Drawing.Point(20, 8);
             this.radioButton15.Name = "radioButton15";
             this.radioButton15.Size = new System.Drawing.Size(31, 17);
             this.radioButton15.TabIndex = 1;
@@ -1163,7 +1138,7 @@
             // radioButton16
             // 
             this.radioButton16.AutoSize = true;
-            this.radioButton16.Location = new System.Drawing.Point(130, 8);
+            this.radioButton16.Location = new System.Drawing.Point(121, 8);
             this.radioButton16.Name = "radioButton16";
             this.radioButton16.Size = new System.Drawing.Size(40, 17);
             this.radioButton16.TabIndex = 0;
@@ -1171,42 +1146,6 @@
             this.radioButton16.Text = "نعم";
             this.radioButton16.UseVisualStyleBackColor = true;
             this.radioButton16.CheckedChanged += new System.EventHandler(this.radioButton16_CheckedChanged);
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(448, 290);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(90, 13);
-            this.label35.TabIndex = 37;
-            this.label35.Text = "جهة الحصول عليها";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(713, 290);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(68, 13);
-            this.label36.TabIndex = 36;
-            this.label36.Text = "مدة الاستخدام";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(1030, 293);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(60, 13);
-            this.label37.TabIndex = 35;
-            this.label37.Text = "نوع الوسيلة";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(1105, 293);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(66, 13);
-            this.label38.TabIndex = 34;
-            this.label38.Text = "فى حالة نعم:";
             // 
             // label39
             // 
@@ -1216,52 +1155,6 @@
             this.label39.Size = new System.Drawing.Size(216, 13);
             this.label39.TabIndex = 33;
             this.label39.Text = "3- هل حدث حمل اثناء استخدام إحدى الوسائل؟";
-            // 
-            // textBox22
-            // 
-            this.textBox22.Location = new System.Drawing.Point(506, 207);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(217, 20);
-            this.textBox22.TabIndex = 32;
-            // 
-            // textBox23
-            // 
-            this.textBox23.Location = new System.Drawing.Point(827, 207);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(188, 20);
-            this.textBox23.TabIndex = 31;
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(729, 210);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(67, 13);
-            this.label29.TabIndex = 30;
-            this.label29.Text = "سبب الإنقطاع";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(1021, 210);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(71, 13);
-            this.label34.TabIndex = 29;
-            this.label34.Text = "تاريخ الإنقطاع";
-            // 
-            // textBox20
-            // 
-            this.textBox20.Location = new System.Drawing.Point(506, 171);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(217, 20);
-            this.textBox20.TabIndex = 28;
-            // 
-            // textBox21
-            // 
-            this.textBox21.Location = new System.Drawing.Point(827, 171);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(188, 20);
-            this.textBox21.TabIndex = 27;
             // 
             // panel7
             // 
@@ -1275,7 +1168,7 @@
             // radioButton13
             // 
             this.radioButton13.AutoSize = true;
-            this.radioButton13.Location = new System.Drawing.Point(80, 8);
+            this.radioButton13.Location = new System.Drawing.Point(29, 8);
             this.radioButton13.Name = "radioButton13";
             this.radioButton13.Size = new System.Drawing.Size(31, 17);
             this.radioButton13.TabIndex = 1;
@@ -1295,33 +1188,6 @@
             this.radioButton14.UseVisualStyleBackColor = true;
             this.radioButton14.CheckedChanged += new System.EventHandler(this.radioButton14_CheckedChanged);
             // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(729, 174);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(65, 13);
-            this.label30.TabIndex = 24;
-            this.label30.Text = "مدةالاستخدام";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(1021, 174);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(72, 13);
-            this.label31.TabIndex = 23;
-            this.label31.Text = "اسم اخر وسيلة";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(1096, 174);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(66, 13);
-            this.label32.TabIndex = 22;
-            this.label32.Text = "فى حالة نعم:";
-            // 
             // label33
             // 
             this.label33.AutoSize = true;
@@ -1330,28 +1196,6 @@
             this.label33.Size = new System.Drawing.Size(214, 13);
             this.label33.TabIndex = 21;
             this.label33.Text = "2- هل استخدمت احدى وسائل منع الحمل سابقا";
-            // 
-            // textBox19
-            // 
-            this.textBox19.Location = new System.Drawing.Point(254, 76);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(188, 20);
-            this.textBox19.TabIndex = 20;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(544, 73);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(163, 20);
-            this.textBox18.TabIndex = 19;
-            // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(811, 73);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(188, 20);
-            this.textBox17.TabIndex = 18;
-            
             // 
             // panel5
             // 
@@ -1365,7 +1209,7 @@
             // radioButton9
             // 
             this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(80, 8);
+            this.radioButton9.Location = new System.Drawing.Point(45, 8);
             this.radioButton9.Name = "radioButton9";
             this.radioButton9.Size = new System.Drawing.Size(31, 17);
             this.radioButton9.TabIndex = 1;
@@ -1384,45 +1228,6 @@
             this.radioButton10.Text = "نعم";
             this.radioButton10.UseVisualStyleBackColor = true;
             this.radioButton10.CheckedChanged += new System.EventHandler(this.radioButton10_CheckedChanged);
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(448, 76);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(90, 13);
-            this.label28.TabIndex = 4;
-            this.label28.Text = "جهة الحصول عليها";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(713, 76);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(68, 13);
-            this.label27.TabIndex = 3;
-            this.label27.Text = "مدة الاستخدام";
-            //this.label27.Click += new System.EventHandler(this.label27_Click);
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(1005, 76);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(60, 13);
-            this.label26.TabIndex = 2;
-            this.label26.Text = "نوع الوسيلة";
-           // this.label26.Click += new System.EventHandler(this.label26_Click);
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(1080, 76);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(66, 13);
-            this.label25.TabIndex = 1;
-            this.label25.Text = "فى حالة نعم:";
-            //this.label25.Click += new System.EventHandler(this.label25_Click);
             // 
             // label24
             // 
@@ -1668,6 +1473,7 @@
             this.textBox31.Name = "textBox31";
             this.textBox31.Size = new System.Drawing.Size(306, 20);
             this.textBox31.TabIndex = 23;
+            this.textBox31.Text = "No reason";
             // 
             // label48
             // 
@@ -1764,7 +1570,7 @@
             // 
             this.panel16.Controls.Add(this.radioButton35);
             this.panel16.Controls.Add(this.radioButton36);
-            this.panel16.Location = new System.Drawing.Point(713, 40);
+            this.panel16.Location = new System.Drawing.Point(713, 41);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(211, 30);
             this.panel16.TabIndex = 17;
@@ -1838,11 +1644,10 @@
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "التاريخ المرضى";
             this.tabPage5.UseVisualStyleBackColor = true;
-            
             // 
             // textBox36
             // 
-            this.textBox36.Location = new System.Drawing.Point(282, 415);
+            this.textBox36.Location = new System.Drawing.Point(282, 414);
             this.textBox36.Name = "textBox36";
             this.textBox36.Size = new System.Drawing.Size(659, 20);
             this.textBox36.TabIndex = 27;
@@ -2271,6 +2076,7 @@
             this.tabPage6.AutoScroll = true;
             this.tabPage6.AutoScrollMargin = new System.Drawing.Size(20, 20);
             this.tabPage6.AutoScrollMinSize = new System.Drawing.Size(952, 481);
+            this.tabPage6.Controls.Add(this.button2);
             this.tabPage6.Controls.Add(this.textBox90);
             this.tabPage6.Controls.Add(this.label111);
             this.tabPage6.Controls.Add(this.textBox89);
@@ -2374,7 +2180,6 @@
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "الفحص الطبى";
             this.tabPage6.UseVisualStyleBackColor = true;
-            
             // 
             // textBox90
             // 
@@ -2571,6 +2376,7 @@
             this.radioButton95.TabStop = true;
             this.radioButton95.Text = "no";
             this.radioButton95.UseVisualStyleBackColor = true;
+            this.radioButton95.CheckedChanged += new System.EventHandler(this.radioButton95_CheckedChanged);
             // 
             // textBox81
             // 
@@ -2619,6 +2425,7 @@
             this.radioButton93.TabStop = true;
             this.radioButton93.Text = "Normal";
             this.radioButton93.UseVisualStyleBackColor = true;
+            this.radioButton93.CheckedChanged += new System.EventHandler(this.radioButton93_CheckedChanged);
             // 
             // label101
             // 
@@ -2676,6 +2483,7 @@
             this.radioButton91.TabStop = true;
             this.radioButton91.Text = "Normal";
             this.radioButton91.UseVisualStyleBackColor = true;
+            this.radioButton91.CheckedChanged += new System.EventHandler(this.radioButton91_CheckedChanged);
             // 
             // label100
             // 
@@ -2752,6 +2560,7 @@
             this.radioButton89.TabStop = true;
             this.radioButton89.Text = "no";
             this.radioButton89.UseVisualStyleBackColor = true;
+            this.radioButton89.CheckedChanged += new System.EventHandler(this.radioButton89_CheckedChanged);
             // 
             // textBox75
             // 
@@ -2835,6 +2644,7 @@
             this.radioButton86.TabStop = true;
             this.radioButton86.Text = "no";
             this.radioButton86.UseVisualStyleBackColor = true;
+            this.radioButton86.CheckedChanged += new System.EventHandler(this.radioButton86_CheckedChanged);
             // 
             // textBox72
             // 
@@ -2883,6 +2693,7 @@
             this.radioButton84.TabStop = true;
             this.radioButton84.Text = "no";
             this.radioButton84.UseVisualStyleBackColor = true;
+            this.radioButton84.CheckedChanged += new System.EventHandler(this.radioButton84_CheckedChanged);
             // 
             // label94
             // 
@@ -2922,6 +2733,7 @@
             this.radioButton87.TabStop = true;
             this.radioButton87.Text = "Small";
             this.radioButton87.UseVisualStyleBackColor = true;
+            this.radioButton87.CheckedChanged += new System.EventHandler(this.radioButton87_CheckedChanged);
             // 
             // textBox67
             // 
@@ -2941,6 +2753,7 @@
             this.radioButton81.TabStop = true;
             this.radioButton81.Text = "Enlarged";
             this.radioButton81.UseVisualStyleBackColor = true;
+            this.radioButton81.CheckedChanged += new System.EventHandler(this.radioButton81_CheckedChanged);
             // 
             // radioButton82
             // 
@@ -3010,6 +2823,7 @@
             this.radioButton80.TabStop = true;
             this.radioButton80.Text = "Anteverted";
             this.radioButton80.UseVisualStyleBackColor = true;
+            this.radioButton80.CheckedChanged += new System.EventHandler(this.radioButton80_CheckedChanged);
             // 
             // label92
             // 
@@ -3129,6 +2943,7 @@
             this.radioButton78.TabStop = true;
             this.radioButton78.Text = "no";
             this.radioButton78.UseVisualStyleBackColor = true;
+            this.radioButton78.CheckedChanged += new System.EventHandler(this.radioButton78_CheckedChanged);
             // 
             // textBox62
             // 
@@ -3186,6 +3001,7 @@
             this.radioButton76.TabStop = true;
             this.radioButton76.Text = "no";
             this.radioButton76.UseVisualStyleBackColor = true;
+            this.radioButton76.CheckedChanged += new System.EventHandler(this.radioButton76_CheckedChanged);
             // 
             // textBox60
             // 
@@ -3243,6 +3059,7 @@
             this.radioButton74.TabStop = true;
             this.radioButton74.Text = "no";
             this.radioButton74.UseVisualStyleBackColor = true;
+            this.radioButton74.CheckedChanged += new System.EventHandler(this.radioButton74_CheckedChanged);
             // 
             // textBox58
             // 
@@ -3300,6 +3117,7 @@
             this.radioButton72.TabStop = true;
             this.radioButton72.Text = "no";
             this.radioButton72.UseVisualStyleBackColor = true;
+            this.radioButton72.CheckedChanged += new System.EventHandler(this.radioButton72_CheckedChanged);
             // 
             // textBox55
             // 
@@ -3359,7 +3177,7 @@
             this.radioButton68.TabStop = true;
             this.radioButton68.Text = "Ocdcma";
             this.radioButton68.UseVisualStyleBackColor = true;
-            
+            this.radioButton68.CheckedChanged += new System.EventHandler(this.radioButton68_CheckedChanged);
             // 
             // textBox54
             // 
@@ -3379,6 +3197,7 @@
             this.radioButton69.TabStop = true;
             this.radioButton69.Text = "Varicositeis";
             this.radioButton69.UseVisualStyleBackColor = true;
+            this.radioButton69.CheckedChanged += new System.EventHandler(this.radioButton69_CheckedChanged);
             // 
             // radioButton70
             // 
@@ -3439,6 +3258,7 @@
             this.radioButton67.TabStop = true;
             this.radioButton67.Text = "BSL";
             this.radioButton67.UseVisualStyleBackColor = true;
+            this.radioButton67.CheckedChanged += new System.EventHandler(this.radioButton67_CheckedChanged);
             // 
             // textBox52
             // 
@@ -3458,6 +3278,7 @@
             this.radioButton65.TabStop = true;
             this.radioButton65.Text = "L";
             this.radioButton65.UseVisualStyleBackColor = true;
+            this.radioButton65.CheckedChanged += new System.EventHandler(this.radioButton65_CheckedChanged);
             // 
             // radioButton66
             // 
@@ -3527,6 +3348,7 @@
             this.radioButton60.TabStop = true;
             this.radioButton60.Text = "no";
             this.radioButton60.UseVisualStyleBackColor = true;
+            this.radioButton60.CheckedChanged += new System.EventHandler(this.radioButton60_CheckedChanged);
             // 
             // panel31
             // 
@@ -3568,6 +3390,7 @@
             this.radioButton64.TabStop = true;
             this.radioButton64.Text = "no";
             this.radioButton64.UseVisualStyleBackColor = true;
+            this.radioButton64.CheckedChanged += new System.EventHandler(this.radioButton64_CheckedChanged);
             // 
             // panel30
             // 
@@ -3609,6 +3432,7 @@
             this.radioButton62.TabStop = true;
             this.radioButton62.Text = "R";
             this.radioButton62.UseVisualStyleBackColor = true;
+            this.radioButton62.CheckedChanged += new System.EventHandler(this.radioButton62_CheckedChanged);
             // 
             // panel28
             // 
@@ -3632,6 +3456,7 @@
             this.radioButton52.TabStop = true;
             this.radioButton52.Text = "Masses";
             this.radioButton52.UseVisualStyleBackColor = true;
+            this.radioButton52.CheckedChanged += new System.EventHandler(this.radioButton52_CheckedChanged);
             // 
             // textBox48
             // 
@@ -3651,6 +3476,7 @@
             this.radioButton57.TabStop = true;
             this.radioButton57.Text = "Tenderness";
             this.radioButton57.UseVisualStyleBackColor = true;
+            this.radioButton57.CheckedChanged += new System.EventHandler(this.radioButton57_CheckedChanged);
             // 
             // radioButton58
             // 
@@ -3704,6 +3530,7 @@
             this.radioButton56.TabStop = true;
             this.radioButton56.Text = "Normal";
             this.radioButton56.UseVisualStyleBackColor = true;
+            this.radioButton56.CheckedChanged += new System.EventHandler(this.radioButton56_CheckedChanged);
             // 
             // panel26
             // 
@@ -3727,6 +3554,7 @@
             this.radioButton51.TabStop = true;
             this.radioButton51.Text = "Nodules";
             this.radioButton51.UseVisualStyleBackColor = true;
+            this.radioButton51.CheckedChanged += new System.EventHandler(this.radioButton51_CheckedChanged);
             // 
             // textBox46
             // 
@@ -3746,6 +3574,7 @@
             this.radioButton53.TabStop = true;
             this.radioButton53.Text = "Enlarged";
             this.radioButton53.UseVisualStyleBackColor = true;
+            this.radioButton53.CheckedChanged += new System.EventHandler(this.radioButton53_CheckedChanged);
             // 
             // radioButton54
             // 
@@ -3799,6 +3628,7 @@
             this.radioButton49.TabStop = true;
             this.radioButton49.Text = "no";
             this.radioButton49.UseVisualStyleBackColor = true;
+            this.radioButton49.CheckedChanged += new System.EventHandler(this.radioButton49_CheckedChanged);
             // 
             // textBox43
             // 
@@ -3977,6 +3807,255 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // panel46
+            // 
+            this.panel46.Controls.Add(this.textBox22);
+            this.panel46.Controls.Add(this.textBox23);
+            this.panel46.Controls.Add(this.label29);
+            this.panel46.Controls.Add(this.label34);
+            this.panel46.Controls.Add(this.textBox20);
+            this.panel46.Controls.Add(this.textBox21);
+            this.panel46.Controls.Add(this.label30);
+            this.panel46.Controls.Add(this.label31);
+            this.panel46.Controls.Add(this.label32);
+            this.panel46.Location = new System.Drawing.Point(100, 169);
+            this.panel46.Name = "panel46";
+            this.panel46.Size = new System.Drawing.Size(1062, 74);
+            this.panel46.TabIndex = 54;
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(286, 43);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(217, 20);
+            this.textBox22.TabIndex = 41;
+            this.textBox22.Text = "No reason";
+            // 
+            // textBox23
+            // 
+            this.textBox23.Location = new System.Drawing.Point(607, 43);
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(188, 20);
+            this.textBox23.TabIndex = 40;
+            this.textBox23.Text = "2000-01-01";
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(509, 46);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(67, 13);
+            this.label29.TabIndex = 39;
+            this.label29.Text = "سبب الإنقطاع";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(801, 46);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(71, 13);
+            this.label34.TabIndex = 38;
+            this.label34.Text = "تاريخ الإنقطاع";
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(286, 7);
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(217, 20);
+            this.textBox20.TabIndex = 37;
+            this.textBox20.Text = "No reason";
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(607, 7);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(188, 20);
+            this.textBox21.TabIndex = 36;
+            this.textBox21.Text = "No reason";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(509, 10);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(65, 13);
+            this.label30.TabIndex = 35;
+            this.label30.Text = "مدةالاستخدام";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(801, 10);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(72, 13);
+            this.label31.TabIndex = 34;
+            this.label31.Text = "اسم اخر وسيلة";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(983, 19);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(66, 13);
+            this.label32.TabIndex = 33;
+            this.label32.Text = "فى حالة نعم:";
+            // 
+            // panel47
+            // 
+            this.panel47.Controls.Add(this.textBox24);
+            this.panel47.Controls.Add(this.textBox25);
+            this.panel47.Controls.Add(this.textBox26);
+            this.panel47.Controls.Add(this.label35);
+            this.panel47.Controls.Add(this.label36);
+            this.panel47.Controls.Add(this.label37);
+            this.panel47.Controls.Add(this.label38);
+            this.panel47.Location = new System.Drawing.Point(102, 288);
+            this.panel47.Name = "panel47";
+            this.panel47.Size = new System.Drawing.Size(1060, 37);
+            this.panel47.TabIndex = 55;
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(70, 10);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(188, 20);
+            this.textBox24.TabIndex = 48;
+            // 
+            // textBox25
+            // 
+            this.textBox25.Location = new System.Drawing.Point(386, 10);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(163, 20);
+            this.textBox25.TabIndex = 47;
+            this.textBox25.Text = "No reason";
+            // 
+            // textBox26
+            // 
+            this.textBox26.Location = new System.Drawing.Point(662, 7);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(188, 20);
+            this.textBox26.TabIndex = 46;
+            this.textBox26.Text = "No reason";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(274, 17);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(90, 13);
+            this.label35.TabIndex = 45;
+            this.label35.Text = "جهة الحصول عليها";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(562, 13);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(68, 13);
+            this.label36.TabIndex = 44;
+            this.label36.Text = "مدة الاستخدام";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(856, 10);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(60, 13);
+            this.label37.TabIndex = 43;
+            this.label37.Text = "نوع الوسيلة";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(981, 14);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(66, 13);
+            this.label38.TabIndex = 42;
+            this.label38.Text = "فى حالة نعم:";
+            // 
+            // panel48
+            // 
+            this.panel48.Controls.Add(this.textBox28);
+            this.panel48.Controls.Add(this.label41);
+            this.panel48.Controls.Add(this.textBox27);
+            this.panel48.Controls.Add(this.textBox29);
+            this.panel48.Controls.Add(this.label40);
+            this.panel48.Controls.Add(this.label42);
+            this.panel48.Controls.Add(this.label43);
+            this.panel48.Location = new System.Drawing.Point(102, 375);
+            this.panel48.Name = "panel48";
+            this.panel48.Size = new System.Drawing.Size(1060, 100);
+            this.panel48.TabIndex = 56;
+            // 
+            // textBox28
+            // 
+            this.textBox28.Location = new System.Drawing.Point(273, 65);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(468, 20);
+            this.textBox28.TabIndex = 59;
+            this.textBox28.Text = "No reason";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(766, 68);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(79, 13);
+            this.label41.TabIndex = 58;
+            this.label41.Text = "الأعراض الجانبية";
+            // 
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(273, 16);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(188, 20);
+            this.textBox27.TabIndex = 57;
+            // 
+            // textBox29
+            // 
+            this.textBox29.Location = new System.Drawing.Point(616, 19);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(188, 20);
+            this.textBox29.TabIndex = 56;
+            this.textBox29.Text = "No reason";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(482, 22);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(90, 13);
+            this.label40.TabIndex = 55;
+            this.label40.Text = "جهة الحصول عليها";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(819, 22);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(60, 13);
+            this.label42.TabIndex = 54;
+            this.label42.Text = "اسم الوسيلة";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(981, 19);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(66, 13);
+            this.label43.TabIndex = 53;
+            this.label43.Text = "فى حالة نعم:";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1016, 21);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 76;
+            this.button2.Text = "Save";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4033,6 +4112,8 @@
             this.panel3.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
+            this.panel45.ResumeLayout(false);
+            this.panel45.PerformLayout();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel8.ResumeLayout(false);
@@ -4120,6 +4201,12 @@
             this.panel26.PerformLayout();
             this.panel24.ResumeLayout(false);
             this.panel24.PerformLayout();
+            this.panel46.ResumeLayout(false);
+            this.panel46.PerformLayout();
+            this.panel47.ResumeLayout(false);
+            this.panel47.PerformLayout();
+            this.panel48.ResumeLayout(false);
+            this.panel48.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4166,7 +4253,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RadioButton radioButton6;
@@ -4179,52 +4265,22 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.RadioButton radioButton7;
         private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.RadioButton radioButton9;
         private System.Windows.Forms.RadioButton radioButton10;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox29;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.RadioButton radioButton17;
         private System.Windows.Forms.RadioButton radioButton18;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.RadioButton radioButton15;
         private System.Windows.Forms.RadioButton radioButton16;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.RadioButton radioButton13;
         private System.Windows.Forms.RadioButton radioButton14;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Panel panel14;
@@ -4481,6 +4537,42 @@
         private System.Windows.Forms.NumericUpDown numericUpDown6;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Panel panel45;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.Panel panel46;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Panel panel47;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Panel panel48;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Button button2;
     }
 }
 
