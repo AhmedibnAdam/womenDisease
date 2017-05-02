@@ -108,12 +108,11 @@ namespace womenDisease
             try
             {
                 Code = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
-                //name = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
+             
                 أذن_دخول_مريضة f = new أذن_دخول_مريضة();
-                // ادارة عرباتff = new تسجيل_بيانات__مريض();
-                //تقرير1 f = new تقرير1();
+             
                 f.Focus();
-                //  ff.Focus();
+          
                 this.DialogResult = DialogResult.OK;
 
             }
@@ -121,6 +120,11 @@ namespace womenDisease
             {
                 MessageBox.Show(ex.Message + " dfff");
             }
+        }
+
+        private void emp_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

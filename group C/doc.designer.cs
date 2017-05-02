@@ -102,6 +102,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "doc";
             this.Text = "doc";
+            this.Load += new System.EventHandler(this.doc_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
