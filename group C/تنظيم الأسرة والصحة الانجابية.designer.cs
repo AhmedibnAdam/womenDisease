@@ -137,6 +137,7 @@
             // 
             this.label47.BackColor = System.Drawing.Color.SteelBlue;
             this.label47.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label47.Location = new System.Drawing.Point(3, 0);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(895, 36);
@@ -180,7 +181,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(750, 229);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(83, 39);
+            this.label9.Size = new System.Drawing.Size(88, 39);
             this.label9.TabIndex = 53;
             this.label9.Text = "الوسيلة المنصرفه\r\n\r\n\r\n";
             // 
@@ -189,7 +190,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(284, 229);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(98, 13);
+            this.label8.Size = new System.Drawing.Size(92, 13);
             this.label8.TabIndex = 52;
             this.label8.Text = "تاريخ الزيارة القادمة";
             // 
@@ -198,7 +199,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(774, 291);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
+            this.label7.Size = new System.Drawing.Size(36, 13);
             this.label7.TabIndex = 51;
             this.label7.Text = "الكمية";
             // 
@@ -207,7 +208,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(303, 287);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 26);
+            this.label6.Size = new System.Drawing.Size(48, 26);
             this.label6.TabIndex = 50;
             this.label6.Text = "ملاحظات\r\n\r\n";
             // 
@@ -216,7 +217,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(719, 180);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(130, 13);
+            this.label5.Size = new System.Drawing.Size(131, 13);
             this.label5.TabIndex = 49;
             this.label5.Text = "سبب الزيارة والاجراء المتخذ";
             // 
@@ -244,7 +245,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(724, 116);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(125, 39);
+            this.label4.Size = new System.Drawing.Size(123, 39);
             this.label4.TabIndex = 46;
             this.label4.Text = "بيان التردد وصرف الوسائل\r\n\r\n\r\n";
             // 
@@ -269,7 +270,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(341, 64);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
+            this.label3.Size = new System.Drawing.Size(53, 13);
             this.label3.TabIndex = 42;
             this.label3.Text = "رقم الزياره";
             // 
@@ -278,7 +279,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(783, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 13);
+            this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 40;
             this.label1.Text = "اسم المريضة\r\n";
             // 
