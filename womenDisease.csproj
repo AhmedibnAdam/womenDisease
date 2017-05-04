@@ -84,6 +84,12 @@
     <Compile Include="group C\emp.designer.cs">
       <DependentUpon>emp.cs</DependentUpon>
     </Compile>
+    <Compile Include="group H\groupH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="group H\groupH.designer.cs">
+      <DependentUpon>groupH.cs</DependentUpon>
+    </Compile>
     <Compile Include="group L\Examination.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,12 +133,6 @@
       <DependentUpon>frm_past_history.cs</DependentUpon>
     </Compile>
     <Compile Include="group I\validationcs.cs" />
-    <Compile Include="group H\groupH.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="group H\groupH.designer.cs">
-      <DependentUpon>groupH.cs</DependentUpon>
-    </Compile>
     <Compile Include="HHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,7 +142,7 @@
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Home.Designer.cs">
+    <Compile Include="Home.designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
     <Compile Include="hysteroscopy.cs">
@@ -194,6 +194,9 @@
       <DependentUpon>emp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ested3a.rdlc" />
+    <EmbeddedResource Include="group H\groupH.resx">
+      <DependentUpon>groupH.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="group L\Examination.resx">
       <DependentUpon>Examination.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,17 +221,14 @@
     <EmbeddedResource Include="HHome.resx">
       <DependentUpon>HHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="rpt_past_history.rdlc" />
-    <EmbeddedResource Include="group H\groupH.resx">
-      <DependentUpon>groupH.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Home.resx">
-      <DependentUpon>Home.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="hysteroscopy.resx">
       <DependentUpon>hysteroscopy.cs</DependentUpon>
     </EmbeddedResource>

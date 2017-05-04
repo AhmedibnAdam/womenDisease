@@ -66,7 +66,6 @@ D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug
 D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.Form3.resources
 D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.Form4.resources
 D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.frm_past_history.resources
-D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.groupH.resources
 D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.Home.resources
 D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.hysteroscopy.resources
 D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.أذن_دخول_مريضة.resources
@@ -80,3 +79,4 @@ D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\bin\Debug\wom
 D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\bin\Debug\womenDisease.pdb
 D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.HHome.resources
 D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.Properties.Resources.resources
+D:\FCI\Fourth Year\Graduation Project\github\NEW_PHIS\womenDisease\obj\x86\Debug\womenDisease.groupH.resources
