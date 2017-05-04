@@ -49,7 +49,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(162, 50);
             this.button1.TabIndex = 0;
-            this.button1.Text = "خروج";
+            this.button1.Text = "خروج مريضة";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -60,9 +60,9 @@
             this.button2.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(434, 415);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 50);
+            this.button2.Size = new System.Drawing.Size(189, 50);
             this.button2.TabIndex = 1;
-            this.button2.Text = "متابعة";
+            this.button2.Text = "متابعة مريضة";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -73,9 +73,9 @@
             this.button3.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Location = new System.Drawing.Point(685, 415);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(162, 50);
+            this.button3.Size = new System.Drawing.Size(177, 50);
             this.button3.TabIndex = 2;
-            this.button3.Text = "دخول ";
+            this.button3.Text = "دخول مريضة";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -98,7 +98,7 @@
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(434, 273);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(162, 136);
+            this.pictureBox2.Size = new System.Drawing.Size(189, 136);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -110,7 +110,7 @@
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(685, 273);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(162, 136);
+            this.pictureBox3.Size = new System.Drawing.Size(177, 136);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 5;
             this.pictureBox3.TabStop = false;
