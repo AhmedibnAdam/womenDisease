@@ -1115,6 +1115,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(991, 525);
             this.Controls.Add(this.ىةو);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "أذن_دخول_مريضة";
             this.Text = "أذن_دخول_مريضة";
             this.Load += new System.EventHandler(this.أذن_دخول_مريضة_Load);
