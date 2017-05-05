@@ -2467,7 +2467,11 @@
             this.ClientSize = new System.Drawing.Size(1078, 650);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label18);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Examination_ultrasound_group_L";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Examination_ultrasound_group_L";
             this.Load += new System.EventHandler(this.Examination_ultrasound_group_L_Load);
             this.tabControl1.ResumeLayout(false);

@@ -1119,6 +1119,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "أذن_دخول_مريضة";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "أذن_دخول_مريضة";
             this.Load += new System.EventHandler(this.أذن_دخول_مريضة_Load);
             this.ىةو.ResumeLayout(false);

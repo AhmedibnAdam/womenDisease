@@ -44,7 +44,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(667, 101);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(5);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(188, 23);
             this.textBox1.TabIndex = 35;
@@ -78,7 +78,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(303, 334);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(309, 23);
             this.dateTimePicker1.TabIndex = 40;
@@ -116,7 +116,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(899, 37);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(116, 28);
             this.button2.TabIndex = 45;
@@ -126,7 +126,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(1075, 37);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(116, 28);
             this.button1.TabIndex = 44;
@@ -149,8 +149,12 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "عدم التواجد او هروب.cs";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.ResumeLayout(false);

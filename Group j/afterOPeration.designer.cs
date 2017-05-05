@@ -1317,7 +1317,10 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "afterOPerations";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "بعد العملية";

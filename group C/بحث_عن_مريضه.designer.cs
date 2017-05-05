@@ -39,6 +39,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 96);
             this.dataGridView1.Name = "dataGridView1";
@@ -104,6 +105,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "بحث_عن_مريضه";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ي";
             this.Load += new System.EventHandler(this.بحث_عن_مريضه_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

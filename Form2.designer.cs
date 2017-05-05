@@ -46,7 +46,7 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(1129, 36);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 31;
@@ -56,7 +56,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(1245, 36);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 30;
@@ -126,7 +126,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(925, 126);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(320, 23);
             this.textBox1.TabIndex = 32;
@@ -134,7 +134,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(925, 304);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(320, 23);
             this.textBox2.TabIndex = 33;
@@ -142,7 +142,7 @@
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(389, 292);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(320, 23);
             this.textBox3.TabIndex = 34;
@@ -173,8 +173,12 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "اقرار_خروج_حسب_الطلب";
             this.ResumeLayout(false);
             this.PerformLayout();

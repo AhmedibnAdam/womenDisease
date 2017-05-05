@@ -4063,7 +4063,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1370, 750);
+            this.ClientSize = new System.Drawing.Size(1370, 767);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label114);
@@ -4092,7 +4092,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "fol_serv";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "استمارة منتفعة بخدمات تنظيم الاسرة";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

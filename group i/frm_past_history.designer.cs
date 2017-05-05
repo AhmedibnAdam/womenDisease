@@ -105,7 +105,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_show);
             this.Controls.Add(this.reportViewer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frm_past_history";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "السجل المرضي لمريض";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frm_past_history_Load);
