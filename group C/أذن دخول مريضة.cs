@@ -36,28 +36,27 @@ namespace womenDisease
         private void button2_Click(object sender, EventArgs e)
         {
 
-         string[] s1 = new string[] {"@entry_date",
+         string[] s1 = new string[] {
+                 "@entry_date",
 	                "@entry_time",
 	                "@entry_state",
-	                "@exit_date",
-	                "@exit_Status",
 	                "@Initial_diagnosis",
-	                "@Final_diagnosis",
 	                "@recommendation",
-	                "@hospital_num",
-	                "@send_side_name",
+	                
+	                
 	                "@entry_doctor_name",
-	                "@responsible_doctor_name",
+	
 	                "@doc_ssn",
 	                "@patient_id",
 	                "@Visit_type" };
 
-            string[] s4 = new string[] {dateTimePicker5.Text,dateTimePicker7.Text,textBox36.Text,dateTimePicker6.Text,textBox37.Text,
-                textBox27.Text,textBox33.Text,textBox39.Text,textBox40.Text,comboBox9.Text,textBox26.Text,textBox28.Text,
+            string[] s4 = new string[] {dateTimePicker5.Text,textBox6.Text,textBox36.Text,
+                textBox27.Text,textBox39.Text,textBox26.Text,
            textBox25.Text,textBox29.Text,comboBox10.Text };
+
             SqlDbType[] s5 = new SqlDbType[] { SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
-            SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
-            SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar};
+            SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar
+           };
             con.ExecuteInsertOrUpdateOrDeleteUsingStoredProc("insert_into_patient_visit", s1, s4, s5);
             MessageBox.Show("تم حفظ البيانات بنجاح");
         }
@@ -268,12 +267,9 @@ namespace womenDisease
         private void dateTimePicker6_ValueChanged(object sender, EventArgs e)
         {
            String d1 = dateTimePicker5.Value.ToString("dd-MM-yyyy");
-           String d2 = dateTimePicker6.Value.ToString("dd-MM-yyyy");
+          // String d2 = dateTimePicker6.Value.ToString("dd-MM-yyyy");
 
-           if (dateTimePicker5.Value.Date > dateTimePicker6.Value.Date)
-           {
-               MessageBox.Show(" تاريخ الخروج يجب ان يكون اكبر من تاريخ الدخول ");
-           }
+          
         }
 
         private void textBox29_TextChanged(object sender, EventArgs e)

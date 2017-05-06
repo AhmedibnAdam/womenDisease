@@ -14,6 +14,7 @@ namespace womenDisease
 {
     public partial class e : Form
     {
+        Connection con = new Connection();
         public e()
         {
             InitializeComponent();
@@ -75,6 +76,17 @@ namespace womenDisease
         private void button3_Click(object sender, EventArgs e)
         {
             //insert img in database
+            try
+            {
+                con.OpenConection();
+                string s = "insert into request_spcialist (photo_pass) values ('"+path+"');";
+                con.ExecuteQueries(s);
+                con.CloseConnection();
+                
+
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); }
+            
         }
     }
 }

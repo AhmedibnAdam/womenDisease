@@ -31,6 +31,7 @@ namespace womenDisease
 
         private void button6_Click_1(object sender, EventArgs e)
         {
+          
 
          string[] s1 = new string[] {"@visit_id","@Date","@Visit_reason","@Out_Method" ,
                                    "@quantity","@Next_visit_date","@Notes" };
@@ -94,6 +95,27 @@ namespace womenDisease
                
             }
 
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+
+
+            int currentMyComboBoxIndex = comboBox1.FindStringExact(comboBox1.Text);
+
+
+            if (currentMyComboBoxIndex >= 10) {
+
+                fol_serv f = new fol_serv();
+                  f.Show();
+            }
+            //MessageBox.Show(currentMyComboBoxIndex.ToString());
+           // if (comboBox1.ValueMember=="تركيب كبسولة") {
+           //     fol_serv f = new fol_serv();
+           //     f.Show();
+           // }
+           //else{ }
         }
     }
 }

@@ -86,13 +86,12 @@
             this.label43 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker7 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker6 = new System.Windows.Forms.DateTimePicker();
             this.label61 = new System.Windows.Forms.Label();
             this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
             this.label62 = new System.Windows.Forms.Label();
@@ -102,15 +101,10 @@
             this.label74 = new System.Windows.Forms.Label();
             this.textBox39 = new System.Windows.Forms.TextBox();
             this.label73 = new System.Windows.Forms.Label();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label72 = new System.Windows.Forms.Label();
             this.textBox36 = new System.Windows.Forms.TextBox();
             this.label70 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
             this.label69 = new System.Windows.Forms.Label();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.label67 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox30 = new System.Windows.Forms.TextBox();
@@ -344,7 +338,6 @@
             // 
             this.label15.BackColor = System.Drawing.Color.SteelBlue;
             this.label15.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label15.Location = new System.Drawing.Point(0, 5);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(968, 31);
@@ -399,7 +392,6 @@
             // 
             this.label10.BackColor = System.Drawing.Color.SteelBlue;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label10.Location = new System.Drawing.Point(-1, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(968, 31);
@@ -717,13 +709,12 @@
             // 
             // tabPage3
             // 
+            this.tabPage3.Controls.Add(this.textBox6);
             this.tabPage3.Controls.Add(this.button6);
             this.tabPage3.Controls.Add(this.button1);
             this.tabPage3.Controls.Add(this.label16);
             this.tabPage3.Controls.Add(this.button2);
             this.tabPage3.Controls.Add(this.comboBox10);
-            this.tabPage3.Controls.Add(this.dateTimePicker7);
-            this.tabPage3.Controls.Add(this.dateTimePicker6);
             this.tabPage3.Controls.Add(this.label61);
             this.tabPage3.Controls.Add(this.dateTimePicker5);
             this.tabPage3.Controls.Add(this.label62);
@@ -733,15 +724,10 @@
             this.tabPage3.Controls.Add(this.label74);
             this.tabPage3.Controls.Add(this.textBox39);
             this.tabPage3.Controls.Add(this.label73);
-            this.tabPage3.Controls.Add(this.textBox37);
-            this.tabPage3.Controls.Add(this.label71);
-            this.tabPage3.Controls.Add(this.label72);
             this.tabPage3.Controls.Add(this.textBox36);
             this.tabPage3.Controls.Add(this.label70);
             this.tabPage3.Controls.Add(this.label68);
             this.tabPage3.Controls.Add(this.label69);
-            this.tabPage3.Controls.Add(this.textBox33);
-            this.tabPage3.Controls.Add(this.label67);
             this.tabPage3.Controls.Add(this.button4);
             this.tabPage3.Controls.Add(this.button3);
             this.tabPage3.Controls.Add(this.textBox30);
@@ -763,11 +749,18 @@
             this.tabPage3.Text = "فتح زيارة";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(71, 85);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(260, 20);
+            this.textBox6.TabIndex = 123;
+            // 
             // button6
             // 
             this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Location = new System.Drawing.Point(819, 360);
+            this.button6.Location = new System.Drawing.Point(820, 299);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(44, 23);
             this.button6.TabIndex = 122;
@@ -789,7 +782,6 @@
             // 
             this.label16.BackColor = System.Drawing.Color.SteelBlue;
             this.label16.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label16.Location = new System.Drawing.Point(6, 3);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(968, 62);
@@ -814,35 +806,15 @@
             "نساء",
             "حوامل",
             "استقبال"});
-            this.comboBox10.Location = new System.Drawing.Point(71, 366);
+            this.comboBox10.Location = new System.Drawing.Point(82, 257);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(250, 21);
             this.comboBox10.TabIndex = 116;
             // 
-            // dateTimePicker7
-            // 
-            this.dateTimePicker7.CustomFormat = "yyyy-MM-dd";
-            this.dateTimePicker7.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker7.Location = new System.Drawing.Point(72, 90);
-            this.dateTimePicker7.Name = "dateTimePicker7";
-            this.dateTimePicker7.Size = new System.Drawing.Size(260, 20);
-            this.dateTimePicker7.TabIndex = 118;
-            this.dateTimePicker7.ValueChanged += new System.EventHandler(this.dateTimePicker7_ValueChanged);
-            // 
-            // dateTimePicker6
-            // 
-            this.dateTimePicker6.CustomFormat = "yyyy-MM-dd";
-            this.dateTimePicker6.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker6.Location = new System.Drawing.Point(71, 303);
-            this.dateTimePicker6.Name = "dateTimePicker6";
-            this.dateTimePicker6.Size = new System.Drawing.Size(261, 20);
-            this.dateTimePicker6.TabIndex = 117;
-            this.dateTimePicker6.ValueChanged += new System.EventHandler(this.dateTimePicker6_ValueChanged);
-            // 
             // label61
             // 
             this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(389, 369);
+            this.label61.Location = new System.Drawing.Point(388, 265);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(59, 13);
             this.label61.TabIndex = 102;
@@ -852,7 +824,7 @@
             // 
             this.dateTimePicker5.CustomFormat = "yyyy-MM-dd";
             this.dateTimePicker5.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker5.Location = new System.Drawing.Point(596, 106);
+            this.dateTimePicker5.Location = new System.Drawing.Point(596, 87);
             this.dateTimePicker5.Name = "dateTimePicker5";
             this.dateTimePicker5.Size = new System.Drawing.Size(246, 20);
             this.dateTimePicker5.TabIndex = 115;
@@ -861,7 +833,7 @@
             // label62
             // 
             this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(869, 362);
+            this.label62.Location = new System.Drawing.Point(870, 307);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(94, 13);
             this.label62.TabIndex = 101;
@@ -869,7 +841,7 @@
             // 
             // textBox28
             // 
-            this.textBox28.Location = new System.Drawing.Point(579, 362);
+            this.textBox28.Location = new System.Drawing.Point(577, 304);
             this.textBox28.Name = "textBox28";
             this.textBox28.Size = new System.Drawing.Size(224, 20);
             this.textBox28.TabIndex = 103;
@@ -920,31 +892,6 @@
             this.label73.TabIndex = 110;
             this.label73.Text = "التوصية\r\n\r\n";
             // 
-            // textBox37
-            // 
-            this.textBox37.Location = new System.Drawing.Point(586, 313);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(251, 20);
-            this.textBox37.TabIndex = 109;
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(382, 305);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(61, 26);
-            this.label71.TabIndex = 108;
-            this.label71.Text = "تاريخ الخروج\r\n\r\n";
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(886, 316);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(59, 13);
-            this.label72.TabIndex = 107;
-            this.label72.Text = "حالة الخروج\r\n";
-            // 
             // textBox36
             // 
             this.textBox36.Location = new System.Drawing.Point(597, 226);
@@ -964,7 +911,7 @@
             // label68
             // 
             this.label68.AutoSize = true;
-            this.label68.Location = new System.Drawing.Point(885, 106);
+            this.label68.Location = new System.Drawing.Point(881, 92);
             this.label68.Name = "label68";
             this.label68.Size = new System.Drawing.Size(62, 13);
             this.label68.TabIndex = 104;
@@ -979,22 +926,6 @@
             this.label69.TabIndex = 100;
             this.label69.Text = "ساعة الدخول\r\n";
             this.label69.Click += new System.EventHandler(this.label69_Click);
-            // 
-            // textBox33
-            // 
-            this.textBox33.Location = new System.Drawing.Point(71, 254);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(260, 20);
-            this.textBox33.TabIndex = 99;
-            // 
-            // label67
-            // 
-            this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(373, 261);
-            this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(89, 13);
-            this.label67.TabIndex = 98;
-            this.label67.Text = "التشخيص النهائى";
             // 
             // button4
             // 
@@ -1118,6 +1049,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "أذن_دخول_مريضة";
+            this.RightToLeftLayout = true;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "أذن_دخول_مريضة";
             this.Load += new System.EventHandler(this.أذن_دخول_مريضة_Load);
@@ -1175,29 +1107,19 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.DateTimePicker dateTimePicker7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker6;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.DateTimePicker dateTimePicker5;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.TextBox textBox28;
         private System.Windows.Forms.ComboBox comboBox9;
         private System.Windows.Forms.TextBox textBox40;
         private System.Windows.Forms.Label label74;
         private System.Windows.Forms.TextBox textBox39;
         private System.Windows.Forms.Label label73;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.Label label72;
         private System.Windows.Forms.TextBox textBox36;
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.Label label68;
         private System.Windows.Forms.Label label69;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.Label label67;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox30;
         private System.Windows.Forms.Label label64;
         private System.Windows.Forms.TextBox textBox29;
         private System.Windows.Forms.Label label63;
@@ -1228,8 +1150,12 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.TextBox textBox28;
     }
 }

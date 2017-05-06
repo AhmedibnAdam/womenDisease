@@ -61,6 +61,8 @@
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(3, 1);
             this.tabControl1.Name = "tabControl1";
+            this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tabControl1.RightToLeftLayout = true;
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(916, 392);
             this.tabControl1.TabIndex = 0;
@@ -137,7 +139,6 @@
             // 
             this.label47.BackColor = System.Drawing.Color.SteelBlue;
             this.label47.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label47.Location = new System.Drawing.Point(3, 0);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(895, 36);
@@ -234,11 +235,15 @@
             "متابعة وسيلة",
             "مضاعفات طبية",
             "تغير وسيلة",
-            "الحصول على وسيلة"});
+            "الحصول على وسيلة",
+            "تركيب كبسوله",
+            "تركيب لولب",
+            "حقنة منع الحمل"});
             this.comboBox1.Location = new System.Drawing.Point(31, 172);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(682, 21);
             this.comboBox1.TabIndex = 48;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -289,7 +294,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(916, 369);
             this.Controls.Add(this.tabControl1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "تنظيم_الأسرة_والصحة_الانجابية";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

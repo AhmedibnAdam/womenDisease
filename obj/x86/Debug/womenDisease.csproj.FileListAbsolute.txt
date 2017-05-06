@@ -84,7 +84,6 @@ D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.pdb
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\bin\Debug\womenDisease.exe
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\bin\Debug\womenDisease.pdb
-D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.csprojResolveAssemblyReference.cache
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.fol_serv.resources
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.doc.resources
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.e.resources
@@ -108,3 +107,4 @@ D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.csproj.GenerateResource.Cache
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\RdlCompile.cache
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\RdlCompile.compiled
+D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.csprojResolveAssemblyReference.cache
