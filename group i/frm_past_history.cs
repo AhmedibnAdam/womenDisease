@@ -35,7 +35,7 @@ namespace womenDisease
             { MessageBox.Show("من فضلك أدخل رقم الزيارة "); }
             else
             {
-                string query = "select operation_id,visit_id,date,Entry_unit,resident_doctor,Diagnosis_Admission,Surgeon,First_assistent,Secondary_site,Anesthesitist,Nurse,Uterus from PHIS_Operation_Report where visit_id= " + txt_visit_id.Text;
+                string query = "SELECT  entry_date, entry_state, exit_date, exit_Status, Initial_diagnosis, Final_diagnosis, recommendation, Visit_type, visit_id FROM PHIS_patient_Visits where visit_id= " + txt_visit_id.Text;
                 da = new SqlDataAdapter(query, connection);
                 dt = new DataTable();
                 da.Fill(dt);

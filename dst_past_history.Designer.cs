@@ -279,29 +279,23 @@ namespace womenDisease {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class DataTable1DataTable : global::System.Data.TypedTableBase<DataTable1Row> {
             
-            private global::System.Data.DataColumn columnoperation_id;
-            
             private global::System.Data.DataColumn columnvisit_id;
             
-            private global::System.Data.DataColumn columndate;
+            private global::System.Data.DataColumn columnentry_date;
             
-            private global::System.Data.DataColumn columnEntry_unit;
+            private global::System.Data.DataColumn columnentry_state;
             
-            private global::System.Data.DataColumn columnresident_doctor;
+            private global::System.Data.DataColumn columnexit_date;
             
-            private global::System.Data.DataColumn columnDiagnosis_Admission;
+            private global::System.Data.DataColumn columnexit_Status;
             
-            private global::System.Data.DataColumn columnSurgeon;
+            private global::System.Data.DataColumn columnInitial_diagnosis;
             
-            private global::System.Data.DataColumn columnFirst_assistent;
+            private global::System.Data.DataColumn columnFinal_diagnosis;
             
-            private global::System.Data.DataColumn columnSecondary_site;
+            private global::System.Data.DataColumn columnrecommendation;
             
-            private global::System.Data.DataColumn columnAnesthesitist;
-            
-            private global::System.Data.DataColumn columnNurse;
-            
-            private global::System.Data.DataColumn columnUterus;
+            private global::System.Data.DataColumn columnVisit_type;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
@@ -338,14 +332,6 @@ namespace womenDisease {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn operation_idColumn {
-                get {
-                    return this.columnoperation_id;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public global::System.Data.DataColumn visit_idColumn {
                 get {
                     return this.columnvisit_id;
@@ -354,81 +340,65 @@ namespace womenDisease {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn dateColumn {
+            public global::System.Data.DataColumn entry_dateColumn {
                 get {
-                    return this.columndate;
+                    return this.columnentry_date;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn Entry_unitColumn {
+            public global::System.Data.DataColumn entry_stateColumn {
                 get {
-                    return this.columnEntry_unit;
+                    return this.columnentry_state;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn resident_doctorColumn {
+            public global::System.Data.DataColumn exit_dateColumn {
                 get {
-                    return this.columnresident_doctor;
+                    return this.columnexit_date;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn Diagnosis_AdmissionColumn {
+            public global::System.Data.DataColumn exit_StatusColumn {
                 get {
-                    return this.columnDiagnosis_Admission;
+                    return this.columnexit_Status;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn SurgeonColumn {
+            public global::System.Data.DataColumn Initial_diagnosisColumn {
                 get {
-                    return this.columnSurgeon;
+                    return this.columnInitial_diagnosis;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn First_assistentColumn {
+            public global::System.Data.DataColumn Final_diagnosisColumn {
                 get {
-                    return this.columnFirst_assistent;
+                    return this.columnFinal_diagnosis;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn Secondary_siteColumn {
+            public global::System.Data.DataColumn recommendationColumn {
                 get {
-                    return this.columnSecondary_site;
+                    return this.columnrecommendation;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn AnesthesitistColumn {
+            public global::System.Data.DataColumn Visit_typeColumn {
                 get {
-                    return this.columnAnesthesitist;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn NurseColumn {
-                get {
-                    return this.columnNurse;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public global::System.Data.DataColumn UterusColumn {
-                get {
-                    return this.columnUterus;
+                    return this.columnVisit_type;
                 }
             }
             
@@ -469,21 +439,18 @@ namespace womenDisease {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public DataTable1Row AddDataTable1Row(string operation_id, string visit_id, string date, string Entry_unit, string resident_doctor, string Diagnosis_Admission, string Surgeon, string First_assistent, string Secondary_site, string Anesthesitist, string Nurse, string Uterus) {
+            public DataTable1Row AddDataTable1Row(string visit_id, string entry_date, string entry_state, string exit_date, string exit_Status, string Initial_diagnosis, string Final_diagnosis, string recommendation, string Visit_type) {
                 DataTable1Row rowDataTable1Row = ((DataTable1Row)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
-                        operation_id,
                         visit_id,
-                        date,
-                        Entry_unit,
-                        resident_doctor,
-                        Diagnosis_Admission,
-                        Surgeon,
-                        First_assistent,
-                        Secondary_site,
-                        Anesthesitist,
-                        Nurse,
-                        Uterus};
+                        entry_date,
+                        entry_state,
+                        exit_date,
+                        exit_Status,
+                        Initial_diagnosis,
+                        Final_diagnosis,
+                        recommendation,
+                        Visit_type};
                 rowDataTable1Row.ItemArray = columnValuesArray;
                 this.Rows.Add(rowDataTable1Row);
                 return rowDataTable1Row;
@@ -506,47 +473,38 @@ namespace womenDisease {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             internal void InitVars() {
-                this.columnoperation_id = base.Columns["operation_id"];
                 this.columnvisit_id = base.Columns["visit_id"];
-                this.columndate = base.Columns["date"];
-                this.columnEntry_unit = base.Columns["Entry_unit"];
-                this.columnresident_doctor = base.Columns["resident_doctor"];
-                this.columnDiagnosis_Admission = base.Columns["Diagnosis_Admission"];
-                this.columnSurgeon = base.Columns["Surgeon"];
-                this.columnFirst_assistent = base.Columns["First_assistent"];
-                this.columnSecondary_site = base.Columns["Secondary_site"];
-                this.columnAnesthesitist = base.Columns["Anesthesitist"];
-                this.columnNurse = base.Columns["Nurse"];
-                this.columnUterus = base.Columns["Uterus"];
+                this.columnentry_date = base.Columns["entry_date"];
+                this.columnentry_state = base.Columns["entry_state"];
+                this.columnexit_date = base.Columns["exit_date"];
+                this.columnexit_Status = base.Columns["exit_Status"];
+                this.columnInitial_diagnosis = base.Columns["Initial_diagnosis"];
+                this.columnFinal_diagnosis = base.Columns["Final_diagnosis"];
+                this.columnrecommendation = base.Columns["recommendation"];
+                this.columnVisit_type = base.Columns["Visit_type"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             private void InitClass() {
-                this.columnoperation_id = new global::System.Data.DataColumn("operation_id", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnoperation_id);
                 this.columnvisit_id = new global::System.Data.DataColumn("visit_id", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnvisit_id);
-                this.columndate = new global::System.Data.DataColumn("date", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columndate);
-                this.columnEntry_unit = new global::System.Data.DataColumn("Entry_unit", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnEntry_unit);
-                this.columnresident_doctor = new global::System.Data.DataColumn("resident_doctor", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnresident_doctor);
-                this.columnDiagnosis_Admission = new global::System.Data.DataColumn("Diagnosis_Admission", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnDiagnosis_Admission);
-                this.columnSurgeon = new global::System.Data.DataColumn("Surgeon", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnSurgeon);
-                this.columnFirst_assistent = new global::System.Data.DataColumn("First_assistent", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnFirst_assistent);
-                this.columnSecondary_site = new global::System.Data.DataColumn("Secondary_site", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnSecondary_site);
-                this.columnAnesthesitist = new global::System.Data.DataColumn("Anesthesitist", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnAnesthesitist);
-                this.columnNurse = new global::System.Data.DataColumn("Nurse", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnNurse);
-                this.columnUterus = new global::System.Data.DataColumn("Uterus", typeof(string), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnUterus);
+                this.columnentry_date = new global::System.Data.DataColumn("entry_date", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnentry_date);
+                this.columnentry_state = new global::System.Data.DataColumn("entry_state", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnentry_state);
+                this.columnexit_date = new global::System.Data.DataColumn("exit_date", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnexit_date);
+                this.columnexit_Status = new global::System.Data.DataColumn("exit_Status", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnexit_Status);
+                this.columnInitial_diagnosis = new global::System.Data.DataColumn("Initial_diagnosis", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnInitial_diagnosis);
+                this.columnFinal_diagnosis = new global::System.Data.DataColumn("Final_diagnosis", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnFinal_diagnosis);
+                this.columnrecommendation = new global::System.Data.DataColumn("recommendation", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnrecommendation);
+                this.columnVisit_type = new global::System.Data.DataColumn("Visit_type", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnVisit_type);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -689,22 +647,6 @@ namespace womenDisease {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string operation_id {
-                get {
-                    try {
-                        return ((string)(this[this.tableDataTable1.operation_idColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'operation_id\' in table \'DataTable1\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableDataTable1.operation_idColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string visit_id {
                 get {
                     try {
@@ -721,174 +663,130 @@ namespace womenDisease {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string date {
+            public string entry_date {
                 get {
                     try {
-                        return ((string)(this[this.tableDataTable1.dateColumn]));
+                        return ((string)(this[this.tableDataTable1.entry_dateColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'date\' in table \'DataTable1\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'entry_date\' in table \'DataTable1\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataTable1.dateColumn] = value;
+                    this[this.tableDataTable1.entry_dateColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Entry_unit {
+            public string entry_state {
                 get {
                     try {
-                        return ((string)(this[this.tableDataTable1.Entry_unitColumn]));
+                        return ((string)(this[this.tableDataTable1.entry_stateColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Entry_unit\' in table \'DataTable1\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'entry_state\' in table \'DataTable1\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataTable1.Entry_unitColumn] = value;
+                    this[this.tableDataTable1.entry_stateColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string resident_doctor {
+            public string exit_date {
                 get {
                     try {
-                        return ((string)(this[this.tableDataTable1.resident_doctorColumn]));
+                        return ((string)(this[this.tableDataTable1.exit_dateColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'resident_doctor\' in table \'DataTable1\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'exit_date\' in table \'DataTable1\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataTable1.resident_doctorColumn] = value;
+                    this[this.tableDataTable1.exit_dateColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Diagnosis_Admission {
+            public string exit_Status {
                 get {
                     try {
-                        return ((string)(this[this.tableDataTable1.Diagnosis_AdmissionColumn]));
+                        return ((string)(this[this.tableDataTable1.exit_StatusColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Diagnosis_Admission\' in table \'DataTable1\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'exit_Status\' in table \'DataTable1\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataTable1.Diagnosis_AdmissionColumn] = value;
+                    this[this.tableDataTable1.exit_StatusColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Surgeon {
+            public string Initial_diagnosis {
                 get {
                     try {
-                        return ((string)(this[this.tableDataTable1.SurgeonColumn]));
+                        return ((string)(this[this.tableDataTable1.Initial_diagnosisColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Surgeon\' in table \'DataTable1\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Initial_diagnosis\' in table \'DataTable1\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataTable1.SurgeonColumn] = value;
+                    this[this.tableDataTable1.Initial_diagnosisColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string First_assistent {
+            public string Final_diagnosis {
                 get {
                     try {
-                        return ((string)(this[this.tableDataTable1.First_assistentColumn]));
+                        return ((string)(this[this.tableDataTable1.Final_diagnosisColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'First_assistent\' in table \'DataTable1\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Final_diagnosis\' in table \'DataTable1\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataTable1.First_assistentColumn] = value;
+                    this[this.tableDataTable1.Final_diagnosisColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Secondary_site {
+            public string recommendation {
                 get {
                     try {
-                        return ((string)(this[this.tableDataTable1.Secondary_siteColumn]));
+                        return ((string)(this[this.tableDataTable1.recommendationColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Secondary_site\' in table \'DataTable1\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'recommendation\' in table \'DataTable1\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataTable1.Secondary_siteColumn] = value;
+                    this[this.tableDataTable1.recommendationColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Anesthesitist {
+            public string Visit_type {
                 get {
                     try {
-                        return ((string)(this[this.tableDataTable1.AnesthesitistColumn]));
+                        return ((string)(this[this.tableDataTable1.Visit_typeColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Anesthesitist\' in table \'DataTable1\' is DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("The value for column \'Visit_type\' in table \'DataTable1\' is DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableDataTable1.AnesthesitistColumn] = value;
+                    this[this.tableDataTable1.Visit_typeColumn] = value;
                 }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Nurse {
-                get {
-                    try {
-                        return ((string)(this[this.tableDataTable1.NurseColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Nurse\' in table \'DataTable1\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableDataTable1.NurseColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public string Uterus {
-                get {
-                    try {
-                        return ((string)(this[this.tableDataTable1.UterusColumn]));
-                    }
-                    catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("The value for column \'Uterus\' in table \'DataTable1\' is DBNull.", e);
-                    }
-                }
-                set {
-                    this[this.tableDataTable1.UterusColumn] = value;
-                }
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isoperation_idNull() {
-                return this.IsNull(this.tableDataTable1.operation_idColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setoperation_idNull() {
-                this[this.tableDataTable1.operation_idColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -905,122 +803,98 @@ namespace womenDisease {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsdateNull() {
-                return this.IsNull(this.tableDataTable1.dateColumn);
+            public bool Isentry_dateNull() {
+                return this.IsNull(this.tableDataTable1.entry_dateColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetdateNull() {
-                this[this.tableDataTable1.dateColumn] = global::System.Convert.DBNull;
+            public void Setentry_dateNull() {
+                this[this.tableDataTable1.entry_dateColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsEntry_unitNull() {
-                return this.IsNull(this.tableDataTable1.Entry_unitColumn);
+            public bool Isentry_stateNull() {
+                return this.IsNull(this.tableDataTable1.entry_stateColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetEntry_unitNull() {
-                this[this.tableDataTable1.Entry_unitColumn] = global::System.Convert.DBNull;
+            public void Setentry_stateNull() {
+                this[this.tableDataTable1.entry_stateColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool Isresident_doctorNull() {
-                return this.IsNull(this.tableDataTable1.resident_doctorColumn);
+            public bool Isexit_dateNull() {
+                return this.IsNull(this.tableDataTable1.exit_dateColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void Setresident_doctorNull() {
-                this[this.tableDataTable1.resident_doctorColumn] = global::System.Convert.DBNull;
+            public void Setexit_dateNull() {
+                this[this.tableDataTable1.exit_dateColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsDiagnosis_AdmissionNull() {
-                return this.IsNull(this.tableDataTable1.Diagnosis_AdmissionColumn);
+            public bool Isexit_StatusNull() {
+                return this.IsNull(this.tableDataTable1.exit_StatusColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetDiagnosis_AdmissionNull() {
-                this[this.tableDataTable1.Diagnosis_AdmissionColumn] = global::System.Convert.DBNull;
+            public void Setexit_StatusNull() {
+                this[this.tableDataTable1.exit_StatusColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsSurgeonNull() {
-                return this.IsNull(this.tableDataTable1.SurgeonColumn);
+            public bool IsInitial_diagnosisNull() {
+                return this.IsNull(this.tableDataTable1.Initial_diagnosisColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetSurgeonNull() {
-                this[this.tableDataTable1.SurgeonColumn] = global::System.Convert.DBNull;
+            public void SetInitial_diagnosisNull() {
+                this[this.tableDataTable1.Initial_diagnosisColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsFirst_assistentNull() {
-                return this.IsNull(this.tableDataTable1.First_assistentColumn);
+            public bool IsFinal_diagnosisNull() {
+                return this.IsNull(this.tableDataTable1.Final_diagnosisColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetFirst_assistentNull() {
-                this[this.tableDataTable1.First_assistentColumn] = global::System.Convert.DBNull;
+            public void SetFinal_diagnosisNull() {
+                this[this.tableDataTable1.Final_diagnosisColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsSecondary_siteNull() {
-                return this.IsNull(this.tableDataTable1.Secondary_siteColumn);
+            public bool IsrecommendationNull() {
+                return this.IsNull(this.tableDataTable1.recommendationColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetSecondary_siteNull() {
-                this[this.tableDataTable1.Secondary_siteColumn] = global::System.Convert.DBNull;
+            public void SetrecommendationNull() {
+                this[this.tableDataTable1.recommendationColumn] = global::System.Convert.DBNull;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsAnesthesitistNull() {
-                return this.IsNull(this.tableDataTable1.AnesthesitistColumn);
+            public bool IsVisit_typeNull() {
+                return this.IsNull(this.tableDataTable1.Visit_typeColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetAnesthesitistNull() {
-                this[this.tableDataTable1.AnesthesitistColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsNurseNull() {
-                return this.IsNull(this.tableDataTable1.NurseColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetNurseNull() {
-                this[this.tableDataTable1.NurseColumn] = global::System.Convert.DBNull;
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public bool IsUterusNull() {
-                return this.IsNull(this.tableDataTable1.UterusColumn);
-            }
-            
-            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void SetUterusNull() {
-                this[this.tableDataTable1.UterusColumn] = global::System.Convert.DBNull;
+            public void SetVisit_typeNull() {
+                this[this.tableDataTable1.Visit_typeColumn] = global::System.Convert.DBNull;
             }
         }
         

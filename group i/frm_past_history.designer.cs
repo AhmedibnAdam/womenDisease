@@ -29,39 +29,33 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.DataTable1BindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dst_past_history = new womenDisease.dst_past_history();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource3 = new Microsoft.Reporting.WinForms.ReportDataSource();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.btn_show = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.txt_visit_id = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.DataTable1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dst_past_history = new womenDisease.dst_past_history();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.DataTable1BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dst_past_history)).BeginInit();
             this.SuspendLayout();
-            // 
-            // DataTable1BindingSource
-            // 
-            this.DataTable1BindingSource.DataMember = "DataTable1";
-            this.DataTable1BindingSource.DataSource = this.dst_past_history;
-            // 
-            // dst_past_history
-            // 
-            this.dst_past_history.DataSetName = "dst_past_history";
-            this.dst_past_history.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // reportViewer1
             // 
             this.reportViewer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.DataTable1BindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            reportDataSource3.Name = "DataSet1";
+            reportDataSource3.Value = this.DataTable1BindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource3);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "womenDisease.rpt_past_history.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(12, 79);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(776, 246);
+            this.reportViewer1.Size = new System.Drawing.Size(776, 272);
             this.reportViewer1.TabIndex = 0;
             // 
             // btn_show
@@ -96,11 +90,65 @@
             this.txt_visit_id.TabIndex = 3;
             this.txt_visit_id.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_visit_id_KeyPress);
             // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBox1.Location = new System.Drawing.Point(26, 182);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(231, 111);
+            this.textBox1.TabIndex = 4;
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.label2.Location = new System.Drawing.Point(103, 163);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(57, 19);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "ملاحظات";
+            // 
+            // DataTable1BindingSource
+            // 
+            this.DataTable1BindingSource.DataMember = "DataTable1";
+            this.DataTable1BindingSource.DataSource = this.dst_past_history;
+            // 
+            // dst_past_history
+            // 
+            this.dst_past_history.DataSetName = "dst_past_history";
+            this.dst_past_history.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.label3.Location = new System.Drawing.Point(180, 322);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(77, 19);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "متابعة العيادة ";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(19, 321);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(148, 20);
+            this.dateTimePicker1.TabIndex = 7;
+            // 
             // frm_past_history
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 337);
+            this.ClientSize = new System.Drawing.Size(800, 363);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.txt_visit_id);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_show);
@@ -109,7 +157,7 @@
             this.MaximizeBox = false;
             this.Name = "frm_past_history";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "السجل المرضي لمريض";
+            this.Text = "التقرير النهائي";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frm_past_history_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DataTable1BindingSource)).EndInit();
@@ -127,6 +175,10 @@
         private System.Windows.Forms.TextBox txt_visit_id;
         private System.Windows.Forms.BindingSource DataTable1BindingSource;
         private dst_past_history dst_past_history;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
 

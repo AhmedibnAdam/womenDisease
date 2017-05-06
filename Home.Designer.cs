@@ -173,6 +173,60 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage15 = new System.Windows.Forms.TabPage();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.comboBox36 = new System.Windows.Forms.ComboBox();
+            this.comboBox37 = new System.Windows.Forms.ComboBox();
+            this.label122 = new System.Windows.Forms.Label();
+            this.label123 = new System.Windows.Forms.Label();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.label124 = new System.Windows.Forms.Label();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.label125 = new System.Windows.Forms.Label();
+            this.comboBox38 = new System.Windows.Forms.ComboBox();
+            this.label126 = new System.Windows.Forms.Label();
+            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.label127 = new System.Windows.Forms.Label();
+            this.comboBox39 = new System.Windows.Forms.ComboBox();
+            this.label128 = new System.Windows.Forms.Label();
+            this.textBox48 = new System.Windows.Forms.TextBox();
+            this.label129 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.label106 = new System.Windows.Forms.Label();
+            this.dateTimePicker9 = new System.Windows.Forms.DateTimePicker();
+            this.label107 = new System.Windows.Forms.Label();
+            this.comboBox33 = new System.Windows.Forms.ComboBox();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.label108 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker10 = new System.Windows.Forms.DateTimePicker();
+            this.button12 = new System.Windows.Forms.Button();
+            this.label110 = new System.Windows.Forms.Label();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.label111 = new System.Windows.Forms.Label();
+            this.comboBox34 = new System.Windows.Forms.ComboBox();
+            this.comboBox35 = new System.Windows.Forms.ComboBox();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.label112 = new System.Windows.Forms.Label();
+            this.label113 = new System.Windows.Forms.Label();
+            this.label114 = new System.Windows.Forms.Label();
+            this.label115 = new System.Windows.Forms.Label();
+            this.label116 = new System.Windows.Forms.Label();
+            this.label117 = new System.Windows.Forms.Label();
+            this.label118 = new System.Windows.Forms.Label();
+            this.label119 = new System.Windows.Forms.Label();
+            this.label120 = new System.Windows.Forms.Label();
+            this.label121 = new System.Windows.Forms.Label();
+            this.label130 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label71 = new System.Windows.Forms.Label();
             this.visit_id = new System.Windows.Forms.TextBox();
@@ -293,60 +347,6 @@
             this.label84 = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
             this.label87 = new System.Windows.Forms.Label();
-            this.tabPage15 = new System.Windows.Forms.TabPage();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.label106 = new System.Windows.Forms.Label();
-            this.dateTimePicker9 = new System.Windows.Forms.DateTimePicker();
-            this.label107 = new System.Windows.Forms.Label();
-            this.comboBox33 = new System.Windows.Forms.ComboBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.label108 = new System.Windows.Forms.Label();
-            this.label109 = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker10 = new System.Windows.Forms.DateTimePicker();
-            this.button12 = new System.Windows.Forms.Button();
-            this.label110 = new System.Windows.Forms.Label();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.label111 = new System.Windows.Forms.Label();
-            this.comboBox34 = new System.Windows.Forms.ComboBox();
-            this.comboBox35 = new System.Windows.Forms.ComboBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.label112 = new System.Windows.Forms.Label();
-            this.label113 = new System.Windows.Forms.Label();
-            this.label114 = new System.Windows.Forms.Label();
-            this.label115 = new System.Windows.Forms.Label();
-            this.label116 = new System.Windows.Forms.Label();
-            this.label117 = new System.Windows.Forms.Label();
-            this.label118 = new System.Windows.Forms.Label();
-            this.label119 = new System.Windows.Forms.Label();
-            this.label120 = new System.Windows.Forms.Label();
-            this.label121 = new System.Windows.Forms.Label();
-            this.label105 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.comboBox36 = new System.Windows.Forms.ComboBox();
-            this.comboBox37 = new System.Windows.Forms.ComboBox();
-            this.label122 = new System.Windows.Forms.Label();
-            this.label123 = new System.Windows.Forms.Label();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.label124 = new System.Windows.Forms.Label();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.label125 = new System.Windows.Forms.Label();
-            this.comboBox38 = new System.Windows.Forms.ComboBox();
-            this.label126 = new System.Windows.Forms.Label();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.label127 = new System.Windows.Forms.Label();
-            this.comboBox39 = new System.Windows.Forms.ComboBox();
-            this.label128 = new System.Windows.Forms.Label();
-            this.textBox48 = new System.Windows.Forms.TextBox();
-            this.label129 = new System.Windows.Forms.Label();
-            this.label130 = new System.Windows.Forms.Label();
             this.menuStrip.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -359,6 +359,9 @@
             this.tabPage8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.tabControl1.SuspendLayout();
+            this.tabPage15.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl3.SuspendLayout();
             this.tabPage13.SuspendLayout();
@@ -385,9 +388,6 @@
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-            this.tabPage15.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip
@@ -416,51 +416,51 @@
             this.fileMenu.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder;
             this.fileMenu.Name = "fileMenu";
             this.fileMenu.RightToLeftAutoMirrorImage = true;
-            this.fileMenu.Size = new System.Drawing.Size(52, 24);
+            this.fileMenu.Size = new System.Drawing.Size(55, 24);
             this.fileMenu.Text = "عرض";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(257, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(306, 6);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(257, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(306, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.exitToolStripMenuItem.Text = "Examination";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
             // 
             // تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem
             // 
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Name = "تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem";
-            this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Text = "تنظيم الاسره والصحه الانجابية";
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Click += new System.EventHandler(this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem_Click);
             // 
             // طلباستدعاءاخصائياستشاريToolStripMenuItem
             // 
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Name = "طلباستدعاءاخصائياستشاريToolStripMenuItem";
-            this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Text = "طلب استدعاء اخصائي / استشاري ";
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Click += new System.EventHandler(this.طلباستدعاءاخصائياستشاريToolStripMenuItem_Click);
             // 
             // استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem
             // 
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Name = "استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem";
-            this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Text = "استمارة منتفعة بخدمات تنظيم الاسرة";
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Click += new System.EventHandler(this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem_Click);
             // 
             // بعدالعمليةToolStripMenuItem
             // 
             this.بعدالعمليةToolStripMenuItem.Name = "بعدالعمليةToolStripMenuItem";
-            this.بعدالعمليةToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.بعدالعمليةToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.بعدالعمليةToolStripMenuItem.Text = "بعد العملية ";
             this.بعدالعمليةToolStripMenuItem.Click += new System.EventHandler(this.بعدالعمليةToolStripMenuItem_Click);
             // 
@@ -470,14 +470,14 @@
             this.تقريرالسجلالمرضيToolStripMenuItem});
             this.تقاريرToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.تقاريرToolStripMenuItem.Name = "تقاريرToolStripMenuItem";
-            this.تقاريرToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
+            this.تقاريرToolStripMenuItem.Size = new System.Drawing.Size(56, 24);
             this.تقاريرToolStripMenuItem.Text = "تقارير";
             // 
             // تقريرالسجلالمرضيToolStripMenuItem
             // 
             this.تقريرالسجلالمرضيToolStripMenuItem.Name = "تقريرالسجلالمرضيToolStripMenuItem";
-            this.تقريرالسجلالمرضيToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
-            this.تقريرالسجلالمرضيToolStripMenuItem.Text = "تقرير السجل المرضي";
+            this.تقريرالسجلالمرضيToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
+            this.تقريرالسجلالمرضيToolStripMenuItem.Text = "التقرير النهائي";
             this.تقريرالسجلالمرضيToolStripMenuItem.Click += new System.EventHandler(this.تقريرالسجلالمرضيToolStripMenuItem_Click);
             // 
             // tabPage3
@@ -486,7 +486,7 @@
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.tabPage3.Size = new System.Drawing.Size(1072, 684);
+            this.tabPage3.Size = new System.Drawing.Size(1077, 680);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "قسم الاستقبال ";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -497,7 +497,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 28);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1072, 684);
+            this.tabPage2.Size = new System.Drawing.Size(1077, 684);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "قسم الحوامل ";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -1735,15 +1735,562 @@
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(11, 27);
+            this.tabControl1.Location = new System.Drawing.Point(11, 31);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.tabControl1.RightToLeftLayout = true;
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1085, 716);
+            this.tabControl1.Size = new System.Drawing.Size(1085, 712);
             this.tabControl1.TabIndex = 4;
             this.tabControl1.Tag = "";
             this.tabControl1.DoubleClick += new System.EventHandler(this.ShowNewForm);
+            // 
+            // tabPage15
+            // 
+            this.tabPage15.Controls.Add(this.panel3);
+            this.tabPage15.Controls.Add(this.label105);
+            this.tabPage15.Controls.Add(this.panel2);
+            this.tabPage15.Controls.Add(this.label130);
+            this.tabPage15.Location = new System.Drawing.Point(4, 28);
+            this.tabPage15.Name = "tabPage15";
+            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage15.Size = new System.Drawing.Size(1077, 684);
+            this.tabPage15.TabIndex = 3;
+            this.tabPage15.Text = "فتح زياره";
+            this.tabPage15.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.comboBox36);
+            this.panel3.Controls.Add(this.comboBox37);
+            this.panel3.Controls.Add(this.label122);
+            this.panel3.Controls.Add(this.label123);
+            this.panel3.Controls.Add(this.textBox45);
+            this.panel3.Controls.Add(this.label124);
+            this.panel3.Controls.Add(this.textBox46);
+            this.panel3.Controls.Add(this.label125);
+            this.panel3.Controls.Add(this.comboBox38);
+            this.panel3.Controls.Add(this.label126);
+            this.panel3.Controls.Add(this.textBox47);
+            this.panel3.Controls.Add(this.label127);
+            this.panel3.Controls.Add(this.comboBox39);
+            this.panel3.Controls.Add(this.label128);
+            this.panel3.Controls.Add(this.textBox48);
+            this.panel3.Controls.Add(this.label129);
+            this.panel3.Location = new System.Drawing.Point(6, 321);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1063, 225);
+            this.panel3.TabIndex = 71;
+            // 
+            // comboBox36
+            // 
+            this.comboBox36.FormattingEnabled = true;
+            this.comboBox36.Items.AddRange(new object[] {
+            "اسيوط",
+            "سوهاج",
+            "قنا",
+            "المنيا",
+            "الاقصر ",
+            "العريش",
+            "الاسكندرية"});
+            this.comboBox36.Location = new System.Drawing.Point(13, 120);
+            this.comboBox36.Name = "comboBox36";
+            this.comboBox36.Size = new System.Drawing.Size(183, 27);
+            this.comboBox36.TabIndex = 37;
+            // 
+            // comboBox37
+            // 
+            this.comboBox37.FormattingEnabled = true;
+            this.comboBox37.Items.AddRange(new object[] {
+            "نصر",
+            " اكتوبر"});
+            this.comboBox37.Location = new System.Drawing.Point(13, 88);
+            this.comboBox37.Name = "comboBox37";
+            this.comboBox37.Size = new System.Drawing.Size(183, 27);
+            this.comboBox37.TabIndex = 36;
+            // 
+            // label122
+            // 
+            this.label122.AutoSize = true;
+            this.label122.Location = new System.Drawing.Point(207, 123);
+            this.label122.Name = "label122";
+            this.label122.Size = new System.Drawing.Size(80, 19);
+            this.label122.TabIndex = 35;
+            this.label122.Text = "المحافظة";
+            // 
+            // label123
+            // 
+            this.label123.AutoSize = true;
+            this.label123.Location = new System.Drawing.Point(208, 96);
+            this.label123.Name = "label123";
+            this.label123.Size = new System.Drawing.Size(60, 19);
+            this.label123.TabIndex = 33;
+            this.label123.Text = "المدينة";
+            // 
+            // textBox45
+            // 
+            this.textBox45.Location = new System.Drawing.Point(615, 115);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(201, 27);
+            this.textBox45.TabIndex = 32;
+            // 
+            // label124
+            // 
+            this.label124.AutoSize = true;
+            this.label124.Location = new System.Drawing.Point(856, 117);
+            this.label124.Name = "label124";
+            this.label124.Size = new System.Drawing.Size(112, 19);
+            this.label124.TabIndex = 31;
+            this.label124.Text = "الرقم  القومي";
+            // 
+            // textBox46
+            // 
+            this.textBox46.Location = new System.Drawing.Point(627, 148);
+            this.textBox46.Name = "textBox46";
+            this.textBox46.Size = new System.Drawing.Size(186, 27);
+            this.textBox46.TabIndex = 30;
+            // 
+            // label125
+            // 
+            this.label125.AutoSize = true;
+            this.label125.Location = new System.Drawing.Point(819, 155);
+            this.label125.Name = "label125";
+            this.label125.Size = new System.Drawing.Size(165, 19);
+            this.label125.TabIndex = 29;
+            this.label125.Text = "رقم التليفون-محمول ";
+            // 
+            // comboBox38
+            // 
+            this.comboBox38.FormattingEnabled = true;
+            this.comboBox38.Location = new System.Drawing.Point(16, 54);
+            this.comboBox38.Name = "comboBox38";
+            this.comboBox38.Size = new System.Drawing.Size(180, 27);
+            this.comboBox38.TabIndex = 28;
+            // 
+            // label126
+            // 
+            this.label126.AutoSize = true;
+            this.label126.Location = new System.Drawing.Point(220, 61);
+            this.label126.Name = "label126";
+            this.label126.Size = new System.Drawing.Size(55, 19);
+            this.label126.TabIndex = 27;
+            this.label126.Text = "المهنة";
+            // 
+            // textBox47
+            // 
+            this.textBox47.Location = new System.Drawing.Point(353, 84);
+            this.textBox47.Name = "textBox47";
+            this.textBox47.Size = new System.Drawing.Size(460, 27);
+            this.textBox47.TabIndex = 26;
+            // 
+            // label127
+            // 
+            this.label127.AutoSize = true;
+            this.label127.Location = new System.Drawing.Point(866, 97);
+            this.label127.Name = "label127";
+            this.label127.Size = new System.Drawing.Size(99, 19);
+            this.label127.TabIndex = 25;
+            this.label127.Text = "محل الاقامة";
+            // 
+            // comboBox39
+            // 
+            this.comboBox39.FormattingEnabled = true;
+            this.comboBox39.Items.AddRange(new object[] {
+            "اب",
+            "ام",
+            "اخ",
+            "اخت",
+            "عم ",
+            "خال",
+            "خاله",
+            "بنت اخ",
+            "بنت اخت"});
+            this.comboBox39.Location = new System.Drawing.Point(318, 46);
+            this.comboBox39.Name = "comboBox39";
+            this.comboBox39.Size = new System.Drawing.Size(186, 27);
+            this.comboBox39.TabIndex = 24;
+            // 
+            // label128
+            // 
+            this.label128.AutoSize = true;
+            this.label128.Location = new System.Drawing.Point(527, 49);
+            this.label128.Name = "label128";
+            this.label128.Size = new System.Drawing.Size(99, 19);
+            this.label128.TabIndex = 17;
+            this.label128.Text = "درجة القرابة";
+            // 
+            // textBox48
+            // 
+            this.textBox48.Location = new System.Drawing.Point(632, 41);
+            this.textBox48.Name = "textBox48";
+            this.textBox48.Size = new System.Drawing.Size(181, 27);
+            this.textBox48.TabIndex = 16;
+            // 
+            // label129
+            // 
+            this.label129.AutoSize = true;
+            this.label129.Location = new System.Drawing.Point(888, 54);
+            this.label129.Name = "label129";
+            this.label129.Size = new System.Drawing.Size(54, 19);
+            this.label129.TabIndex = 15;
+            this.label129.Text = "الاسم";
+            // 
+            // label105
+            // 
+            this.label105.BackColor = System.Drawing.Color.SteelBlue;
+            this.label105.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label105.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label105.Location = new System.Drawing.Point(6, 3);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(1063, 31);
+            this.label105.TabIndex = 70;
+            this.label105.Text = "بيانات خاصة بالمريضة\r\n";
+            this.label105.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.textBox42);
+            this.panel2.Controls.Add(this.label106);
+            this.panel2.Controls.Add(this.dateTimePicker9);
+            this.panel2.Controls.Add(this.label107);
+            this.panel2.Controls.Add(this.comboBox33);
+            this.panel2.Controls.Add(this.textBox41);
+            this.panel2.Controls.Add(this.label108);
+            this.panel2.Controls.Add(this.label109);
+            this.panel2.Controls.Add(this.textBox34);
+            this.panel2.Controls.Add(this.dateTimePicker10);
+            this.panel2.Controls.Add(this.button12);
+            this.panel2.Controls.Add(this.label110);
+            this.panel2.Controls.Add(this.textBox35);
+            this.panel2.Controls.Add(this.label111);
+            this.panel2.Controls.Add(this.comboBox34);
+            this.panel2.Controls.Add(this.comboBox35);
+            this.panel2.Controls.Add(this.textBox36);
+            this.panel2.Controls.Add(this.textBox37);
+            this.panel2.Controls.Add(this.textBox38);
+            this.panel2.Controls.Add(this.textBox39);
+            this.panel2.Controls.Add(this.textBox40);
+            this.panel2.Controls.Add(this.textBox43);
+            this.panel2.Controls.Add(this.textBox44);
+            this.panel2.Controls.Add(this.label112);
+            this.panel2.Controls.Add(this.label113);
+            this.panel2.Controls.Add(this.label114);
+            this.panel2.Controls.Add(this.label115);
+            this.panel2.Controls.Add(this.label116);
+            this.panel2.Controls.Add(this.label117);
+            this.panel2.Controls.Add(this.label118);
+            this.panel2.Controls.Add(this.label119);
+            this.panel2.Controls.Add(this.label120);
+            this.panel2.Controls.Add(this.label121);
+            this.panel2.Location = new System.Drawing.Point(6, 37);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1063, 249);
+            this.panel2.TabIndex = 62;
+            // 
+            // textBox42
+            // 
+            this.textBox42.Location = new System.Drawing.Point(341, 218);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(161, 27);
+            this.textBox42.TabIndex = 68;
+            // 
+            // label106
+            // 
+            this.label106.AutoSize = true;
+            this.label106.Location = new System.Drawing.Point(530, 218);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(86, 19);
+            this.label106.TabIndex = 67;
+            this.label106.Text = "فترة الزواج\r\n";
+            // 
+            // dateTimePicker9
+            // 
+            this.dateTimePicker9.CustomFormat = "dd-MM-yyyy";
+            this.dateTimePicker9.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker9.Location = new System.Drawing.Point(654, 211);
+            this.dateTimePicker9.Name = "dateTimePicker9";
+            this.dateTimePicker9.Size = new System.Drawing.Size(159, 27);
+            this.dateTimePicker9.TabIndex = 66;
+            // 
+            // label107
+            // 
+            this.label107.AutoSize = true;
+            this.label107.Location = new System.Drawing.Point(874, 208);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(89, 19);
+            this.label107.TabIndex = 65;
+            this.label107.Text = "تاريخ الزواج\r\n";
+            // 
+            // comboBox33
+            // 
+            this.comboBox33.FormattingEnabled = true;
+            this.comboBox33.Items.AddRange(new object[] {
+            "مصرى",
+            "امريكى",
+            "كندى",
+            "يابانى",
+            "كورى",
+            "صيننى"});
+            this.comboBox33.Location = new System.Drawing.Point(341, 121);
+            this.comboBox33.Name = "comboBox33";
+            this.comboBox33.Size = new System.Drawing.Size(163, 27);
+            this.comboBox33.TabIndex = 22;
+            // 
+            // textBox41
+            // 
+            this.textBox41.Location = new System.Drawing.Point(16, 211);
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(160, 27);
+            this.textBox41.TabIndex = 39;
+            // 
+            // label108
+            // 
+            this.label108.AutoSize = true;
+            this.label108.Location = new System.Drawing.Point(189, 211);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(113, 19);
+            this.label108.TabIndex = 38;
+            this.label108.Text = "عنوان المريض";
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Location = new System.Drawing.Point(866, 48);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(100, 19);
+            this.label109.TabIndex = 60;
+            this.label109.Text = "تاريخ الدخول";
+            // 
+            // textBox34
+            // 
+            this.textBox34.Location = new System.Drawing.Point(16, 175);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(160, 27);
+            this.textBox34.TabIndex = 27;
+            // 
+            // dateTimePicker10
+            // 
+            this.dateTimePicker10.CustomFormat = "dd-MM-yyyy";
+            this.dateTimePicker10.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker10.Location = new System.Drawing.Point(662, 48);
+            this.dateTimePicker10.Name = "dateTimePicker10";
+            this.dateTimePicker10.Size = new System.Drawing.Size(162, 27);
+            this.dateTimePicker10.TabIndex = 63;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(34, 54);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 33);
+            this.button12.TabIndex = 62;
+            this.button12.Text = "حفظ";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // label110
+            // 
+            this.label110.AutoSize = true;
+            this.label110.Location = new System.Drawing.Point(196, 182);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(98, 19);
+            this.label110.TabIndex = 26;
+            this.label110.Text = "عنوان العمل";
+            // 
+            // textBox35
+            // 
+            this.textBox35.Location = new System.Drawing.Point(16, 153);
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(160, 27);
+            this.textBox35.TabIndex = 25;
+            // 
+            // label111
+            // 
+            this.label111.AutoSize = true;
+            this.label111.Location = new System.Drawing.Point(196, 157);
+            this.label111.Name = "label111";
+            this.label111.Size = new System.Drawing.Size(99, 19);
+            this.label111.TabIndex = 24;
+            this.label111.Text = "رقم التليفون";
+            // 
+            // comboBox34
+            // 
+            this.comboBox34.FormattingEnabled = true;
+            this.comboBox34.Items.AddRange(new object[] {
+            "مهندسة",
+            "دكتورة",
+            "صيدلىة",
+            "ممرضة",
+            "مدرسة",
+            "ربة منزل"});
+            this.comboBox34.Location = new System.Drawing.Point(16, 101);
+            this.comboBox34.Name = "comboBox34";
+            this.comboBox34.Size = new System.Drawing.Size(148, 27);
+            this.comboBox34.TabIndex = 23;
+            // 
+            // comboBox35
+            // 
+            this.comboBox35.FormattingEnabled = true;
+            this.comboBox35.Items.AddRange(new object[] {
+            "اعزب",
+            "متزوجة",
+            "ارملة",
+            "مطلقة"});
+            this.comboBox35.Location = new System.Drawing.Point(16, 128);
+            this.comboBox35.Name = "comboBox35";
+            this.comboBox35.Size = new System.Drawing.Size(160, 27);
+            this.comboBox35.TabIndex = 21;
+            // 
+            // textBox36
+            // 
+            this.textBox36.Location = new System.Drawing.Point(341, 192);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(163, 27);
+            this.textBox36.TabIndex = 20;
+            // 
+            // textBox37
+            // 
+            this.textBox37.Location = new System.Drawing.Point(341, 54);
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(166, 27);
+            this.textBox37.TabIndex = 19;
+            // 
+            // textBox38
+            // 
+            this.textBox38.Location = new System.Drawing.Point(632, 159);
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(192, 27);
+            this.textBox38.TabIndex = 18;
+            // 
+            // textBox39
+            // 
+            this.textBox39.Location = new System.Drawing.Point(657, 122);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(167, 27);
+            this.textBox39.TabIndex = 17;
+            // 
+            // textBox40
+            // 
+            this.textBox40.Location = new System.Drawing.Point(665, 185);
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(148, 27);
+            this.textBox40.TabIndex = 16;
+            // 
+            // textBox43
+            // 
+            this.textBox43.Location = new System.Drawing.Point(341, 157);
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(150, 27);
+            this.textBox43.TabIndex = 15;
+            // 
+            // textBox44
+            // 
+            this.textBox44.Location = new System.Drawing.Point(341, 87);
+            this.textBox44.Name = "textBox44";
+            this.textBox44.Size = new System.Drawing.Size(483, 27);
+            this.textBox44.TabIndex = 14;
+            // 
+            // label112
+            // 
+            this.label112.AutoSize = true;
+            this.label112.Location = new System.Drawing.Point(530, 192);
+            this.label112.Name = "label112";
+            this.label112.Size = new System.Drawing.Size(112, 19);
+            this.label112.TabIndex = 13;
+            this.label112.Text = "الرقم  القومي";
+            // 
+            // label113
+            // 
+            this.label113.AutoSize = true;
+            this.label113.Location = new System.Drawing.Point(524, 160);
+            this.label113.Name = "label113";
+            this.label113.Size = new System.Drawing.Size(102, 19);
+            this.label113.TabIndex = 12;
+            this.label113.Text = "جهة صدورها";
+            // 
+            // label114
+            // 
+            this.label114.AutoSize = true;
+            this.label114.Location = new System.Drawing.Point(868, 151);
+            this.label114.Name = "label114";
+            this.label114.Size = new System.Drawing.Size(99, 19);
+            this.label114.TabIndex = 11;
+            this.label114.Text = "محل الاقامة";
+            // 
+            // label115
+            // 
+            this.label115.AutoSize = true;
+            this.label115.Location = new System.Drawing.Point(874, 183);
+            this.label115.Name = "label115";
+            this.label115.Size = new System.Drawing.Size(84, 19);
+            this.label115.TabIndex = 10;
+            this.label115.Text = "اسم الزوج";
+            // 
+            // label116
+            // 
+            this.label116.AutoSize = true;
+            this.label116.Location = new System.Drawing.Point(844, 129);
+            this.label116.Name = "label116";
+            this.label116.Size = new System.Drawing.Size(112, 19);
+            this.label116.TabIndex = 9;
+            this.label116.Text = "الرقم  القومي";
+            // 
+            // label117
+            // 
+            this.label117.AutoSize = true;
+            this.label117.Location = new System.Drawing.Point(189, 127);
+            this.label117.Name = "label117";
+            this.label117.Size = new System.Drawing.Size(133, 19);
+            this.label117.TabIndex = 8;
+            this.label117.Text = "الحالة الاجتماعية";
+            // 
+            // label118
+            // 
+            this.label118.AutoSize = true;
+            this.label118.Location = new System.Drawing.Point(542, 130);
+            this.label118.Name = "label118";
+            this.label118.Size = new System.Drawing.Size(71, 19);
+            this.label118.TabIndex = 7;
+            this.label118.Text = "الجنسية";
+            // 
+            // label119
+            // 
+            this.label119.AutoSize = true;
+            this.label119.Location = new System.Drawing.Point(555, 55);
+            this.label119.Name = "label119";
+            this.label119.Size = new System.Drawing.Size(50, 19);
+            this.label119.TabIndex = 6;
+            this.label119.Text = "السن";
+            // 
+            // label120
+            // 
+            this.label120.AutoSize = true;
+            this.label120.Location = new System.Drawing.Point(879, 96);
+            this.label120.Name = "label120";
+            this.label120.Size = new System.Drawing.Size(54, 19);
+            this.label120.TabIndex = 4;
+            this.label120.Text = "الاسم";
+            // 
+            // label121
+            // 
+            this.label121.AutoSize = true;
+            this.label121.Location = new System.Drawing.Point(216, 101);
+            this.label121.Name = "label121";
+            this.label121.Size = new System.Drawing.Size(55, 19);
+            this.label121.TabIndex = 5;
+            this.label121.Text = "المهنة";
+            // 
+            // label130
+            // 
+            this.label130.BackColor = System.Drawing.Color.SteelBlue;
+            this.label130.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label130.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label130.Location = new System.Drawing.Point(6, 287);
+            this.label130.Name = "label130";
+            this.label130.Size = new System.Drawing.Size(1063, 31);
+            this.label130.TabIndex = 11;
+            this.label130.Text = "بيانات خاصة بأقارب المريضة";
+            this.label130.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // tabPage1
             // 
@@ -1759,7 +2306,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 28);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1072, 684);
+            this.tabPage1.Size = new System.Drawing.Size(1077, 684);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "قسم النساء";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -3238,553 +3785,6 @@
             this.label87.TabIndex = 116;
             this.label87.Text = "OBSTATRIC HISTORY";
             // 
-            // tabPage15
-            // 
-            this.tabPage15.Controls.Add(this.panel3);
-            this.tabPage15.Controls.Add(this.label105);
-            this.tabPage15.Controls.Add(this.panel2);
-            this.tabPage15.Controls.Add(this.label130);
-            this.tabPage15.Location = new System.Drawing.Point(4, 28);
-            this.tabPage15.Name = "tabPage15";
-            this.tabPage15.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage15.Size = new System.Drawing.Size(1077, 684);
-            this.tabPage15.TabIndex = 3;
-            this.tabPage15.Text = "فتح زياره";
-            this.tabPage15.UseVisualStyleBackColor = true;
-            // 
-            // panel2
-            // 
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.textBox42);
-            this.panel2.Controls.Add(this.label106);
-            this.panel2.Controls.Add(this.dateTimePicker9);
-            this.panel2.Controls.Add(this.label107);
-            this.panel2.Controls.Add(this.comboBox33);
-            this.panel2.Controls.Add(this.textBox41);
-            this.panel2.Controls.Add(this.label108);
-            this.panel2.Controls.Add(this.label109);
-            this.panel2.Controls.Add(this.textBox34);
-            this.panel2.Controls.Add(this.dateTimePicker10);
-            this.panel2.Controls.Add(this.button12);
-            this.panel2.Controls.Add(this.label110);
-            this.panel2.Controls.Add(this.textBox35);
-            this.panel2.Controls.Add(this.label111);
-            this.panel2.Controls.Add(this.comboBox34);
-            this.panel2.Controls.Add(this.comboBox35);
-            this.panel2.Controls.Add(this.textBox36);
-            this.panel2.Controls.Add(this.textBox37);
-            this.panel2.Controls.Add(this.textBox38);
-            this.panel2.Controls.Add(this.textBox39);
-            this.panel2.Controls.Add(this.textBox40);
-            this.panel2.Controls.Add(this.textBox43);
-            this.panel2.Controls.Add(this.textBox44);
-            this.panel2.Controls.Add(this.label112);
-            this.panel2.Controls.Add(this.label113);
-            this.panel2.Controls.Add(this.label114);
-            this.panel2.Controls.Add(this.label115);
-            this.panel2.Controls.Add(this.label116);
-            this.panel2.Controls.Add(this.label117);
-            this.panel2.Controls.Add(this.label118);
-            this.panel2.Controls.Add(this.label119);
-            this.panel2.Controls.Add(this.label120);
-            this.panel2.Controls.Add(this.label121);
-            this.panel2.Location = new System.Drawing.Point(6, 37);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1063, 249);
-            this.panel2.TabIndex = 62;
-            // 
-            // textBox42
-            // 
-            this.textBox42.Location = new System.Drawing.Point(341, 218);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(161, 27);
-            this.textBox42.TabIndex = 68;
-            // 
-            // label106
-            // 
-            this.label106.AutoSize = true;
-            this.label106.Location = new System.Drawing.Point(530, 218);
-            this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(86, 19);
-            this.label106.TabIndex = 67;
-            this.label106.Text = "فترة الزواج\r\n";
-            // 
-            // dateTimePicker9
-            // 
-            this.dateTimePicker9.CustomFormat = "dd-MM-yyyy";
-            this.dateTimePicker9.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker9.Location = new System.Drawing.Point(654, 211);
-            this.dateTimePicker9.Name = "dateTimePicker9";
-            this.dateTimePicker9.Size = new System.Drawing.Size(159, 27);
-            this.dateTimePicker9.TabIndex = 66;
-            // 
-            // label107
-            // 
-            this.label107.AutoSize = true;
-            this.label107.Location = new System.Drawing.Point(874, 208);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(89, 19);
-            this.label107.TabIndex = 65;
-            this.label107.Text = "تاريخ الزواج\r\n";
-            // 
-            // comboBox33
-            // 
-            this.comboBox33.FormattingEnabled = true;
-            this.comboBox33.Items.AddRange(new object[] {
-            "مصرى",
-            "امريكى",
-            "كندى",
-            "يابانى",
-            "كورى",
-            "صيننى"});
-            this.comboBox33.Location = new System.Drawing.Point(341, 121);
-            this.comboBox33.Name = "comboBox33";
-            this.comboBox33.Size = new System.Drawing.Size(163, 27);
-            this.comboBox33.TabIndex = 22;
-            // 
-            // textBox41
-            // 
-            this.textBox41.Location = new System.Drawing.Point(16, 211);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(160, 27);
-            this.textBox41.TabIndex = 39;
-            // 
-            // label108
-            // 
-            this.label108.AutoSize = true;
-            this.label108.Location = new System.Drawing.Point(189, 211);
-            this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(113, 19);
-            this.label108.TabIndex = 38;
-            this.label108.Text = "عنوان المريض";
-            // 
-            // label109
-            // 
-            this.label109.AutoSize = true;
-            this.label109.Location = new System.Drawing.Point(866, 48);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(100, 19);
-            this.label109.TabIndex = 60;
-            this.label109.Text = "تاريخ الدخول";
-            // 
-            // textBox34
-            // 
-            this.textBox34.Location = new System.Drawing.Point(16, 175);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(160, 27);
-            this.textBox34.TabIndex = 27;
-            // 
-            // dateTimePicker10
-            // 
-            this.dateTimePicker10.CustomFormat = "dd-MM-yyyy";
-            this.dateTimePicker10.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker10.Location = new System.Drawing.Point(662, 48);
-            this.dateTimePicker10.Name = "dateTimePicker10";
-            this.dateTimePicker10.Size = new System.Drawing.Size(162, 27);
-            this.dateTimePicker10.TabIndex = 63;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(34, 54);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 33);
-            this.button12.TabIndex = 62;
-            this.button12.Text = "حفظ";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // label110
-            // 
-            this.label110.AutoSize = true;
-            this.label110.Location = new System.Drawing.Point(196, 182);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(98, 19);
-            this.label110.TabIndex = 26;
-            this.label110.Text = "عنوان العمل";
-            // 
-            // textBox35
-            // 
-            this.textBox35.Location = new System.Drawing.Point(16, 153);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(160, 27);
-            this.textBox35.TabIndex = 25;
-            // 
-            // label111
-            // 
-            this.label111.AutoSize = true;
-            this.label111.Location = new System.Drawing.Point(196, 157);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(99, 19);
-            this.label111.TabIndex = 24;
-            this.label111.Text = "رقم التليفون";
-            // 
-            // comboBox34
-            // 
-            this.comboBox34.FormattingEnabled = true;
-            this.comboBox34.Items.AddRange(new object[] {
-            "مهندسة",
-            "دكتورة",
-            "صيدلىة",
-            "ممرضة",
-            "مدرسة",
-            "ربة منزل"});
-            this.comboBox34.Location = new System.Drawing.Point(16, 101);
-            this.comboBox34.Name = "comboBox34";
-            this.comboBox34.Size = new System.Drawing.Size(148, 27);
-            this.comboBox34.TabIndex = 23;
-            // 
-            // comboBox35
-            // 
-            this.comboBox35.FormattingEnabled = true;
-            this.comboBox35.Items.AddRange(new object[] {
-            "اعزب",
-            "متزوجة",
-            "ارملة",
-            "مطلقة"});
-            this.comboBox35.Location = new System.Drawing.Point(16, 128);
-            this.comboBox35.Name = "comboBox35";
-            this.comboBox35.Size = new System.Drawing.Size(160, 27);
-            this.comboBox35.TabIndex = 21;
-            // 
-            // textBox36
-            // 
-            this.textBox36.Location = new System.Drawing.Point(341, 192);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(163, 27);
-            this.textBox36.TabIndex = 20;
-            // 
-            // textBox37
-            // 
-            this.textBox37.Location = new System.Drawing.Point(341, 54);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(166, 27);
-            this.textBox37.TabIndex = 19;
-            // 
-            // textBox38
-            // 
-            this.textBox38.Location = new System.Drawing.Point(632, 159);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(192, 27);
-            this.textBox38.TabIndex = 18;
-            // 
-            // textBox39
-            // 
-            this.textBox39.Location = new System.Drawing.Point(657, 122);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(167, 27);
-            this.textBox39.TabIndex = 17;
-            // 
-            // textBox40
-            // 
-            this.textBox40.Location = new System.Drawing.Point(665, 185);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(148, 27);
-            this.textBox40.TabIndex = 16;
-            // 
-            // textBox43
-            // 
-            this.textBox43.Location = new System.Drawing.Point(341, 157);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(150, 27);
-            this.textBox43.TabIndex = 15;
-            // 
-            // textBox44
-            // 
-            this.textBox44.Location = new System.Drawing.Point(341, 87);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(483, 27);
-            this.textBox44.TabIndex = 14;
-            // 
-            // label112
-            // 
-            this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(530, 192);
-            this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(112, 19);
-            this.label112.TabIndex = 13;
-            this.label112.Text = "الرقم  القومي";
-            // 
-            // label113
-            // 
-            this.label113.AutoSize = true;
-            this.label113.Location = new System.Drawing.Point(524, 160);
-            this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(102, 19);
-            this.label113.TabIndex = 12;
-            this.label113.Text = "جهة صدورها";
-            // 
-            // label114
-            // 
-            this.label114.AutoSize = true;
-            this.label114.Location = new System.Drawing.Point(868, 151);
-            this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(99, 19);
-            this.label114.TabIndex = 11;
-            this.label114.Text = "محل الاقامة";
-            // 
-            // label115
-            // 
-            this.label115.AutoSize = true;
-            this.label115.Location = new System.Drawing.Point(874, 183);
-            this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(84, 19);
-            this.label115.TabIndex = 10;
-            this.label115.Text = "اسم الزوج";
-            // 
-            // label116
-            // 
-            this.label116.AutoSize = true;
-            this.label116.Location = new System.Drawing.Point(844, 129);
-            this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(112, 19);
-            this.label116.TabIndex = 9;
-            this.label116.Text = "الرقم  القومي";
-            // 
-            // label117
-            // 
-            this.label117.AutoSize = true;
-            this.label117.Location = new System.Drawing.Point(189, 127);
-            this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(133, 19);
-            this.label117.TabIndex = 8;
-            this.label117.Text = "الحالة الاجتماعية";
-            // 
-            // label118
-            // 
-            this.label118.AutoSize = true;
-            this.label118.Location = new System.Drawing.Point(542, 130);
-            this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(71, 19);
-            this.label118.TabIndex = 7;
-            this.label118.Text = "الجنسية";
-            // 
-            // label119
-            // 
-            this.label119.AutoSize = true;
-            this.label119.Location = new System.Drawing.Point(555, 55);
-            this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(50, 19);
-            this.label119.TabIndex = 6;
-            this.label119.Text = "السن";
-            // 
-            // label120
-            // 
-            this.label120.AutoSize = true;
-            this.label120.Location = new System.Drawing.Point(879, 96);
-            this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(54, 19);
-            this.label120.TabIndex = 4;
-            this.label120.Text = "الاسم";
-            // 
-            // label121
-            // 
-            this.label121.AutoSize = true;
-            this.label121.Location = new System.Drawing.Point(216, 101);
-            this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(55, 19);
-            this.label121.TabIndex = 5;
-            this.label121.Text = "المهنة";
-            // 
-            // label105
-            // 
-            this.label105.BackColor = System.Drawing.Color.SteelBlue;
-            this.label105.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label105.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label105.Location = new System.Drawing.Point(6, 3);
-            this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(1063, 31);
-            this.label105.TabIndex = 70;
-            this.label105.Text = "بيانات خاصة بالمريضة\r\n";
-            this.label105.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // panel3
-            // 
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.comboBox36);
-            this.panel3.Controls.Add(this.comboBox37);
-            this.panel3.Controls.Add(this.label122);
-            this.panel3.Controls.Add(this.label123);
-            this.panel3.Controls.Add(this.textBox45);
-            this.panel3.Controls.Add(this.label124);
-            this.panel3.Controls.Add(this.textBox46);
-            this.panel3.Controls.Add(this.label125);
-            this.panel3.Controls.Add(this.comboBox38);
-            this.panel3.Controls.Add(this.label126);
-            this.panel3.Controls.Add(this.textBox47);
-            this.panel3.Controls.Add(this.label127);
-            this.panel3.Controls.Add(this.comboBox39);
-            this.panel3.Controls.Add(this.label128);
-            this.panel3.Controls.Add(this.textBox48);
-            this.panel3.Controls.Add(this.label129);
-            this.panel3.Location = new System.Drawing.Point(6, 321);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1063, 225);
-            this.panel3.TabIndex = 71;
-            // 
-            // comboBox36
-            // 
-            this.comboBox36.FormattingEnabled = true;
-            this.comboBox36.Items.AddRange(new object[] {
-            "اسيوط",
-            "سوهاج",
-            "قنا",
-            "المنيا",
-            "الاقصر ",
-            "العريش",
-            "الاسكندرية"});
-            this.comboBox36.Location = new System.Drawing.Point(13, 120);
-            this.comboBox36.Name = "comboBox36";
-            this.comboBox36.Size = new System.Drawing.Size(183, 27);
-            this.comboBox36.TabIndex = 37;
-            // 
-            // comboBox37
-            // 
-            this.comboBox37.FormattingEnabled = true;
-            this.comboBox37.Items.AddRange(new object[] {
-            "نصر",
-            " اكتوبر"});
-            this.comboBox37.Location = new System.Drawing.Point(13, 88);
-            this.comboBox37.Name = "comboBox37";
-            this.comboBox37.Size = new System.Drawing.Size(183, 27);
-            this.comboBox37.TabIndex = 36;
-            // 
-            // label122
-            // 
-            this.label122.AutoSize = true;
-            this.label122.Location = new System.Drawing.Point(207, 123);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(80, 19);
-            this.label122.TabIndex = 35;
-            this.label122.Text = "المحافظة";
-            // 
-            // label123
-            // 
-            this.label123.AutoSize = true;
-            this.label123.Location = new System.Drawing.Point(208, 96);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(60, 19);
-            this.label123.TabIndex = 33;
-            this.label123.Text = "المدينة";
-            // 
-            // textBox45
-            // 
-            this.textBox45.Location = new System.Drawing.Point(615, 115);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(201, 27);
-            this.textBox45.TabIndex = 32;
-            // 
-            // label124
-            // 
-            this.label124.AutoSize = true;
-            this.label124.Location = new System.Drawing.Point(856, 117);
-            this.label124.Name = "label124";
-            this.label124.Size = new System.Drawing.Size(112, 19);
-            this.label124.TabIndex = 31;
-            this.label124.Text = "الرقم  القومي";
-            // 
-            // textBox46
-            // 
-            this.textBox46.Location = new System.Drawing.Point(627, 148);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(186, 27);
-            this.textBox46.TabIndex = 30;
-            // 
-            // label125
-            // 
-            this.label125.AutoSize = true;
-            this.label125.Location = new System.Drawing.Point(819, 155);
-            this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(165, 19);
-            this.label125.TabIndex = 29;
-            this.label125.Text = "رقم التليفون-محمول ";
-            // 
-            // comboBox38
-            // 
-            this.comboBox38.FormattingEnabled = true;
-            this.comboBox38.Location = new System.Drawing.Point(16, 54);
-            this.comboBox38.Name = "comboBox38";
-            this.comboBox38.Size = new System.Drawing.Size(180, 27);
-            this.comboBox38.TabIndex = 28;
-            // 
-            // label126
-            // 
-            this.label126.AutoSize = true;
-            this.label126.Location = new System.Drawing.Point(220, 61);
-            this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(55, 19);
-            this.label126.TabIndex = 27;
-            this.label126.Text = "المهنة";
-            // 
-            // textBox47
-            // 
-            this.textBox47.Location = new System.Drawing.Point(353, 84);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(460, 27);
-            this.textBox47.TabIndex = 26;
-            // 
-            // label127
-            // 
-            this.label127.AutoSize = true;
-            this.label127.Location = new System.Drawing.Point(866, 97);
-            this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(99, 19);
-            this.label127.TabIndex = 25;
-            this.label127.Text = "محل الاقامة";
-            // 
-            // comboBox39
-            // 
-            this.comboBox39.FormattingEnabled = true;
-            this.comboBox39.Items.AddRange(new object[] {
-            "اب",
-            "ام",
-            "اخ",
-            "اخت",
-            "عم ",
-            "خال",
-            "خاله",
-            "بنت اخ",
-            "بنت اخت"});
-            this.comboBox39.Location = new System.Drawing.Point(318, 46);
-            this.comboBox39.Name = "comboBox39";
-            this.comboBox39.Size = new System.Drawing.Size(186, 27);
-            this.comboBox39.TabIndex = 24;
-            // 
-            // label128
-            // 
-            this.label128.AutoSize = true;
-            this.label128.Location = new System.Drawing.Point(527, 49);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(99, 19);
-            this.label128.TabIndex = 17;
-            this.label128.Text = "درجة القرابة";
-            // 
-            // textBox48
-            // 
-            this.textBox48.Location = new System.Drawing.Point(632, 41);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(181, 27);
-            this.textBox48.TabIndex = 16;
-            // 
-            // label129
-            // 
-            this.label129.AutoSize = true;
-            this.label129.Location = new System.Drawing.Point(888, 54);
-            this.label129.Name = "label129";
-            this.label129.Size = new System.Drawing.Size(54, 19);
-            this.label129.TabIndex = 15;
-            this.label129.Text = "الاسم";
-            // 
-            // label130
-            // 
-            this.label130.BackColor = System.Drawing.Color.SteelBlue;
-            this.label130.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label130.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label130.Location = new System.Drawing.Point(6, 287);
-            this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(1063, 31);
-            this.label130.TabIndex = 11;
-            this.label130.Text = "بيانات خاصة بأقارب المريضة";
-            this.label130.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -3820,6 +3820,11 @@
             this.tabPage8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabControl1.ResumeLayout(false);
+            this.tabPage15.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabControl3.ResumeLayout(false);
@@ -3858,11 +3863,6 @@
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-            this.tabPage15.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -33,13 +33,11 @@ E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.e
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.emp.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.Examination_ultrasound_group_L.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.fol_serv.resources
-E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\pro2.Form1.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.Form1.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.Form2.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.Form3.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.Form4.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.groupH.resources
-E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.groupc.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.Home.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.hysteroscopy.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.أذن_دخول_مريضة.resources
@@ -108,3 +106,6 @@ D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\RdlCompile.cache
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\RdlCompile.compiled
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.csprojResolveAssemblyReference.cache
+E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.afterOPerations.resources
+E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.HHome.resources
+E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.Properties.Resources.resources
