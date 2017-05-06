@@ -108,12 +108,6 @@
     <Compile Include="group H\groupH.designer.cs">
       <DependentUpon>groupH.cs</DependentUpon>
     </Compile>
-    <Compile Include="group L\Examination.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="group L\Examination.designer.cs">
-      <DependentUpon>Examination.cs</DependentUpon>
-    </Compile>
     <Compile Include="Group J\afterOPeration.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +145,12 @@
       <DependentUpon>frm_past_history.cs</DependentUpon>
     </Compile>
     <Compile Include="group I\validationcs.cs" />
+    <Compile Include="group L\Examination.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="group L\Examination.designer.cs">
+      <DependentUpon>Examination.cs</DependentUpon>
+    </Compile>
     <Compile Include="Group_E\e.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,9 +206,6 @@
     <EmbeddedResource Include="group H\groupH.resx">
       <DependentUpon>groupH.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="group L\Examination.resx">
-      <DependentUpon>Examination.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Group J\afterOPeration.resx">
       <DependentUpon>afterOPeration.cs</DependentUpon>
     </EmbeddedResource>
@@ -226,6 +223,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="group I\frm_past_history.resx">
       <DependentUpon>frm_past_history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="group L\Examination.resx">
+      <DependentUpon>Examination.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Group_E\e.resx">
       <DependentUpon>e.cs</DependentUpon>

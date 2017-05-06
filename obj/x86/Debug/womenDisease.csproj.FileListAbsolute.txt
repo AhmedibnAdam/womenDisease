@@ -89,7 +89,6 @@ D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.Examination_ultrasound_group_L.resources
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.afterOPerations.resources
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.Form1.resources
-D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.Form2.resources
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.Form3.resources
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.Form4.resources
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.frm_past_history.resources
@@ -109,3 +108,4 @@ E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.a
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.HHome.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.Properties.Resources.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.frm_Treatment_paper.resources
+D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.frm_Treatment_paper.resources
