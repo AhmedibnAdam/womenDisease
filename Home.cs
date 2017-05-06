@@ -929,6 +929,71 @@ namespace womenDisease
             }
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void comboBox12_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void textBox31_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void textBox5_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void textBox9_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void textBox10_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox10_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void textBox20_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void textBox21_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
     }
 }
 

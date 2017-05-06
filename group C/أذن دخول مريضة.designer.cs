@@ -170,9 +170,9 @@
             this.panel2.Controls.Add(this.textBox4);
             this.panel2.Controls.Add(this.label9);
             this.panel2.Controls.Add(this.label15);
-            this.panel2.Location = new System.Drawing.Point(8, 252);
+            this.panel2.Location = new System.Drawing.Point(3, 251);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(972, 238);
+            this.panel2.Size = new System.Drawing.Size(966, 162);
             this.panel2.TabIndex = 62;
             // 
             // comboBox1
@@ -337,12 +337,13 @@
             // label15
             // 
             this.label15.BackColor = System.Drawing.Color.SteelBlue;
-            this.label15.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(0, 5);
+            this.label15.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label15.Location = new System.Drawing.Point(-2, 0);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(968, 31);
             this.label15.TabIndex = 11;
-            this.label15.Text = "بيانات خاصة باقارب المريضة";
+            this.label15.Text = "بيانات خاصة بأقارب المريضة";
             this.label15.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panel1
@@ -384,14 +385,15 @@
             this.panel1.Controls.Add(this.label43);
             this.panel1.Location = new System.Drawing.Point(4, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(970, 249);
+            this.panel1.Size = new System.Drawing.Size(965, 249);
             this.panel1.TabIndex = 61;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // label10
             // 
             this.label10.BackColor = System.Drawing.Color.SteelBlue;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Location = new System.Drawing.Point(-1, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(968, 31);
@@ -781,10 +783,11 @@
             // label16
             // 
             this.label16.BackColor = System.Drawing.Color.SteelBlue;
-            this.label16.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(6, 3);
+            this.label16.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label16.Location = new System.Drawing.Point(10, 16);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(968, 62);
+            this.label16.Size = new System.Drawing.Size(968, 46);
             this.label16.TabIndex = 120;
             this.label16.Text = "بيانات خاصة بفتح زيارة مريضة\r\n";
             this.label16.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -1044,7 +1047,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(991, 525);
+            this.ClientSize = new System.Drawing.Size(991, 445);
             this.Controls.Add(this.ىةو);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;

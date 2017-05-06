@@ -138,7 +138,8 @@
             // label47
             // 
             this.label47.BackColor = System.Drawing.Color.SteelBlue;
-            this.label47.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label47.Location = new System.Drawing.Point(3, 0);
             this.label47.Name = "label47";
             this.label47.Size = new System.Drawing.Size(895, 36);
