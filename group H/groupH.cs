@@ -356,6 +356,72 @@ namespace womenDisease
 
         private void button6_Click(object sender, EventArgs e)
         {
+            //Update present Hisory
+            try
+            {
+                string s = "";
+                string s1 = "";
+                string s2 = "";
+                string s3 = "";
+                if (checkBox1.Checked == true)
+                    s += "no diseases";
+                if (checkBox2.Checked == true)
+                    s += "Diabetes Mellitus";
+                if (checkBox3.Checked == true)
+                    s += "Hypertension";
+                if (checkBox4.Checked == true)
+                    s += "Rheumatic heart disease";
+                if (checkBox5.Checked == true)
+                    s += "congenital heart disease";
+                if (checkBox6.Checked == true)
+                    s += "ischemic heart disease";
+                if (checkBox7.Checked == true)
+                    s += "hyperthyroidism";
+
+                if (checkBox8.Checked == true)
+                    s += "bronchial asthma";
+
+                if (checkBox9.Checked == true)
+                    s += "SLE";
+                if (checkBox10.Checked == true)
+                    s += "rheumatoid arthritis";
+                if (checkBox11.Checked == true)
+                    s += "chronic renal failure";
+                if (checkBox12.Checked == true)
+                    s += "acute renal failure";
+                if (checkBox13.Checked == true)
+                    s1 = "Blood transfusion";
+                if (checkBox14.Checked == true)
+                    s2 = "Allergies";
+                if (textBox3.Text != "")
+                    s3 = textBox3.Text;
+                con.OpenConection();
+                string[] pramname = new string[5];
+                string[] pramvalue = new string[5];
+                SqlDbType[] pramtype = new SqlDbType[5];
+                pramname[0] = "@x1";
+                pramname[1] = "@x2";
+                pramname[2] = "@x3";
+                pramname[3] = "@x4";
+                pramname[4] = "@x5";
+                pramvalue[0] = visit_id.Text;
+                pramvalue[1] = s;
+                pramvalue[2] = s3;
+                pramvalue[3] = s1;
+                pramvalue[4] = s2;
+                pramtype[0] = SqlDbType.Int;
+                pramtype[1] = SqlDbType.VarChar;
+                pramtype[2] = SqlDbType.VarChar;
+                pramtype[3] = SqlDbType.VarChar;
+                pramtype[4] = SqlDbType.VarChar;
+
+                con.ExecuteInsertOrUpdateOrDeleteUsingStoredProc("PHIS_present_History_update", pramname, pramvalue, pramtype);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
             //Update Menstural History
             try
             {
