@@ -39,7 +39,7 @@ namespace womenDisease
 
         private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Form2 f2 =new Form2();
+            frm_Treatment_paper f2 =new frm_Treatment_paper();
             f2.Show();
 
         }

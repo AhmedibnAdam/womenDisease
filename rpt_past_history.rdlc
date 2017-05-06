@@ -106,7 +106,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>تقرير السجل المرضي لمريض</Value>
+                <Value>تقرير النهائي لمريض</Value>
                 <Style>
                   <FontFamily>Times New Roman</FontFamily>
                   <FontSize>20pt</FontSize>

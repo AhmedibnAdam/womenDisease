@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace womenDisease
 {
-    public partial class Form2 : Form
+    public partial class frm_Treatment_paper : Form
     {
-        public Form2()
+        public frm_Treatment_paper()
         {
             InitializeComponent();
         }
