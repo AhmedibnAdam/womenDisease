@@ -82,6 +82,7 @@ namespace womenDisease
                 string s = "insert into request_spcialist (photo_pass) values ('"+path+"');";
                 con.ExecuteQueries(s);
                 con.CloseConnection();
+                this.Hide();
                 
 
             }
