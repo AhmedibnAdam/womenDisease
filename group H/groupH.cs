@@ -11,9 +11,13 @@ namespace womenDisease
 {
     public partial class groupH : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=172.31.44.128;Initial Catalog=NEW_PHIS;User id=sa;Password=sql@2013");
+       // SqlConnection conn = new SqlConnection(@"server=(localdb)\projects;database=NEW_PHIS;Integrated Security=true");
         Connection con = new Connection();
         SqlCommand cmd = new SqlCommand();
+        string s = "";
+        string s1 = "";
+        string s2 = "";
+        string s3 = "";
 
         public groupH()
         {
@@ -35,37 +39,38 @@ namespace womenDisease
                 con.CloseConnection();
             }
 
-            dataGridView2.DefaultCellStyle.Font = new Font("Calibri", 10.25f, FontStyle.Regular);
+            dgv.DefaultCellStyle.Font = new Font("Calibri", 10.25f, FontStyle.Regular);
 
-            dataGridView2.ColumnHeadersDefaultCellStyle.Font = new Font("Calibri", 11, FontStyle.Regular);
+            dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Calibri", 11, FontStyle.Regular);
 
-            dataGridView2.ColumnHeadersDefaultCellStyle.BackColor = Color.RoyalBlue;
+            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.RoyalBlue;
 
-            dataGridView2.EnableHeadersVisualStyles = false;
+            dgv.EnableHeadersVisualStyles = false;
 
-            dataGridView2.BorderStyle = 0;
-            dataGridView2.RowHeadersVisible = false;
+            dgv.BorderStyle = 0;
+            dgv.RowHeadersVisible = false;
 
-            dataGridView2.BackgroundColor = Color.White;
+            dgv.BackgroundColor = Color.White;
             con.OpenConection();
 
             con.DataReader("Patientnames");
-            dataGridView2.DataSource = con.ShowDataInGridView("Patientnames");
+            dgv.DataSource = con.ShowDataInGridView("Patientnames");
             con.CloseConnection();    
         }
 
         private void button5_Click_1(object sender, EventArgs e)
         {
-            conn.Open();
+            con.OpenConection();
+             
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Connection = conn;
+            cmd.Connection = con.returnObject(); ;
             cmd.CommandText = "PHIS_Max_visitid";
             cmd.Parameters.AddWithValue("x", patient_id.Text);
             cmd.Parameters.Add("y", SqlDbType.VarChar, 250);
             cmd.Parameters["y"].Direction = ParameterDirection.Output;
             cmd.ExecuteNonQuery();
             visit_id.Text = cmd.Parameters["y"].Value.ToString();
-            conn.Close();
+            con.CloseConnection();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -77,38 +82,38 @@ namespace womenDisease
                 string s1 = "";
                 string s2 = "";
                 string s3 = "";
-                if (checkBox1.Checked == true)
+                if (no.Checked == true)
                     s += "no diseases";
-                if (checkBox2.Checked == true)
+                if (Dia_mell.Checked == true)
                     s += "Diabetes Mellitus";
-                if (checkBox3.Checked == true)
+                if (Hyper.Checked == true)
                     s += "Hypertension";
-                if (checkBox4.Checked == true)
+                if (Rheu.Checked == true)
                     s += "Rheumatic heart disease";
-                if (checkBox5.Checked == true)
+                if (cong.Checked == true)
                     s += "congenital heart disease";
-                if (checkBox6.Checked == true)
+                if (isch.Checked == true)
                     s += "ischemic heart disease";
-                if (checkBox7.Checked == true)
+                if (hyperthy.Checked == true)
                     s += "hyperthyroidism";
 
-                if (checkBox8.Checked == true)
+                if (bronch.Checked == true)
                     s += "bronchial asthma";
 
-                if (checkBox9.Checked == true)
+                if (sle.Checked == true)
                     s += "SLE";
-                if (checkBox10.Checked == true)
+                if (rheum.Checked == true)
                     s += "rheumatoid arthritis";
-                if (checkBox11.Checked == true)
+                if (chronic.Checked == true)
                     s += "chronic renal failure";
-                if (checkBox12.Checked == true)
+                if (acute.Checked == true)
                     s += "acute renal failure";
-                if (checkBox13.Checked == true)
+                if (bloodtrans.Checked == true)
                     s1 = "Blood transfusion";
-                if (checkBox14.Checked == true)
+                if (allerg.Checked == true)
                     s2 = "Allergies";
-                if (textBox3.Text != "")
-                    s3 = textBox3.Text;
+                if (Drug_intak.Text != "")
+                    s3 = Drug_intak.Text;
                 con.OpenConection();
                 string[] pramname = new string[5];
                 string[] pramvalue = new string[5];
@@ -142,8 +147,8 @@ namespace womenDisease
                 pramname1[2] = "@a3";
 
                 pramvalue1[0] = visit_id.Text;
-                pramvalue1[1] = comboBox8.SelectedItem.ToString();
-                pramvalue1[2] = numericUpDown9.Value + "" + comboBox7.SelectedItem.ToString();
+                pramvalue1[1] = Complaint.SelectedItem.ToString();
+                pramvalue1[2] = Duration.Value + "" + type.SelectedItem.ToString();
                 pramtype1[0] = SqlDbType.Int;
                 pramtype1[1] = SqlDbType.VarChar;
                 pramtype1[2] = SqlDbType.VarChar;
@@ -175,37 +180,37 @@ namespace womenDisease
                     pramname[7] = "@pom_years";
                     pramname[8] = "@am_years";
                     pramname[9] = "@visit_id";
-                    pramvalue[0] = numericUpDown2.Value.ToString();
-                    if (comboBox4.SelectedIndex<0)
+                    pramvalue[0] = Age_of_Merchance.Value.ToString();
+                    if (Rhythm.SelectedIndex<0)
                     {
                         pramvalue[1] = "Unknown";
                     }
                     else
                     {
-                        pramvalue[1] = comboBox4.SelectedItem.ToString();
+                        pramvalue[1] = Rhythm.SelectedItem.ToString();
                     }
 
 
-                    pramvalue[2] = dateTimePicker1.Value.ToString() ;
-                    if (comboBox5.SelectedIndex < 0)
+                    pramvalue[2] = LMP.Value.ToString() ;
+                    if (Amount.SelectedIndex < 0)
                     {
                         pramvalue[3] = "Unknown";
                     }
                     else
-                    { pramvalue[3] = comboBox5.SelectedItem.ToString(); }
+                    { pramvalue[3] = Amount.SelectedItem.ToString(); }
 
-                    double result=(double.Parse(numericUpDown5.Value.ToString())/int.Parse(numericUpDown3.Value.ToString()));
+                    double result=(double.Parse(firstval.Value.ToString())/int.Parse(secondval.Value.ToString()));
                     pramvalue[4] = result.ToString() ;
-                    if (comboBox3.SelectedIndex < 0)
+                    if (Dysmeno.SelectedIndex < 0)
                    {
                        pramvalue[5] = "Unknown";
                    }
                    else
-                   {pramvalue[5] = comboBox3.SelectedItem.ToString();}
+                   {pramvalue[5] = Dysmeno.SelectedItem.ToString();}
                     
-                    pramvalue[6] = numericUpDown4.Value.ToString();
-                    pramvalue[7] = numericUpDown7.Value.ToString();
-                    pramvalue[8] = numericUpDown6.Value.ToString();
+                    pramvalue[6] = Month.Value.ToString();
+                    pramvalue[7] = year.Value.ToString();
+                    pramvalue[8] = day.Value.ToString();
                     pramvalue[9] = visit_id.Text;
                     pramtype[0] = SqlDbType.Int;
                     pramtype[1] = SqlDbType.VarChar;
@@ -240,11 +245,11 @@ namespace womenDisease
                     pramname1[3] = "@comment";
                     pramname1[4] = "@other_data";
                     pramname1[5] = "@visit_id";
-                    pramvalue1[0] = comboBox1.SelectedItem.ToString();
-                    pramvalue1[1] = numericUpDown1.Text;
-                    pramvalue1[2] = comboBox2.SelectedItem.ToString();
-                    pramvalue1[3] = textBox2.Text;
-                    pramvalue1[4] = textBox1.Text;
+                    pramvalue1[0] = op_name.SelectedItem.ToString();
+                    pramvalue1[1] = op_duration.Text;
+                    pramvalue1[2] = Dur_type.SelectedItem.ToString();
+                    pramvalue1[3] = rep.Text;
+                    pramvalue1[4] = oth_dat.Text;
                     pramvalue1[5] = visit_id.Text;
                     pramtype1[0] = SqlDbType.VarChar;
                     pramtype1[1] = SqlDbType.Int;
@@ -263,7 +268,9 @@ namespace womenDisease
         }
         private void dataGridView2_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            DataGridViewRow row = dataGridView2.Rows[e.RowIndex];
+
+
+            DataGridViewRow row = dgv.Rows[e.RowIndex];
             patient_id.Text = row.Cells[0].Value.ToString();
             visit_id.Text = row.Cells[1].Value.ToString();
             string[] pramname = new string[1];
@@ -275,12 +282,12 @@ namespace womenDisease
             DataTable dt = new DataTable();
             object t = con.ShowDataInGridViewUsingStoredProc("Patient_identification3", pramname, pramvalue, pramtype);
             dt = (DataTable)t;
-            textBox9.Text = dt.Rows[0][0].ToString();
-            textBox8.Text = dt.Rows[0][1].ToString();
-            textBox6.Text = dt.Rows[0][2].ToString();
-            textBox5.Text = dt.Rows[0][3].ToString();
-            textBox10.Text = dt.Rows[0][4].ToString();
-            textBox11.Text = dt.Rows[0][5].ToString();
+            HosNum.Text = dt.Rows[0][0].ToString();
+            Admission.Text = dt.Rows[0][1].ToString();
+            Address_id.Text = dt.Rows[0][2].ToString();
+            Husband.Text = dt.Rows[0][3].ToString();
+            Mar_Status.Text = dt.Rows[0][4].ToString();
+            Dur.Text = dt.Rows[0][5].ToString();
 
             //Select Menustral History 
             int v_id = int.Parse(visit_id.Text);
@@ -296,24 +303,84 @@ namespace womenDisease
             object y = con.ShowDataInGridViewUsingStoredProc("PHIS_Operative_history_select", pram_name, pramval, pram_type);
             d = (DataTable)x;
             d1 = (DataTable)y;
+            //present history data
+            string[] pram_name1 = new string[1];
+            string[] pramval1 = new string[1];
+            SqlDbType[] pram_type1 = new SqlDbType[1];
+            pram_name1[0] = "@visit_id";
+            pramval1[0] = v_id.ToString();
+            pram_type1[0] = SqlDbType.Int;
+            object z = con.ShowDataInGridViewUsingStoredProc("PHIS_present_history_select", pram_name1, pramval1, pram_type1);
+            DataTable dtt = new DataTable();
+            dtt = (DataTable)z;
+
+            if (dtt.Rows[0][0].ToString() != " ")
+            {
+                MessageBox.Show(dtt.Rows[0][0].ToString());
+
+                string[] strr = dtt.Rows[0][0].ToString().Split(',');
+
+
+                for (int i = 0; i < strr.Length; i++)
+                {
+                    if (strr[i] == "no diseases")
+                        no.Checked = true;
+                    if (strr[i] == "Diabetes Mellitus")
+                        Dia_mell.Checked = true;
+                    if (strr[i] == "Hypertension")
+                        Hyper.Checked = true;
+                    if (strr[i] == "Rheumatic heart disease")
+                        Rheu.Checked = true;
+                    if (strr[i] == "congenital heart disease")
+                        cong.Checked = true;
+                    if (strr[i] == "ischemic heart disease")
+                        isch.Checked = true;
+                    if (strr[i] == "hyperthyroidism")
+                        hyperthy.Checked = true;
+                    if (strr[i] == "bronchial asthma")
+                        bronch.Checked = true;
+                    if (strr[i] == "SLE")
+                        sle.Checked = true;
+                    if (strr[i] == "rheumatoid arthritis")
+                        rheum.Checked = true;
+                    if (strr[i] == "chronic renal failure")
+                        chronic.Checked = true;
+                    if (strr[i] == "acute renal failure")
+                        acute.Checked = true;
+
+
+                }
+            }
+            if (dtt.Rows[0][2].ToString() != "")
+            {
+                bloodtrans.Checked = true;
+
+            }
+            if (dtt.Rows[0][3].ToString() != "")
+            {
+                allerg.Checked = true;
+
+            }
+            Drug_intak.Text = dtt.Rows[0][1].ToString();
             if (d.Rows.Count>=1)
             {
                 //menustral history
-                numericUpDown2.Value = int.Parse(d.Rows[0][0].ToString());
-                comboBox4.Text = d.Rows[0][1].ToString();
-                dateTimePicker1.Text = d.Rows[0][2].ToString();
-                comboBox5.Text = d.Rows[0][3].ToString();
-                comboBox3.Text = d.Rows[0][5].ToString();
-                numericUpDown4.Value = int.Parse(d.Rows[0][6].ToString());
-                numericUpDown7.Value = int.Parse(d.Rows[0][7].ToString());
-                numericUpDown6.Value = int.Parse(d.Rows[0][8].ToString());
+                Age_of_Merchance.Value = int.Parse(d.Rows[0][0].ToString());
+                Rhythm.Text = d.Rows[0][1].ToString();
+                LMP.Text = d.Rows[0][2].ToString();
+                Amount.Text = d.Rows[0][3].ToString();
+                Dysmeno.Text = d.Rows[0][5].ToString();
+                Month.Value = int.Parse(d.Rows[0][6].ToString());
+                year.Value = int.Parse(d.Rows[0][7].ToString());
+                day.Value = int.Parse(d.Rows[0][8].ToString());
                 //operative history
-                comboBox1.Text = d1.Rows[0][0].ToString();
-                numericUpDown1.Value = int.Parse(d1.Rows[0][1].ToString());
-                comboBox2.Text = d1.Rows[0][2].ToString();
-                textBox2.Text = d1.Rows[0][3].ToString();
-                textBox1.Text = d1.Rows[0][4].ToString();     
+                op_name.Text = d1.Rows[0][0].ToString();
+                op_duration.Value = int.Parse(d1.Rows[0][1].ToString());
+                Dur_type.Text = d1.Rows[0][2].ToString();
+                rep.Text = d1.Rows[0][3].ToString();
+                oth_dat.Text = d1.Rows[0][4].ToString();     
             }
+
             else
             {
                 MessageBox.Show("Welcome you Make Gynecologic history sheet For New Patient");
@@ -356,72 +423,6 @@ namespace womenDisease
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //Update present Hisory
-            try
-            {
-                string s = "";
-                string s1 = "";
-                string s2 = "";
-                string s3 = "";
-                if (checkBox1.Checked == true)
-                    s += "no diseases";
-                if (checkBox2.Checked == true)
-                    s += "Diabetes Mellitus";
-                if (checkBox3.Checked == true)
-                    s += "Hypertension";
-                if (checkBox4.Checked == true)
-                    s += "Rheumatic heart disease";
-                if (checkBox5.Checked == true)
-                    s += "congenital heart disease";
-                if (checkBox6.Checked == true)
-                    s += "ischemic heart disease";
-                if (checkBox7.Checked == true)
-                    s += "hyperthyroidism";
-
-                if (checkBox8.Checked == true)
-                    s += "bronchial asthma";
-
-                if (checkBox9.Checked == true)
-                    s += "SLE";
-                if (checkBox10.Checked == true)
-                    s += "rheumatoid arthritis";
-                if (checkBox11.Checked == true)
-                    s += "chronic renal failure";
-                if (checkBox12.Checked == true)
-                    s += "acute renal failure";
-                if (checkBox13.Checked == true)
-                    s1 = "Blood transfusion";
-                if (checkBox14.Checked == true)
-                    s2 = "Allergies";
-                if (textBox3.Text != "")
-                    s3 = textBox3.Text;
-                con.OpenConection();
-                string[] pramname = new string[5];
-                string[] pramvalue = new string[5];
-                SqlDbType[] pramtype = new SqlDbType[5];
-                pramname[0] = "@x1";
-                pramname[1] = "@x2";
-                pramname[2] = "@x3";
-                pramname[3] = "@x4";
-                pramname[4] = "@x5";
-                pramvalue[0] = visit_id.Text;
-                pramvalue[1] = s;
-                pramvalue[2] = s3;
-                pramvalue[3] = s1;
-                pramvalue[4] = s2;
-                pramtype[0] = SqlDbType.Int;
-                pramtype[1] = SqlDbType.VarChar;
-                pramtype[2] = SqlDbType.VarChar;
-                pramtype[3] = SqlDbType.VarChar;
-                pramtype[4] = SqlDbType.VarChar;
-
-                con.ExecuteInsertOrUpdateOrDeleteUsingStoredProc("PHIS_present_History_update", pramname, pramvalue, pramtype);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
             //Update Menstural History
             try
             {
@@ -439,37 +440,37 @@ namespace womenDisease
                 pramname[7] = "@pom_years";
                 pramname[8] = "@am_years";
                 pramname[9] = "@visit_id";
-                pramvalue[0] = numericUpDown2.Value.ToString();
-                if (comboBox4.SelectedIndex < 0)
+                pramvalue[0] = Age_of_Merchance.Value.ToString();
+                if (Rhythm.SelectedIndex < 0)
                 {
                     pramvalue[1] = "Unknown";
                 }
                 else
                 {
-                    pramvalue[1] = comboBox4.SelectedItem.ToString();
+                    pramvalue[1] = Rhythm.SelectedItem.ToString();
                 }
 
 
-                pramvalue[2] = dateTimePicker1.Value.ToString();
-                if (comboBox5.SelectedIndex < 0)
+                pramvalue[2] = LMP.Value.ToString();
+                if (Amount.SelectedIndex < 0)
                 {
                     pramvalue[3] = "Unknown";
                 }
                 else
-                { pramvalue[3] = comboBox5.SelectedItem.ToString(); }
+                { pramvalue[3] = Amount.SelectedItem.ToString(); }
 
-                double result = (double.Parse(numericUpDown5.Value.ToString()) / int.Parse(numericUpDown3.Value.ToString()));
+                double result = (double.Parse(firstval.Value.ToString()) / int.Parse(secondval.Value.ToString()));
                 pramvalue[4] = result.ToString();
-                if (comboBox3.SelectedIndex < 0)
+                if (Dysmeno.SelectedIndex < 0)
                 {
                     pramvalue[5] = "Unknown";
                 }
                 else
-                { pramvalue[5] = comboBox3.SelectedItem.ToString(); }
+                { pramvalue[5] = Dysmeno.SelectedItem.ToString(); }
 
-                pramvalue[6] = numericUpDown4.Value.ToString();
-                pramvalue[7] = numericUpDown7.Value.ToString();
-                pramvalue[8] = numericUpDown6.Value.ToString();
+                pramvalue[6] = Month.Value.ToString();
+                pramvalue[7] = year.Value.ToString();
+                pramvalue[8] = day.Value.ToString();
                 pramvalue[9] = visit_id.Text;
                 pramtype[0] = SqlDbType.Int;
                 pramtype[1] = SqlDbType.VarChar;
@@ -500,11 +501,11 @@ namespace womenDisease
             pramname1[3] = "@comment";
             pramname1[4] = "@other_data";
             pramname1[5] = "@visit_id";
-            pramvalue1[0] = comboBox1.SelectedItem.ToString();
-            pramvalue1[1] = numericUpDown1.Text;
-            pramvalue1[2] = comboBox2.SelectedItem.ToString();
-            pramvalue1[3] = textBox2.Text;
-            pramvalue1[4] = textBox1.Text;
+            pramvalue1[0] = op_name.SelectedItem.ToString();
+            pramvalue1[1] = op_duration.Text;
+            pramvalue1[2] = Dur_type.SelectedItem.ToString();
+            pramvalue1[3] = rep.Text;
+            pramvalue1[4] = oth_dat.Text;
             pramvalue1[5] = visit_id.Text;
             pramtype1[0] = SqlDbType.VarChar;
             pramtype1[1] = SqlDbType.Int;
@@ -513,6 +514,70 @@ namespace womenDisease
             pramtype1[4] = SqlDbType.Text;
             pramtype1[5] = SqlDbType.Int;
             con.ExecuteInsertOrUpdateOrDeleteUsingStoredProc("operative_history_update ", pramname1, pramvalue1, pramtype1);
+            try
+            {
+
+                if (no.Checked == true)
+                    s += "no diseases";
+                if (Dia_mell.Checked == true)
+                    s += "Diabetes Mellitus";
+                if (Hyper.Checked == true)
+                    s += "Hypertension";
+                if (Rheu.Checked == true)
+                    s += "Rheumatic heart disease";
+                if (cong.Checked == true)
+                    s += "congenital heart disease";
+                if (isch.Checked == true)
+                    s += "ischemic heart disease";
+                if (hyperthy.Checked == true)
+                    s += "hyperthyroidism";
+
+                if (bronch.Checked == true)
+                    s += "bronchial asthma";
+
+                if (sle.Checked == true)
+                    s += "SLE";
+                if (rheum.Checked == true)
+                    s += "rheumatoid arthritis";
+                if (chronic.Checked == true)
+                    s += "chronic renal failure";
+                if (acute.Checked == true)
+                    s += "acute renal failure";
+                if (bloodtrans.Checked == true)
+                    s1 = "Blood transfusion";
+                if (allerg.Checked == true)
+                    s2 = "Allergies";
+                if (Drug_intak.Text != "")
+                    s3 = Drug_intak.Text;
+                con.OpenConection();
+                string[] pramname = new string[5];
+                string[] pramvalue = new string[5];
+                SqlDbType[] pramtype = new SqlDbType[5];
+                pramname[0] = "@x1";
+                pramname[1] = "@x2";
+                pramname[2] = "@x3";
+                pramname[3] = "@x4";
+                pramname[4] = "@x5";
+
+                pramvalue[0] = visit_id.Text;
+                pramvalue[1] = s;
+                pramvalue[2] = s3;
+                pramvalue[3] = s1;
+                pramvalue[4] = s2;
+
+                pramtype[0] = SqlDbType.Int;
+                pramtype[1] = SqlDbType.VarChar;
+                pramtype[2] = SqlDbType.VarChar;
+                pramtype[3] = SqlDbType.VarChar;
+                pramtype[4] = SqlDbType.VarChar;
+
+                con.ExecuteInsertOrUpdateOrDeleteUsingStoredProc("PHIS_present_History_update", pramname, pramvalue, pramtype);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -526,20 +591,25 @@ namespace womenDisease
             {
                 con.OpenConection();
                 string pName2 = "phis_obst_history2";
-                string g = comboBox3.Items[comboBox3.SelectedIndex].ToString();
-                string p = comboBox4.Items[comboBox4.SelectedIndex].ToString();
-                string pl = comboBox19.Items[comboBox19.SelectedIndex].ToString();
-                string sp = comboBox1.Items[comboBox1.SelectedIndex].ToString();
-                string cs = comboBox2.Items[comboBox2.SelectedIndex].ToString();
-                string ab = comboBox16.Items[comboBox16.SelectedIndex].ToString();
+                string g = Dysmeno.Items[Dysmeno.SelectedIndex].ToString();
+                string p = Rhythm.Items[Rhythm.SelectedIndex].ToString();
+                string pl = v2.Items[v2.SelectedIndex].ToString();
+                string sp = op_name.Items[op_name.SelectedIndex].ToString();
+                string cs = Dur_type.Items[Dur_type.SelectedIndex].ToString();
+                string ab = abnormal.Items[abnormal.SelectedIndex].ToString();
                 string[] paramNames = { "@G", "@P", "@plus", "@abnormal_deliveries", "@specify_if_yes", "@number_of_cs", "@cs_indications", "@last_delivery", "@last_abortion", "@male", "@female" };
-                string[] paramValues = { g, p, pl, ab, sp, textBox6.Text, cs, dateTimePicker3.Value.ToShortDateString(), dateTimePicker4.Value.ToShortDateString(), numericUpDown1.Value.ToString(), numericUpDown2.Value.ToString() };
+                string[] paramValues = { g, p, pl, ab, sp, Address_id.Text, cs, last_delivery_since.Value.ToShortDateString(), last_abortion.Value.ToShortDateString(), op_duration.Value.ToString(), Age_of_Merchance.Value.ToString() };
                 SqlDbType[] paramType = { SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar };
                 con.ExecuteInsertOrUpdateOrDeleteUsingStoredProc(pName2, paramNames, paramValues, paramType);
                 MessageBox.Show("تم ادخال البيانات بنجاح");
             }
             catch (Exception ex)
             { MessageBox.Show(ex.Message); }
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
 
         }
 

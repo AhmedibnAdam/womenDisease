@@ -12,7 +12,8 @@ namespace womenDisease
     {
 
         //string ConnectionString = @"Data Source=KOKO\SQLEXPRESS;Initial Catalog=PHIS;Integrated Security=True";
-        string ConnectionString = @"Data Source=AHMEDHAMAM-PC;Initial Catalog=PHIS;Integrated Security=True";
+        string ConnectionString = @"server=(localdb)\projects;database=NEW_PHIS;uid=sa;pwd=root";
+     
         public SqlConnection con;
 
         public void OpenConection()

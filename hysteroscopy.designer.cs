@@ -57,7 +57,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(455, 19);
+            this.label1.Location = new System.Drawing.Point(455, 14);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(322, 45);
             this.label1.TabIndex = 0;
@@ -267,7 +267,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1278, 750);
+            this.ClientSize = new System.Drawing.Size(1278, 741);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtTubal);

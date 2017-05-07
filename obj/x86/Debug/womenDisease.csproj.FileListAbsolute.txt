@@ -109,3 +109,4 @@ E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.H
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.Properties.Resources.resources
 E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.frm_Treatment_paper.resources
 D:\FCI\Fourth Year\Graduation Project\github\Mahanny\womenDisease\obj\x86\Debug\womenDisease.frm_Treatment_paper.resources
+E:\Forth grade\مشروع التخرج\womenDisease\obj\x86\Debug\womenDisease.OBSTATRIC_HISTORY.resources
