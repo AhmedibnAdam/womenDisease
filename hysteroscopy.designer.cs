@@ -37,18 +37,19 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.chkCervical = new System.Windows.Forms.CheckBox();
+            this.chkEndocervical = new System.Windows.Forms.CheckBox();
+            this.chkEndometrial = new System.Windows.Forms.CheckBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtCervical = new System.Windows.Forms.TextBox();
+            this.txtIND = new System.Windows.Forms.TextBox();
+            this.txtCuvity = new System.Windows.Forms.TextBox();
+            this.txtLsthmus = new System.Windows.Forms.TextBox();
+            this.txtMucos = new System.Windows.Forms.TextBox();
+            this.txtTubal = new System.Windows.Forms.TextBox();
+            this.txtSuggested = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -142,38 +143,38 @@
             this.label9.TabIndex = 1;
             this.label9.Text = "Biopsy :";
             // 
-            // checkBox1
+            // chkCervical
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(179, 513);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(104, 29);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Cervical";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.chkCervical.AutoSize = true;
+            this.chkCervical.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkCervical.Location = new System.Drawing.Point(179, 513);
+            this.chkCervical.Name = "chkCervical";
+            this.chkCervical.Size = new System.Drawing.Size(104, 29);
+            this.chkCervical.TabIndex = 2;
+            this.chkCervical.Text = "Cervical";
+            this.chkCervical.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // chkEndocervical
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(179, 548);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(148, 29);
-            this.checkBox2.TabIndex = 2;
-            this.checkBox2.Text = "Endocervical";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.chkEndocervical.AutoSize = true;
+            this.chkEndocervical.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkEndocervical.Location = new System.Drawing.Point(179, 548);
+            this.chkEndocervical.Name = "chkEndocervical";
+            this.chkEndocervical.Size = new System.Drawing.Size(148, 29);
+            this.chkEndocervical.TabIndex = 2;
+            this.chkEndocervical.Text = "Endocervical";
+            this.chkEndocervical.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // chkEndometrial
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(179, 583);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(143, 29);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Endometrial";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chkEndometrial.AutoSize = true;
+            this.chkEndometrial.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chkEndometrial.Location = new System.Drawing.Point(179, 583);
+            this.chkEndometrial.Name = "chkEndometrial";
+            this.chkEndometrial.Size = new System.Drawing.Size(143, 29);
+            this.chkEndometrial.TabIndex = 2;
+            this.chkEndometrial.Text = "Endometrial";
+            this.chkEndometrial.UseVisualStyleBackColor = true;
             // 
             // label10
             // 
@@ -185,54 +186,60 @@
             this.label10.TabIndex = 1;
             this.label10.Text = "suggested management :";
             // 
-            // textBox2
+            // txtCervical
             // 
-            this.textBox2.Location = new System.Drawing.Point(336, 198);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(799, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtCervical.Location = new System.Drawing.Point(336, 198);
+            this.txtCervical.Name = "txtCervical";
+            this.txtCervical.Size = new System.Drawing.Size(799, 20);
+            this.txtCervical.TabIndex = 3;
+            this.txtCervical.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCervical_KeyPress);
             // 
-            // textBox1
+            // txtIND
             // 
-            this.textBox1.Location = new System.Drawing.Point(336, 92);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(799, 20);
-            this.textBox1.TabIndex = 3;
+            this.txtIND.Location = new System.Drawing.Point(336, 92);
+            this.txtIND.Name = "txtIND";
+            this.txtIND.Size = new System.Drawing.Size(799, 20);
+            this.txtIND.TabIndex = 3;
+            this.txtIND.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtIND_KeyPress);
             // 
-            // textBox4
+            // txtCuvity
             // 
-            this.textBox4.Location = new System.Drawing.Point(336, 298);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(799, 20);
-            this.textBox4.TabIndex = 3;
+            this.txtCuvity.Location = new System.Drawing.Point(336, 298);
+            this.txtCuvity.Name = "txtCuvity";
+            this.txtCuvity.Size = new System.Drawing.Size(799, 20);
+            this.txtCuvity.TabIndex = 3;
+            this.txtCuvity.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCuvity_KeyPress);
             // 
-            // textBox3
+            // txtLsthmus
             // 
-            this.textBox3.Location = new System.Drawing.Point(336, 243);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(799, 20);
-            this.textBox3.TabIndex = 3;
+            this.txtLsthmus.Location = new System.Drawing.Point(336, 243);
+            this.txtLsthmus.Name = "txtLsthmus";
+            this.txtLsthmus.Size = new System.Drawing.Size(799, 20);
+            this.txtLsthmus.TabIndex = 3;
+            this.txtLsthmus.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtLsthmus_KeyPress);
             // 
-            // textBox5
+            // txtMucos
             // 
-            this.textBox5.Location = new System.Drawing.Point(336, 353);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(799, 20);
-            this.textBox5.TabIndex = 3;
+            this.txtMucos.Location = new System.Drawing.Point(336, 353);
+            this.txtMucos.Name = "txtMucos";
+            this.txtMucos.Size = new System.Drawing.Size(799, 20);
+            this.txtMucos.TabIndex = 3;
+            this.txtMucos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtMucos_KeyPress);
             // 
-            // textBox6
+            // txtTubal
             // 
-            this.textBox6.Location = new System.Drawing.Point(336, 406);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(799, 20);
-            this.textBox6.TabIndex = 3;
+            this.txtTubal.Location = new System.Drawing.Point(336, 406);
+            this.txtTubal.Name = "txtTubal";
+            this.txtTubal.Size = new System.Drawing.Size(799, 20);
+            this.txtTubal.TabIndex = 3;
+            this.txtTubal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTubal_KeyPress);
             // 
-            // textBox7
+            // txtSuggested
             // 
-            this.textBox7.Location = new System.Drawing.Point(472, 642);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(663, 20);
-            this.textBox7.TabIndex = 3;
+            this.txtSuggested.Location = new System.Drawing.Point(472, 642);
+            this.txtSuggested.Name = "txtSuggested";
+            this.txtSuggested.Size = new System.Drawing.Size(663, 20);
+            this.txtSuggested.TabIndex = 3;
             // 
             // button1
             // 
@@ -240,9 +247,19 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
+            this.button1.Text = "add";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(596, 684);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "reset";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // hysteroscopy
             // 
@@ -251,17 +268,18 @@
             this.AutoScroll = true;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1278, 750);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.txtTubal);
+            this.Controls.Add(this.txtSuggested);
+            this.Controls.Add(this.txtMucos);
+            this.Controls.Add(this.txtLsthmus);
+            this.Controls.Add(this.txtCuvity);
+            this.Controls.Add(this.txtIND);
+            this.Controls.Add(this.txtCervical);
+            this.Controls.Add(this.chkEndometrial);
+            this.Controls.Add(this.chkEndocervical);
+            this.Controls.Add(this.chkCervical);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label4);
@@ -272,10 +290,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.MaximizeBox = false;
             this.Name = "hysteroscopy";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -293,18 +308,19 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox chkCervical;
+        private System.Windows.Forms.CheckBox chkEndocervical;
+        private System.Windows.Forms.CheckBox chkEndometrial;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtCervical;
+        private System.Windows.Forms.TextBox txtIND;
+        private System.Windows.Forms.TextBox txtCuvity;
+        private System.Windows.Forms.TextBox txtLsthmus;
+        private System.Windows.Forms.TextBox txtMucos;
+        private System.Windows.Forms.TextBox txtTubal;
+        private System.Windows.Forms.TextBox txtSuggested;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

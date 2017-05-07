@@ -35,5 +35,11 @@ namespace womenDisease
         {
 
         }
+
+        private void hysteroscopyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            hysteroscopy frm = new hysteroscopy();
+            frm.Show();
+        }
     }
 }

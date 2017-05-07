@@ -443,51 +443,51 @@
             this.fileMenu.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder;
             this.fileMenu.Name = "fileMenu";
             this.fileMenu.RightToLeftAutoMirrorImage = true;
-            this.fileMenu.Size = new System.Drawing.Size(52, 24);
+            this.fileMenu.Size = new System.Drawing.Size(55, 24);
             this.fileMenu.Text = "عرض";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(257, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(306, 6);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(257, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(306, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.exitToolStripMenuItem.Text = "Examination";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
             // 
             // تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem
             // 
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Name = "تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem";
-            this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Text = "تنظيم الاسره والصحه الانجابية";
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Click += new System.EventHandler(this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem_Click);
             // 
             // طلباستدعاءاخصائياستشاريToolStripMenuItem
             // 
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Name = "طلباستدعاءاخصائياستشاريToolStripMenuItem";
-            this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Text = "طلب استدعاء اخصائي / استشاري ";
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Click += new System.EventHandler(this.طلباستدعاءاخصائياستشاريToolStripMenuItem_Click);
             // 
             // استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem
             // 
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Name = "استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem";
-            this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Text = "استمارة منتفعة بخدمات تنظيم الاسرة";
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Click += new System.EventHandler(this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem_Click);
             // 
             // بعدالعمليةToolStripMenuItem
             // 
             this.بعدالعمليةToolStripMenuItem.Name = "بعدالعمليةToolStripMenuItem";
-            this.بعدالعمليةToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
+            this.بعدالعمليةToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
             this.بعدالعمليةToolStripMenuItem.Text = "بعد العملية ";
             this.بعدالعمليةToolStripMenuItem.Click += new System.EventHandler(this.بعدالعمليةToolStripMenuItem_Click);
             // 
@@ -497,13 +497,13 @@
             this.تقريرالسجلالمرضيToolStripMenuItem});
             this.تقاريرToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.تقاريرToolStripMenuItem.Name = "تقاريرToolStripMenuItem";
-            this.تقاريرToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
+            this.تقاريرToolStripMenuItem.Size = new System.Drawing.Size(56, 24);
             this.تقاريرToolStripMenuItem.Text = "تقارير";
             // 
             // تقريرالسجلالمرضيToolStripMenuItem
             // 
             this.تقريرالسجلالمرضيToolStripMenuItem.Name = "تقريرالسجلالمرضيToolStripMenuItem";
-            this.تقريرالسجلالمرضيToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
+            this.تقريرالسجلالمرضيToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
             this.تقريرالسجلالمرضيToolStripMenuItem.Text = "التقرير النهائي";
             this.تقريرالسجلالمرضيToolStripMenuItem.Click += new System.EventHandler(this.تقريرالسجلالمرضيToolStripMenuItem_Click);
             // 

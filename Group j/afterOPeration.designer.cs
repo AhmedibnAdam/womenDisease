@@ -139,6 +139,7 @@
             this.groupBox17 = new System.Windows.Forms.GroupBox();
             this.radioButton42 = new System.Windows.Forms.RadioButton();
             this.radioButton43 = new System.Windows.Forms.RadioButton();
+            this.hysteroscopyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -468,7 +469,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.closeToolStripMenuItem,
             this.addToolStripMenuItem,
-            this.saveToolStripMenuItem});
+            this.saveToolStripMenuItem,
+            this.hysteroscopyToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(734, 24);
@@ -1247,6 +1249,13 @@
             this.radioButton43.Text = "Cystic";
             this.radioButton43.UseVisualStyleBackColor = true;
             // 
+            // hysteroscopyToolStripMenuItem
+            // 
+            this.hysteroscopyToolStripMenuItem.Name = "hysteroscopyToolStripMenuItem";
+            this.hysteroscopyToolStripMenuItem.Size = new System.Drawing.Size(89, 20);
+            this.hysteroscopyToolStripMenuItem.Text = "hysteroscopy";
+            this.hysteroscopyToolStripMenuItem.Click += new System.EventHandler(this.hysteroscopyToolStripMenuItem_Click);
+            // 
             // afterOPerations
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1478,6 +1487,7 @@
         private System.Windows.Forms.GroupBox groupBox17;
         private System.Windows.Forms.RadioButton radioButton42;
         private System.Windows.Forms.RadioButton radioButton43;
+        private System.Windows.Forms.ToolStripMenuItem hysteroscopyToolStripMenuItem;
     }
 }
 
