@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.fileMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
@@ -48,6 +48,30 @@
             this.تقريرالسجلالمرضيToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker11 = new System.Windows.Forms.DateTimePicker();
+            this.Reception_datepicker2 = new System.Windows.Forms.DateTimePicker();
+            this.Reception_cbx_how = new System.Windows.Forms.ComboBox();
+            this.Reception_txt_tre_amount = new System.Windows.Forms.TextBox();
+            this.Reception_lbl_tre_amount = new System.Windows.Forms.Label();
+            this.label132 = new System.Windows.Forms.Label();
+            this.Reception_d_name2 = new System.Windows.Forms.TextBox();
+            this.Reception_txt_tre_name = new System.Windows.Forms.TextBox();
+            this.Reception_lbl_date2 = new System.Windows.Forms.Label();
+            this.Reception_lbl_d_name = new System.Windows.Forms.Label();
+            this.Reception_lbl_How = new System.Windows.Forms.Label();
+            this.Reception_lbl_tre_name = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.Reception_txt_doctor_name = new System.Windows.Forms.TextBox();
+            this.Reception_txt_D_orders = new System.Windows.Forms.TextBox();
+            this.Reception_txt_phys_notes = new System.Windows.Forms.TextBox();
+            this.Reception_lbl_d_name0 = new System.Windows.Forms.Label();
+            this.label138 = new System.Windows.Forms.Label();
+            this.label139 = new System.Windows.Forms.Label();
+            this.Reception_lbl_time = new System.Windows.Forms.Label();
+            this.Reception_lblDate = new System.Windows.Forms.Label();
+            this.Reception_datepicker_time = new System.Windows.Forms.DateTimePicker();
+            this.Reception_datepicker = new System.Windows.Forms.DateTimePicker();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
@@ -347,32 +371,10 @@
             this.label84 = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
             this.label87 = new System.Windows.Forms.Label();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.Reception_txt_doctor_name = new System.Windows.Forms.TextBox();
-            this.Reception_txt_D_orders = new System.Windows.Forms.TextBox();
-            this.Reception_txt_phys_notes = new System.Windows.Forms.TextBox();
-            this.Reception_lbl_d_name0 = new System.Windows.Forms.Label();
-            this.label138 = new System.Windows.Forms.Label();
-            this.label139 = new System.Windows.Forms.Label();
-            this.Reception_lbl_time = new System.Windows.Forms.Label();
-            this.Reception_lblDate = new System.Windows.Forms.Label();
-            this.Reception_datepicker_time = new System.Windows.Forms.DateTimePicker();
-            this.Reception_datepicker = new System.Windows.Forms.DateTimePicker();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker11 = new System.Windows.Forms.DateTimePicker();
-            this.Reception_datepicker2 = new System.Windows.Forms.DateTimePicker();
-            this.Reception_cbx_how = new System.Windows.Forms.ComboBox();
-            this.Reception_txt_tre_amount = new System.Windows.Forms.TextBox();
-            this.Reception_lbl_tre_amount = new System.Windows.Forms.Label();
-            this.label132 = new System.Windows.Forms.Label();
-            this.Reception_d_name2 = new System.Windows.Forms.TextBox();
-            this.Reception_txt_tre_name = new System.Windows.Forms.TextBox();
-            this.Reception_lbl_date2 = new System.Windows.Forms.Label();
-            this.Reception_lbl_d_name = new System.Windows.Forms.Label();
-            this.Reception_lbl_How = new System.Windows.Forms.Label();
-            this.Reception_lbl_tre_name = new System.Windows.Forms.Label();
             this.menuStrip.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            this.groupBox7.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -413,8 +415,6 @@
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
-            this.groupBox6.SuspendLayout();
-            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip
@@ -443,51 +443,51 @@
             this.fileMenu.ImageTransparentColor = System.Drawing.SystemColors.ActiveBorder;
             this.fileMenu.Name = "fileMenu";
             this.fileMenu.RightToLeftAutoMirrorImage = true;
-            this.fileMenu.Size = new System.Drawing.Size(55, 24);
+            this.fileMenu.Size = new System.Drawing.Size(52, 24);
             this.fileMenu.Text = "عرض";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(306, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(257, 6);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(306, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(257, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
             this.exitToolStripMenuItem.Text = "Examination";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolsStripMenuItem_Click);
             // 
             // تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem
             // 
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Name = "تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem";
-            this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
+            this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Text = "تنظيم الاسره والصحه الانجابية";
             this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem.Click += new System.EventHandler(this.تنظيمالاسرهوالصحهالانجابيةToolStripMenuItem_Click);
             // 
             // طلباستدعاءاخصائياستشاريToolStripMenuItem
             // 
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Name = "طلباستدعاءاخصائياستشاريToolStripMenuItem";
-            this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
+            this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Text = "طلب استدعاء اخصائي / استشاري ";
             this.طلباستدعاءاخصائياستشاريToolStripMenuItem.Click += new System.EventHandler(this.طلباستدعاءاخصائياستشاريToolStripMenuItem_Click);
             // 
             // استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem
             // 
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Name = "استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem";
-            this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
+            this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Text = "استمارة منتفعة بخدمات تنظيم الاسرة";
             this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem.Click += new System.EventHandler(this.استمارةمنتفعةبخدماتتنظيمالاسرةToolStripMenuItem_Click);
             // 
             // بعدالعمليةToolStripMenuItem
             // 
             this.بعدالعمليةToolStripMenuItem.Name = "بعدالعمليةToolStripMenuItem";
-            this.بعدالعمليةToolStripMenuItem.Size = new System.Drawing.Size(309, 24);
+            this.بعدالعمليةToolStripMenuItem.Size = new System.Drawing.Size(260, 24);
             this.بعدالعمليةToolStripMenuItem.Text = "بعد العملية ";
             this.بعدالعمليةToolStripMenuItem.Click += new System.EventHandler(this.بعدالعمليةToolStripMenuItem_Click);
             // 
@@ -497,13 +497,13 @@
             this.تقريرالسجلالمرضيToolStripMenuItem});
             this.تقاريرToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.تقاريرToolStripMenuItem.Name = "تقاريرToolStripMenuItem";
-            this.تقاريرToolStripMenuItem.Size = new System.Drawing.Size(56, 24);
+            this.تقاريرToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
             this.تقاريرToolStripMenuItem.Text = "تقارير";
             // 
             // تقريرالسجلالمرضيToolStripMenuItem
             // 
             this.تقريرالسجلالمرضيToolStripMenuItem.Name = "تقريرالسجلالمرضيToolStripMenuItem";
-            this.تقريرالسجلالمرضيToolStripMenuItem.Size = new System.Drawing.Size(166, 24);
+            this.تقريرالسجلالمرضيToolStripMenuItem.Size = new System.Drawing.Size(149, 24);
             this.تقريرالسجلالمرضيToolStripMenuItem.Text = "التقرير النهائي";
             this.تقريرالسجلالمرضيToolStripMenuItem.Click += new System.EventHandler(this.تقريرالسجلالمرضيToolStripMenuItem_Click);
             // 
@@ -519,6 +519,242 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "قسم الاستقبال ";
             this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.dateTimePicker11);
+            this.groupBox7.Controls.Add(this.Reception_datepicker2);
+            this.groupBox7.Controls.Add(this.Reception_cbx_how);
+            this.groupBox7.Controls.Add(this.Reception_txt_tre_amount);
+            this.groupBox7.Controls.Add(this.Reception_lbl_tre_amount);
+            this.groupBox7.Controls.Add(this.label132);
+            this.groupBox7.Controls.Add(this.Reception_d_name2);
+            this.groupBox7.Controls.Add(this.Reception_txt_tre_name);
+            this.groupBox7.Controls.Add(this.Reception_lbl_date2);
+            this.groupBox7.Controls.Add(this.Reception_lbl_d_name);
+            this.groupBox7.Controls.Add(this.Reception_lbl_How);
+            this.groupBox7.Controls.Add(this.Reception_lbl_tre_name);
+            this.groupBox7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox7.Location = new System.Drawing.Point(6, 15);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(504, 609);
+            this.groupBox7.TabIndex = 17;
+            this.groupBox7.TabStop = false;
+            this.groupBox7.Text = "تنفيذ العلاج";
+            // 
+            // dateTimePicker11
+            // 
+            this.dateTimePicker11.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.dateTimePicker11.Location = new System.Drawing.Point(167, 219);
+            this.dateTimePicker11.Name = "dateTimePicker11";
+            this.dateTimePicker11.Size = new System.Drawing.Size(200, 26);
+            this.dateTimePicker11.TabIndex = 26;
+            // 
+            // Reception_datepicker2
+            // 
+            this.Reception_datepicker2.Location = new System.Drawing.Point(167, 156);
+            this.Reception_datepicker2.Name = "Reception_datepicker2";
+            this.Reception_datepicker2.Size = new System.Drawing.Size(200, 26);
+            this.Reception_datepicker2.TabIndex = 27;
+            // 
+            // Reception_cbx_how
+            // 
+            this.Reception_cbx_how.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_cbx_how.FormattingEnabled = true;
+            this.Reception_cbx_how.Location = new System.Drawing.Point(41, 94);
+            this.Reception_cbx_how.Name = "Reception_cbx_how";
+            this.Reception_cbx_how.Size = new System.Drawing.Size(326, 28);
+            this.Reception_cbx_how.TabIndex = 25;
+            // 
+            // Reception_txt_tre_amount
+            // 
+            this.Reception_txt_tre_amount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_txt_tre_amount.Location = new System.Drawing.Point(9, 36);
+            this.Reception_txt_tre_amount.Name = "Reception_txt_tre_amount";
+            this.Reception_txt_tre_amount.Size = new System.Drawing.Size(138, 26);
+            this.Reception_txt_tre_amount.TabIndex = 22;
+            // 
+            // Reception_lbl_tre_amount
+            // 
+            this.Reception_lbl_tre_amount.AutoSize = true;
+            this.Reception_lbl_tre_amount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_lbl_tre_amount.Location = new System.Drawing.Point(172, 38);
+            this.Reception_lbl_tre_amount.Name = "Reception_lbl_tre_amount";
+            this.Reception_lbl_tre_amount.Size = new System.Drawing.Size(54, 24);
+            this.Reception_lbl_tre_amount.TabIndex = 20;
+            this.Reception_lbl_tre_amount.Text = "الجرعة";
+            // 
+            // label132
+            // 
+            this.label132.AutoSize = true;
+            this.label132.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label132.Location = new System.Drawing.Point(426, 215);
+            this.label132.Name = "label132";
+            this.label132.Size = new System.Drawing.Size(49, 24);
+            this.label132.TabIndex = 21;
+            this.label132.Text = "الساعة";
+            // 
+            // Reception_d_name2
+            // 
+            this.Reception_d_name2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_d_name2.Location = new System.Drawing.Point(167, 283);
+            this.Reception_d_name2.Name = "Reception_d_name2";
+            this.Reception_d_name2.Size = new System.Drawing.Size(200, 26);
+            this.Reception_d_name2.TabIndex = 24;
+            // 
+            // Reception_txt_tre_name
+            // 
+            this.Reception_txt_tre_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_txt_tre_name.Location = new System.Drawing.Point(229, 40);
+            this.Reception_txt_tre_name.Name = "Reception_txt_tre_name";
+            this.Reception_txt_tre_name.Size = new System.Drawing.Size(138, 26);
+            this.Reception_txt_tre_name.TabIndex = 23;
+            // 
+            // Reception_lbl_date2
+            // 
+            this.Reception_lbl_date2.AutoSize = true;
+            this.Reception_lbl_date2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_lbl_date2.Location = new System.Drawing.Point(426, 152);
+            this.Reception_lbl_date2.Name = "Reception_lbl_date2";
+            this.Reception_lbl_date2.Size = new System.Drawing.Size(51, 24);
+            this.Reception_lbl_date2.TabIndex = 16;
+            this.Reception_lbl_date2.Text = "التاريخ";
+            // 
+            // Reception_lbl_d_name
+            // 
+            this.Reception_lbl_d_name.AutoSize = true;
+            this.Reception_lbl_d_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_lbl_d_name.Location = new System.Drawing.Point(399, 283);
+            this.Reception_lbl_d_name.Name = "Reception_lbl_d_name";
+            this.Reception_lbl_d_name.Size = new System.Drawing.Size(78, 24);
+            this.Reception_lbl_d_name.TabIndex = 19;
+            this.Reception_lbl_d_name.Text = "اسم الطبيب";
+            // 
+            // Reception_lbl_How
+            // 
+            this.Reception_lbl_How.AutoSize = true;
+            this.Reception_lbl_How.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_lbl_How.Location = new System.Drawing.Point(385, 94);
+            this.Reception_lbl_How.Name = "Reception_lbl_How";
+            this.Reception_lbl_How.Size = new System.Drawing.Size(99, 24);
+            this.Reception_lbl_How.TabIndex = 18;
+            this.Reception_lbl_How.Text = "طريقة الأعطاء";
+            // 
+            // Reception_lbl_tre_name
+            // 
+            this.Reception_lbl_tre_name.AutoSize = true;
+            this.Reception_lbl_tre_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_lbl_tre_name.Location = new System.Drawing.Point(414, 40);
+            this.Reception_lbl_tre_name.Name = "Reception_lbl_tre_name";
+            this.Reception_lbl_tre_name.Size = new System.Drawing.Size(69, 24);
+            this.Reception_lbl_tre_name.TabIndex = 17;
+            this.Reception_lbl_tre_name.Text = "اسم الدواء";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.Reception_txt_doctor_name);
+            this.groupBox6.Controls.Add(this.Reception_txt_D_orders);
+            this.groupBox6.Controls.Add(this.Reception_txt_phys_notes);
+            this.groupBox6.Controls.Add(this.Reception_lbl_d_name0);
+            this.groupBox6.Controls.Add(this.label138);
+            this.groupBox6.Controls.Add(this.label139);
+            this.groupBox6.Controls.Add(this.Reception_lbl_time);
+            this.groupBox6.Controls.Add(this.Reception_lblDate);
+            this.groupBox6.Controls.Add(this.Reception_datepicker_time);
+            this.groupBox6.Controls.Add(this.Reception_datepicker);
+            this.groupBox6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox6.Location = new System.Drawing.Point(529, 15);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(542, 616);
+            this.groupBox6.TabIndex = 16;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "أوامر الطبيب ";
+            // 
+            // Reception_txt_doctor_name
+            // 
+            this.Reception_txt_doctor_name.Location = new System.Drawing.Point(136, 257);
+            this.Reception_txt_doctor_name.Name = "Reception_txt_doctor_name";
+            this.Reception_txt_doctor_name.Size = new System.Drawing.Size(200, 26);
+            this.Reception_txt_doctor_name.TabIndex = 10;
+            // 
+            // Reception_txt_D_orders
+            // 
+            this.Reception_txt_D_orders.Location = new System.Drawing.Point(319, 190);
+            this.Reception_txt_D_orders.Name = "Reception_txt_D_orders";
+            this.Reception_txt_D_orders.Size = new System.Drawing.Size(200, 26);
+            this.Reception_txt_D_orders.TabIndex = 11;
+            // 
+            // Reception_txt_phys_notes
+            // 
+            this.Reception_txt_phys_notes.Location = new System.Drawing.Point(319, 144);
+            this.Reception_txt_phys_notes.Name = "Reception_txt_phys_notes";
+            this.Reception_txt_phys_notes.Size = new System.Drawing.Size(200, 26);
+            this.Reception_txt_phys_notes.TabIndex = 12;
+            // 
+            // Reception_lbl_d_name0
+            // 
+            this.Reception_lbl_d_name0.AutoSize = true;
+            this.Reception_lbl_d_name0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_lbl_d_name0.Location = new System.Drawing.Point(443, 257);
+            this.Reception_lbl_d_name0.Name = "Reception_lbl_d_name0";
+            this.Reception_lbl_d_name0.Size = new System.Drawing.Size(70, 20);
+            this.Reception_lbl_d_name0.TabIndex = 8;
+            this.Reception_lbl_d_name0.Text = "اسم الطبيب ";
+            // 
+            // label138
+            // 
+            this.label138.AutoSize = true;
+            this.label138.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label138.Location = new System.Drawing.Point(98, 190);
+            this.label138.Name = "label138";
+            this.label138.Size = new System.Drawing.Size(120, 20);
+            this.label138.TabIndex = 9;
+            this.label138.Text = "Doctor\'s Orders";
+            // 
+            // label139
+            // 
+            this.label139.AutoSize = true;
+            this.label139.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label139.Location = new System.Drawing.Point(98, 144);
+            this.label139.Name = "label139";
+            this.label139.Size = new System.Drawing.Size(188, 20);
+            this.label139.TabIndex = 5;
+            this.label139.Text = "Physician Progress Notes";
+            // 
+            // Reception_lbl_time
+            // 
+            this.Reception_lbl_time.AutoSize = true;
+            this.Reception_lbl_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_lbl_time.Location = new System.Drawing.Point(481, 84);
+            this.Reception_lbl_time.Name = "Reception_lbl_time";
+            this.Reception_lbl_time.Size = new System.Drawing.Size(38, 20);
+            this.Reception_lbl_time.TabIndex = 6;
+            this.Reception_lbl_time.Text = "الوقت";
+            // 
+            // Reception_lblDate
+            // 
+            this.Reception_lblDate.AutoSize = true;
+            this.Reception_lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reception_lblDate.Location = new System.Drawing.Point(481, 43);
+            this.Reception_lblDate.Name = "Reception_lblDate";
+            this.Reception_lblDate.Size = new System.Drawing.Size(45, 20);
+            this.Reception_lblDate.TabIndex = 7;
+            this.Reception_lblDate.Text = "التاريخ";
+            // 
+            // Reception_datepicker_time
+            // 
+            this.Reception_datepicker_time.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.Reception_datepicker_time.Location = new System.Drawing.Point(194, 84);
+            this.Reception_datepicker_time.Name = "Reception_datepicker_time";
+            this.Reception_datepicker_time.Size = new System.Drawing.Size(200, 26);
+            this.Reception_datepicker_time.TabIndex = 3;
+            // 
+            // Reception_datepicker
+            // 
+            this.Reception_datepicker.Location = new System.Drawing.Point(194, 43);
+            this.Reception_datepicker.Name = "Reception_datepicker";
+            this.Reception_datepicker.Size = new System.Drawing.Size(200, 26);
+            this.Reception_datepicker.TabIndex = 4;
             // 
             // tabPage2
             // 
@@ -2681,33 +2917,33 @@
             // 
             // dataGridView3
             // 
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView3.Location = new System.Drawing.Point(211, 495);
             this.dataGridView3.Name = "dataGridView3";
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView3.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView3.Size = new System.Drawing.Size(580, 150);
             this.dataGridView3.TabIndex = 25;
             // 
@@ -3069,33 +3305,33 @@
             this.dataGridView2.AllowUserToResizeColumns = false;
             this.dataGridView2.AllowUserToResizeRows = false;
             this.dataGridView2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView2.Location = new System.Drawing.Point(3, 3);
             this.dataGridView2.Name = "dataGridView2";
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView2.Size = new System.Drawing.Size(956, 352);
             this.dataGridView2.TabIndex = 0;
             this.dataGridView2.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
@@ -3814,242 +4050,6 @@
             this.label87.TabIndex = 116;
             this.label87.Text = "OBSTATRIC HISTORY";
             // 
-            // groupBox6
-            // 
-            this.groupBox6.Controls.Add(this.Reception_txt_doctor_name);
-            this.groupBox6.Controls.Add(this.Reception_txt_D_orders);
-            this.groupBox6.Controls.Add(this.Reception_txt_phys_notes);
-            this.groupBox6.Controls.Add(this.Reception_lbl_d_name0);
-            this.groupBox6.Controls.Add(this.label138);
-            this.groupBox6.Controls.Add(this.label139);
-            this.groupBox6.Controls.Add(this.Reception_lbl_time);
-            this.groupBox6.Controls.Add(this.Reception_lblDate);
-            this.groupBox6.Controls.Add(this.Reception_datepicker_time);
-            this.groupBox6.Controls.Add(this.Reception_datepicker);
-            this.groupBox6.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox6.Location = new System.Drawing.Point(529, 15);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(542, 616);
-            this.groupBox6.TabIndex = 16;
-            this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "أوامر الطبيب ";
-            // 
-            // Reception_txt_doctor_name
-            // 
-            this.Reception_txt_doctor_name.Location = new System.Drawing.Point(136, 257);
-            this.Reception_txt_doctor_name.Name = "Reception_txt_doctor_name";
-            this.Reception_txt_doctor_name.Size = new System.Drawing.Size(200, 26);
-            this.Reception_txt_doctor_name.TabIndex = 10;
-            // 
-            // Reception_txt_D_orders
-            // 
-            this.Reception_txt_D_orders.Location = new System.Drawing.Point(319, 190);
-            this.Reception_txt_D_orders.Name = "Reception_txt_D_orders";
-            this.Reception_txt_D_orders.Size = new System.Drawing.Size(200, 26);
-            this.Reception_txt_D_orders.TabIndex = 11;
-            // 
-            // Reception_txt_phys_notes
-            // 
-            this.Reception_txt_phys_notes.Location = new System.Drawing.Point(319, 144);
-            this.Reception_txt_phys_notes.Name = "Reception_txt_phys_notes";
-            this.Reception_txt_phys_notes.Size = new System.Drawing.Size(200, 26);
-            this.Reception_txt_phys_notes.TabIndex = 12;
-            // 
-            // Reception_lbl_d_name0
-            // 
-            this.Reception_lbl_d_name0.AutoSize = true;
-            this.Reception_lbl_d_name0.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_lbl_d_name0.Location = new System.Drawing.Point(443, 257);
-            this.Reception_lbl_d_name0.Name = "Reception_lbl_d_name0";
-            this.Reception_lbl_d_name0.Size = new System.Drawing.Size(70, 20);
-            this.Reception_lbl_d_name0.TabIndex = 8;
-            this.Reception_lbl_d_name0.Text = "اسم الطبيب ";
-            // 
-            // label138
-            // 
-            this.label138.AutoSize = true;
-            this.label138.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label138.Location = new System.Drawing.Point(98, 190);
-            this.label138.Name = "label138";
-            this.label138.Size = new System.Drawing.Size(120, 20);
-            this.label138.TabIndex = 9;
-            this.label138.Text = "Doctor\'s Orders";
-            // 
-            // label139
-            // 
-            this.label139.AutoSize = true;
-            this.label139.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label139.Location = new System.Drawing.Point(98, 144);
-            this.label139.Name = "label139";
-            this.label139.Size = new System.Drawing.Size(188, 20);
-            this.label139.TabIndex = 5;
-            this.label139.Text = "Physician Progress Notes";
-            // 
-            // Reception_lbl_time
-            // 
-            this.Reception_lbl_time.AutoSize = true;
-            this.Reception_lbl_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_lbl_time.Location = new System.Drawing.Point(481, 84);
-            this.Reception_lbl_time.Name = "Reception_lbl_time";
-            this.Reception_lbl_time.Size = new System.Drawing.Size(38, 20);
-            this.Reception_lbl_time.TabIndex = 6;
-            this.Reception_lbl_time.Text = "الوقت";
-            // 
-            // Reception_lblDate
-            // 
-            this.Reception_lblDate.AutoSize = true;
-            this.Reception_lblDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_lblDate.Location = new System.Drawing.Point(481, 43);
-            this.Reception_lblDate.Name = "Reception_lblDate";
-            this.Reception_lblDate.Size = new System.Drawing.Size(45, 20);
-            this.Reception_lblDate.TabIndex = 7;
-            this.Reception_lblDate.Text = "التاريخ";
-            // 
-            // Reception_datepicker_time
-            // 
-            this.Reception_datepicker_time.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.Reception_datepicker_time.Location = new System.Drawing.Point(194, 84);
-            this.Reception_datepicker_time.Name = "Reception_datepicker_time";
-            this.Reception_datepicker_time.Size = new System.Drawing.Size(200, 26);
-            this.Reception_datepicker_time.TabIndex = 3;
-            // 
-            // Reception_datepicker
-            // 
-            this.Reception_datepicker.Location = new System.Drawing.Point(194, 43);
-            this.Reception_datepicker.Name = "Reception_datepicker";
-            this.Reception_datepicker.Size = new System.Drawing.Size(200, 26);
-            this.Reception_datepicker.TabIndex = 4;
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.Controls.Add(this.dateTimePicker11);
-            this.groupBox7.Controls.Add(this.Reception_datepicker2);
-            this.groupBox7.Controls.Add(this.Reception_cbx_how);
-            this.groupBox7.Controls.Add(this.Reception_txt_tre_amount);
-            this.groupBox7.Controls.Add(this.Reception_lbl_tre_amount);
-            this.groupBox7.Controls.Add(this.label132);
-            this.groupBox7.Controls.Add(this.Reception_d_name2);
-            this.groupBox7.Controls.Add(this.Reception_txt_tre_name);
-            this.groupBox7.Controls.Add(this.Reception_lbl_date2);
-            this.groupBox7.Controls.Add(this.Reception_lbl_d_name);
-            this.groupBox7.Controls.Add(this.Reception_lbl_How);
-            this.groupBox7.Controls.Add(this.Reception_lbl_tre_name);
-            this.groupBox7.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox7.Location = new System.Drawing.Point(6, 15);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(504, 609);
-            this.groupBox7.TabIndex = 17;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "تنفيذ العلاج";
-            // 
-            // dateTimePicker11
-            // 
-            this.dateTimePicker11.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker11.Location = new System.Drawing.Point(167, 219);
-            this.dateTimePicker11.Name = "dateTimePicker11";
-            this.dateTimePicker11.Size = new System.Drawing.Size(200, 26);
-            this.dateTimePicker11.TabIndex = 26;
-            // 
-            // Reception_datepicker2
-            // 
-            this.Reception_datepicker2.Location = new System.Drawing.Point(167, 156);
-            this.Reception_datepicker2.Name = "Reception_datepicker2";
-            this.Reception_datepicker2.Size = new System.Drawing.Size(200, 26);
-            this.Reception_datepicker2.TabIndex = 27;
-            // 
-            // Reception_cbx_how
-            // 
-            this.Reception_cbx_how.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_cbx_how.FormattingEnabled = true;
-            this.Reception_cbx_how.Location = new System.Drawing.Point(41, 94);
-            this.Reception_cbx_how.Name = "Reception_cbx_how";
-            this.Reception_cbx_how.Size = new System.Drawing.Size(326, 28);
-            this.Reception_cbx_how.TabIndex = 25;
-            // 
-            // Reception_txt_tre_amount
-            // 
-            this.Reception_txt_tre_amount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_txt_tre_amount.Location = new System.Drawing.Point(9, 36);
-            this.Reception_txt_tre_amount.Name = "Reception_txt_tre_amount";
-            this.Reception_txt_tre_amount.Size = new System.Drawing.Size(138, 26);
-            this.Reception_txt_tre_amount.TabIndex = 22;
-            // 
-            // Reception_lbl_tre_amount
-            // 
-            this.Reception_lbl_tre_amount.AutoSize = true;
-            this.Reception_lbl_tre_amount.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_lbl_tre_amount.Location = new System.Drawing.Point(172, 38);
-            this.Reception_lbl_tre_amount.Name = "Reception_lbl_tre_amount";
-            this.Reception_lbl_tre_amount.Size = new System.Drawing.Size(54, 24);
-            this.Reception_lbl_tre_amount.TabIndex = 20;
-            this.Reception_lbl_tre_amount.Text = "الجرعة";
-            // 
-            // label132
-            // 
-            this.label132.AutoSize = true;
-            this.label132.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label132.Location = new System.Drawing.Point(426, 215);
-            this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(49, 24);
-            this.label132.TabIndex = 21;
-            this.label132.Text = "الساعة";
-            // 
-            // Reception_d_name2
-            // 
-            this.Reception_d_name2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_d_name2.Location = new System.Drawing.Point(167, 283);
-            this.Reception_d_name2.Name = "Reception_d_name2";
-            this.Reception_d_name2.Size = new System.Drawing.Size(200, 26);
-            this.Reception_d_name2.TabIndex = 24;
-            // 
-            // Reception_txt_tre_name
-            // 
-            this.Reception_txt_tre_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_txt_tre_name.Location = new System.Drawing.Point(229, 40);
-            this.Reception_txt_tre_name.Name = "Reception_txt_tre_name";
-            this.Reception_txt_tre_name.Size = new System.Drawing.Size(138, 26);
-            this.Reception_txt_tre_name.TabIndex = 23;
-            // 
-            // Reception_lbl_date2
-            // 
-            this.Reception_lbl_date2.AutoSize = true;
-            this.Reception_lbl_date2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_lbl_date2.Location = new System.Drawing.Point(426, 152);
-            this.Reception_lbl_date2.Name = "Reception_lbl_date2";
-            this.Reception_lbl_date2.Size = new System.Drawing.Size(51, 24);
-            this.Reception_lbl_date2.TabIndex = 16;
-            this.Reception_lbl_date2.Text = "التاريخ";
-            // 
-            // Reception_lbl_d_name
-            // 
-            this.Reception_lbl_d_name.AutoSize = true;
-            this.Reception_lbl_d_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_lbl_d_name.Location = new System.Drawing.Point(399, 283);
-            this.Reception_lbl_d_name.Name = "Reception_lbl_d_name";
-            this.Reception_lbl_d_name.Size = new System.Drawing.Size(78, 24);
-            this.Reception_lbl_d_name.TabIndex = 19;
-            this.Reception_lbl_d_name.Text = "اسم الطبيب";
-            // 
-            // Reception_lbl_How
-            // 
-            this.Reception_lbl_How.AutoSize = true;
-            this.Reception_lbl_How.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_lbl_How.Location = new System.Drawing.Point(385, 94);
-            this.Reception_lbl_How.Name = "Reception_lbl_How";
-            this.Reception_lbl_How.Size = new System.Drawing.Size(99, 24);
-            this.Reception_lbl_How.TabIndex = 18;
-            this.Reception_lbl_How.Text = "طريقة الأعطاء";
-            // 
-            // Reception_lbl_tre_name
-            // 
-            this.Reception_lbl_tre_name.AutoSize = true;
-            this.Reception_lbl_tre_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Reception_lbl_tre_name.Location = new System.Drawing.Point(414, 40);
-            this.Reception_lbl_tre_name.Name = "Reception_lbl_tre_name";
-            this.Reception_lbl_tre_name.Size = new System.Drawing.Size(69, 24);
-            this.Reception_lbl_tre_name.TabIndex = 17;
-            this.Reception_lbl_tre_name.Text = "اسم الدواء";
-            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4063,13 +4063,17 @@
             this.MainMenuStrip = this.menuStrip;
             this.MaximizeBox = false;
             this.Name = "Home";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.TransparencyKey = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.Home_Load);
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
+            this.groupBox7.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -4129,10 +4133,6 @@
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
