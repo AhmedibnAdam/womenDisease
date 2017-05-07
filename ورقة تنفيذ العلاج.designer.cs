@@ -185,7 +185,6 @@
             this.Controls.Add(this.lbl_how);
             this.Controls.Add(this.lbl_treat_name);
             this.Name = "frm_treatment";
-            this.RightToLeftLayout = true;
             this.Text = "ورقة تنفيذ العلاج";
             this.ResumeLayout(false);
             this.PerformLayout();

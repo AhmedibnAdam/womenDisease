@@ -153,7 +153,6 @@
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "frm_doctor_orders";
-            this.RightToLeftLayout = true;
             this.Text = "أوامر الطبيب";
             this.ResumeLayout(false);
             this.PerformLayout();
