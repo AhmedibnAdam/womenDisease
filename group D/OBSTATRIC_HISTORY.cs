@@ -22,6 +22,7 @@ namespace womenDisease
         SqlCommand cmd;
         DataSet ds = new DataSet();
         DataTable dt = new DataTable();
+        public string sp="";
         public string patientCode = "", patientName="", doctorCode = "", doctortName = "";
         string s;
         public OBSTATRIC_HISTORY()
@@ -32,8 +33,11 @@ namespace womenDisease
 
         private void OBSTATRIC_HISTORY_Load(object sender, EventArgs e)
         {
+
              connect.OpenConection();
-           
+             textBox27.Hide();
+         
+
         }
 
         private void comboBox19_SelectedIndexChanged(object sender, EventArgs e)
@@ -64,22 +68,23 @@ namespace womenDisease
             {
 
                 connect.OpenConection();
-                string pName = "phis_obst_history1";
-                dt = (DataTable)connect.ShowDataInGridViewUsingStoredProc(pName);
+                /* string pName = "phis_obst_history1";
+                 dt = (DataTable)connect.ShowDataInGridViewUsingStoredProc(pName);*/
                 ////////////////
-
+               
                 string pName2="phis_obst_history2";
                 string g = comboBox3.Items[comboBox3.SelectedIndex].ToString();
                 string p = comboBox4.Items[comboBox4.SelectedIndex].ToString();
                 string pl = comboBox19.Items[comboBox19.SelectedIndex].ToString();
                 string p2 = comboBox21.Items[comboBox21.SelectedIndex].ToString();
-                string sp = comboBox1.Items[comboBox1.SelectedIndex].ToString();
+                
                 string cs = comboBox2.Items[comboBox2.SelectedIndex].ToString();
                 string ab = textBox27.Text;
-                string[] paramNames = { "@G", "@P", "@plus", "@plusplus", "@abnormal_deliveries", "@specify_if_yes", "@number_of_cs", "@cs_indications", "@last_delivery", "@last_abortion", "@living_childern", "@male", "@female" };
+                string[] paramNames = { "@G", "@P", "@plus", "@plusplus", "@abnormal_deliveries", "@specify_if_yes", "@number_of_cs", "@cs_indications", "@last_delivery", "@last_abortion", "@male", "@female" };
                 string[] paramValues = { g, p, pl, p2, ab, sp, textBox6.Text, cs, dateTimePicker3.Value.ToShortDateString(), dateTimePicker4.Value.ToShortDateString(), numericUpDown3.Value.ToString(), numericUpDown1.Value.ToString(), numericUpDown2.Value.ToString() };
-                SqlDbType[] paramType = { SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar };
+                SqlDbType[] paramType = { SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar };
                 connect.ExecuteInsertOrUpdateOrDeleteUsingStoredProc(pName2, paramNames, paramValues, paramType);
+                MessageBox.Show("تم الحفظ  ");
                 /////////////////
                 string pName3 = "phis_obst_history3";
                 string ch = textBox28.Text;
@@ -307,6 +312,22 @@ namespace womenDisease
             }
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            sp = comboBox1.Items[comboBox1.SelectedIndex].ToString();
+            if (sp == "No")
+            {
+                sp = "No";
+            }
+            else
+            {
+                textBox27.Show();
+               
+            }
+
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
             FolderBrowserDialog f = new FolderBrowserDialog();
@@ -337,7 +358,7 @@ namespace womenDisease
         }
         */
       
-
+       
 
     }
 }

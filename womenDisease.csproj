@@ -91,10 +91,10 @@
     <Compile Include="group C\تنظيم الأسرة والصحة الانجابية.designer.cs">
       <DependentUpon>تنظيم الأسرة والصحة الانجابية.cs</DependentUpon>
     </Compile>
-    <Compile Include="Group G\fol_serv.cs">
+    <Compile Include="group G\fol_serv.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Group G\fol_serv.designer.cs">
+    <Compile Include="group G\fol_serv.designer.cs">
       <DependentUpon>fol_serv.cs</DependentUpon>
     </Compile>
     <Compile Include="dst_past_history.Designer.cs">
@@ -169,10 +169,10 @@
     <Compile Include="Home.designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="hysteroscopy.cs">
+    <Compile Include="group F\hysteroscopy.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="hysteroscopy.designer.cs">
+    <Compile Include="group F\hysteroscopy.designer.cs">
       <DependentUpon>hysteroscopy.cs</DependentUpon>
     </Compile>
     <Compile Include="Log_in.cs">
@@ -181,10 +181,10 @@
     <Compile Include="Log_in.designer.cs">
       <DependentUpon>Log_in.cs</DependentUpon>
     </Compile>
-    <Compile Include="OBSTATRIC_HISTORY.cs">
+    <Compile Include="group D\OBSTATRIC_HISTORY.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OBSTATRIC_HISTORY.designer.cs">
+    <Compile Include="group D\OBSTATRIC_HISTORY.designer.cs">
       <DependentUpon>OBSTATRIC_HISTORY.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -211,7 +211,7 @@
     <EmbeddedResource Include="group C\تنظيم الأسرة والصحة الانجابية.resx">
       <DependentUpon>تنظيم الأسرة والصحة الانجابية.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Group G\fol_serv.resx">
+    <EmbeddedResource Include="group G\fol_serv.resx">
       <DependentUpon>fol_serv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ested3a.rdlc" />
@@ -248,13 +248,13 @@
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="hysteroscopy.resx">
+    <EmbeddedResource Include="group F\hysteroscopy.resx">
       <DependentUpon>hysteroscopy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log_in.resx">
       <DependentUpon>Log_in.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OBSTATRIC_HISTORY.resx">
+    <EmbeddedResource Include="group D\OBSTATRIC_HISTORY.resx">
       <DependentUpon>OBSTATRIC_HISTORY.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
