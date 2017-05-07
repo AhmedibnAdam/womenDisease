@@ -175,6 +175,12 @@
     <Compile Include="hysteroscopy.designer.cs">
       <DependentUpon>hysteroscopy.cs</DependentUpon>
     </Compile>
+    <Compile Include="Log_in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Log_in.designer.cs">
+      <DependentUpon>Log_in.cs</DependentUpon>
+    </Compile>
     <Compile Include="OBSTATRIC_HISTORY.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -244,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="hysteroscopy.resx">
       <DependentUpon>hysteroscopy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Log_in.resx">
+      <DependentUpon>Log_in.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OBSTATRIC_HISTORY.resx">
       <DependentUpon>OBSTATRIC_HISTORY.cs</DependentUpon>
