@@ -258,8 +258,8 @@ namespace womenDisease
                     pramtype1[4] = SqlDbType.Text;
                     pramtype1[5] = SqlDbType.Int;
 
-                    dataGridView1.DataSource = con.ExecuteInsertOrUpdateOrDeleteUsingStoredProc("operative_history_insert", pramname1, pramvalue1, pramtype1);
-                    MessageBox.Show("تم ادخال البيانات بنجاح");
+                    object x= con.ExecuteInsertOrUpdateOrDeleteUsingStoredProc("operative_history_insert", pramname1, pramvalue1, pramtype1);
+                
                 }
                 catch (Exception ex)
                 { MessageBox.Show(ex.Message); }
@@ -609,6 +609,11 @@ namespace womenDisease
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage7_Click(object sender, EventArgs e)
         {
 
         }
