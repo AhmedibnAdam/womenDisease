@@ -111,7 +111,9 @@ namespace womenDisease
                         return false; 
                     } 
                     else 
-                    { 
+                    {
+                        textBox1.Clear();
+                        textBox2.Clear();
                         return true; 
                     } 
                 } 
@@ -126,13 +128,17 @@ namespace womenDisease
             //check if eligible to be logged in 
             if (IsLoggedIn(user, pass))
             {
-                MessageBox.Show("تم تسجيل الدخول بنجاح");
+                //MessageBox.Show("تم تسجيل الدخول بنجاح");
                 new HHome().Show();
+                textBox1.Clear();
+                textBox2.Clear();
             }
             else
             {
                 //show default login error message 
                 MessageBox.Show("خطأ في تسجيل الدخول");
+                textBox1.Clear();
+                textBox2.Clear();
             } 
            
         }

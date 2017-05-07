@@ -114,28 +114,28 @@
     <Compile Include="Group J\afterOPeration.designer.cs">
       <DependentUpon>afterOPeration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="خروج مريضة\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.designer.cs">
+    <Compile Include="خروج مريضة\Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="خروج مريضة\Form2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.designer.cs">
+    <Compile Include="خروج مريضة\Form2.designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="خروج مريضة\Form3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.designer.cs">
+    <Compile Include="خروج مريضة\Form3.designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="خروج مريضة\Form4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.designer.cs">
+    <Compile Include="خروج مريضة\Form4.designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
     <Compile Include="group I\frm_past_history.cs">
@@ -221,16 +221,16 @@
     <EmbeddedResource Include="Group J\afterOPeration.resx">
       <DependentUpon>afterOPeration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="خروج مريضة\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
+    <EmbeddedResource Include="خروج مريضة\Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
+    <EmbeddedResource Include="خروج مريضة\Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
+    <EmbeddedResource Include="خروج مريضة\Form4.resx">
       <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="group I\frm_past_history.resx">

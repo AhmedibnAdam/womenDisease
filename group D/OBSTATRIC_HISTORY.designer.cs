@@ -179,9 +179,9 @@
             this.label18.BackColor = System.Drawing.Color.SteelBlue;
             this.label18.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label18.Location = new System.Drawing.Point(-2, -2);
+            this.label18.Location = new System.Drawing.Point(0, 3);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(1352, 48);
+            this.label18.Size = new System.Drawing.Size(953, 48);
             this.label18.TabIndex = 100;
             this.label18.Text = "OBSTATRIC HISTORY ";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -197,26 +197,26 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(112, 130);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(318, 20);
+            this.textBox3.Size = new System.Drawing.Size(276, 20);
             this.textBox3.TabIndex = 107;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(112, 105);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(316, 20);
+            this.textBox2.Size = new System.Drawing.Size(277, 20);
             this.textBox2.TabIndex = 108;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(584, 98);
+            this.textBox4.Location = new System.Drawing.Point(499, 100);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.Size = new System.Drawing.Size(102, 20);
             this.textBox4.TabIndex = 109;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(586, 126);
+            this.textBox5.Location = new System.Drawing.Point(501, 126);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 110;
@@ -231,7 +231,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(490, 133);
+            this.label7.Location = new System.Drawing.Point(422, 133);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(26, 13);
             this.label7.TabIndex = 101;
@@ -242,16 +242,16 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(13, 133);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(45, 13);
+            this.label5.Size = new System.Drawing.Size(46, 13);
             this.label5.TabIndex = 102;
             this.label5.Text = "Address";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(485, 105);
+            this.label6.Location = new System.Drawing.Point(417, 105);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 13);
+            this.label6.Size = new System.Drawing.Size(71, 13);
             this.label6.TabIndex = 103;
             this.label6.Text = "Married Since";
             // 
@@ -290,10 +290,10 @@
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage4);
             this.tabControl1.Controls.Add(this.tabPage5);
-            this.tabControl1.Location = new System.Drawing.Point(16, 177);
+            this.tabControl1.Location = new System.Drawing.Point(2, 181);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1031, 540);
+            this.tabControl1.Size = new System.Drawing.Size(887, 540);
             this.tabControl1.TabIndex = 113;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.tabControl1_SelectedIndexChanged);
             // 
@@ -344,7 +344,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1023, 514);
+            this.tabPage1.Size = new System.Drawing.Size(879, 514);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "History";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -416,16 +416,16 @@
             "18",
             "19",
             "20"});
-            this.comboBox21.Location = new System.Drawing.Point(870, 36);
+            this.comboBox21.Location = new System.Drawing.Point(747, 41);
             this.comboBox21.Name = "comboBox21";
-            this.comboBox21.Size = new System.Drawing.Size(138, 21);
+            this.comboBox21.Size = new System.Drawing.Size(125, 21);
             this.comboBox21.TabIndex = 118;
             // 
             // label67
             // 
             this.label67.AutoSize = true;
             this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label67.Location = new System.Drawing.Point(846, 38);
+            this.label67.Location = new System.Drawing.Point(725, 43);
             this.label67.Name = "label67";
             this.label67.Size = new System.Drawing.Size(18, 18);
             this.label67.TabIndex = 116;
@@ -462,7 +462,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(655, 39);
+            this.label1.Location = new System.Drawing.Point(554, 44);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(18, 18);
             this.label1.TabIndex = 13;
@@ -492,18 +492,18 @@
             "18",
             "19",
             "20"});
-            this.comboBox19.Location = new System.Drawing.Point(693, 36);
+            this.comboBox19.Location = new System.Drawing.Point(588, 41);
             this.comboBox19.Name = "comboBox19";
-            this.comboBox19.Size = new System.Drawing.Size(138, 21);
+            this.comboBox19.Size = new System.Drawing.Size(126, 21);
             this.comboBox19.TabIndex = 12;
             this.comboBox19.SelectedIndexChanged += new System.EventHandler(this.comboBox19_SelectedIndexChanged);
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(666, 294);
+            this.label25.Location = new System.Drawing.Point(634, 294);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(46, 13);
+            this.label25.Size = new System.Drawing.Size(47, 13);
             this.label25.TabIndex = 11;
             this.label25.Text = "Allergies";
             // 
@@ -512,7 +512,7 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(311, 294);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(147, 13);
+            this.label24.Size = new System.Drawing.Size(150, 13);
             this.label24.TabIndex = 11;
             this.label24.Text = "Blood tranfusion & its indication";
             // 
@@ -521,7 +521,7 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(26, 396);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(33, 13);
+            this.label28.Size = new System.Drawing.Size(35, 13);
             this.label28.TabIndex = 11;
             this.label28.Text = "Other";
             // 
@@ -540,7 +540,7 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(6, 300);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(118, 13);
+            this.label23.Size = new System.Drawing.Size(115, 13);
             this.label23.TabIndex = 11;
             this.label23.Text = "Chronic Medical Diseas";
             // 
@@ -598,7 +598,7 @@
             "18",
             "19",
             "20"});
-            this.comboBox4.Location = new System.Drawing.Point(493, 39);
+            this.comboBox4.Location = new System.Drawing.Point(401, 40);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(134, 21);
             this.comboBox4.TabIndex = 9;
@@ -674,7 +674,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(537, 217);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(49, 13);
+            this.label17.Size = new System.Drawing.Size(45, 13);
             this.label17.TabIndex = 6;
             this.label17.Text = "FEMALE";
             // 
@@ -683,7 +683,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(349, 222);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(36, 13);
+            this.label16.Size = new System.Drawing.Size(33, 13);
             this.label16.TabIndex = 6;
             this.label16.Text = "MALE";
             // 
@@ -692,7 +692,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(6, 222);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(130, 13);
+            this.label15.Size = new System.Drawing.Size(131, 13);
             this.label15.TabIndex = 6;
             this.label15.Text = "Number Of Living Children";
             // 
@@ -701,7 +701,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(9, 181);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(106, 13);
+            this.label13.Size = new System.Drawing.Size(104, 13);
             this.label13.TabIndex = 6;
             this.label13.Text = "Last Deliveries Since";
             // 
@@ -710,7 +710,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(349, 149);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(89, 13);
+            this.label12.Size = new System.Drawing.Size(90, 13);
             this.label12.TabIndex = 6;
             this.label12.Text = "Indications Of CS";
             // 
@@ -719,7 +719,7 @@
             this.textBox9.Location = new System.Drawing.Point(144, 381);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(743, 28);
+            this.textBox9.Size = new System.Drawing.Size(716, 28);
             this.textBox9.TabIndex = 5;
             // 
             // textBox6
@@ -735,9 +735,9 @@
             this.comboBox7.Items.AddRange(new object[] {
             "Yes ",
             "No"});
-            this.comboBox7.Location = new System.Drawing.Point(765, 286);
+            this.comboBox7.Location = new System.Drawing.Point(728, 290);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(157, 21);
+            this.comboBox7.Size = new System.Drawing.Size(132, 21);
             this.comboBox7.TabIndex = 4;
             // 
             // comboBox1
@@ -764,9 +764,9 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(461, 39);
+            this.label20.Location = new System.Drawing.Point(370, 44);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(14, 13);
+            this.label20.Size = new System.Drawing.Size(13, 13);
             this.label20.TabIndex = 2;
             this.label20.Text = "P";
             // 
@@ -775,7 +775,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(9, 117);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(72, 13);
+            this.label10.Size = new System.Drawing.Size(73, 13);
             this.label10.TabIndex = 2;
             this.label10.Text = "Specify If Yes";
             // 
@@ -784,7 +784,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(50, 44);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(15, 13);
+            this.label19.Size = new System.Drawing.Size(14, 13);
             this.label19.TabIndex = 2;
             this.label19.Text = "G";
             // 
@@ -793,7 +793,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(9, 82);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(100, 13);
+            this.label9.Size = new System.Drawing.Size(101, 13);
             this.label9.TabIndex = 2;
             this.label9.Text = "Abnormal Deliveries";
             // 
@@ -867,7 +867,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1023, 514);
+            this.tabPage2.Size = new System.Drawing.Size(881, 514);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Examination";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -916,7 +916,7 @@
             "Clear ",
             "Blood ",
             "Meconium"});
-            this.comboBox10.Location = new System.Drawing.Point(842, 374);
+            this.comboBox10.Location = new System.Drawing.Point(744, 327);
             this.comboBox10.Name = "comboBox10";
             this.comboBox10.Size = new System.Drawing.Size(122, 21);
             this.comboBox10.TabIndex = 182;
@@ -941,7 +941,7 @@
             this.label69.AutoSize = true;
             this.label69.Location = new System.Drawing.Point(501, 367);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(15, 13);
+            this.label69.Size = new System.Drawing.Size(18, 13);
             this.label69.TabIndex = 180;
             this.label69.Text = "%";
             // 
@@ -964,7 +964,7 @@
             this.label68.AutoSize = true;
             this.label68.Location = new System.Drawing.Point(209, 367);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(21, 13);
+            this.label68.Size = new System.Drawing.Size(20, 13);
             this.label68.TabIndex = 178;
             this.label68.Text = "cm";
             // 
@@ -992,7 +992,7 @@
             this.label71.AutoSize = true;
             this.label71.Location = new System.Drawing.Point(283, 368);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(61, 13);
+            this.label71.Size = new System.Drawing.Size(62, 13);
             this.label71.TabIndex = 174;
             this.label71.Text = "Effacement";
             // 
@@ -1001,7 +1001,7 @@
             this.label72.AutoSize = true;
             this.label72.Location = new System.Drawing.Point(12, 365);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(92, 13);
+            this.label72.Size = new System.Drawing.Size(93, 13);
             this.label72.TabIndex = 173;
             this.label72.Text = "Cervical Dilatation";
             // 
@@ -1100,9 +1100,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(692, 34);
+            this.button2.Location = new System.Drawing.Point(635, 34);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(282, 35);
+            this.button2.Size = new System.Drawing.Size(223, 35);
             this.button2.TabIndex = 154;
             this.button2.Text = "Save";
             this.button2.UseVisualStyleBackColor = true;
@@ -1114,7 +1114,7 @@
             this.comboBox18.Items.AddRange(new object[] {
             "Inspect",
             "Rupture"});
-            this.comboBox18.Location = new System.Drawing.Point(842, 347);
+            this.comboBox18.Location = new System.Drawing.Point(744, 300);
             this.comboBox18.Name = "comboBox18";
             this.comboBox18.Size = new System.Drawing.Size(122, 21);
             this.comboBox18.TabIndex = 153;
@@ -1123,7 +1123,7 @@
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.label54.Location = new System.Drawing.Point(758, 361);
+            this.label54.Location = new System.Drawing.Point(660, 314);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(78, 17);
             this.label54.TabIndex = 152;
@@ -1134,7 +1134,7 @@
             this.label51.AutoSize = true;
             this.label51.Location = new System.Drawing.Point(528, 407);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(62, 13);
+            this.label51.Size = new System.Drawing.Size(61, 13);
             this.label51.TabIndex = 150;
             this.label51.Text = "Bony Pelvis";
             // 
@@ -1152,7 +1152,7 @@
             this.label53.AutoSize = true;
             this.label53.Location = new System.Drawing.Point(29, 400);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(40, 13);
+            this.label53.Size = new System.Drawing.Size(41, 13);
             this.label53.TabIndex = 146;
             this.label53.Text = "Station";
             // 
@@ -1161,7 +1161,7 @@
             this.label50.AutoSize = true;
             this.label50.Location = new System.Drawing.Point(523, 366);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(79, 13);
+            this.label50.Size = new System.Drawing.Size(81, 13);
             this.label50.TabIndex = 144;
             this.label50.Text = "Presenting Part";
             // 
@@ -1435,7 +1435,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1023, 514);
+            this.tabPage3.Size = new System.Drawing.Size(881, 514);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Investigation";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -1469,7 +1469,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1023, 514);
+            this.tabPage4.Size = new System.Drawing.Size(881, 514);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Provisonal Diagnosis";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -1489,7 +1489,7 @@
             this.textBox19.Location = new System.Drawing.Point(62, 114);
             this.textBox19.Multiline = true;
             this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(912, 161);
+            this.textBox19.Size = new System.Drawing.Size(851, 161);
             this.textBox19.TabIndex = 157;
             // 
             // label56
@@ -1519,7 +1519,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1023, 514);
+            this.tabPage5.Size = new System.Drawing.Size(881, 514);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "Patients ";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -1527,9 +1527,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(29, 75);
+            this.dataGridView1.Location = new System.Drawing.Point(23, 75);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(951, 250);
+            this.dataGridView1.Size = new System.Drawing.Size(881, 250);
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.RowHeaderMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseDoubleClick);
             // 
@@ -1545,7 +1545,7 @@
             // 
             // textBox24
             // 
-            this.textBox24.Location = new System.Drawing.Point(808, 80);
+            this.textBox24.Location = new System.Drawing.Point(705, 80);
             this.textBox24.Name = "textBox24";
             this.textBox24.Size = new System.Drawing.Size(176, 20);
             this.textBox24.TabIndex = 3;
@@ -1553,7 +1553,7 @@
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(808, 129);
+            this.textBox8.Location = new System.Drawing.Point(705, 129);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(176, 20);
             this.textBox8.TabIndex = 115;
@@ -1561,16 +1561,16 @@
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(723, 132);
+            this.label43.Location = new System.Drawing.Point(618, 133);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(70, 13);
+            this.label43.Size = new System.Drawing.Size(69, 13);
             this.label43.TabIndex = 114;
             this.label43.Text = "Doctor Name";
             // 
             // label63
             // 
             this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(732, 161);
+            this.label63.Location = new System.Drawing.Point(629, 161);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(30, 13);
             this.label63.TabIndex = 114;
@@ -1579,7 +1579,7 @@
             // 
             // dateTimePicker5
             // 
-            this.dateTimePicker5.Location = new System.Drawing.Point(808, 155);
+            this.dateTimePicker5.Location = new System.Drawing.Point(705, 155);
             this.dateTimePicker5.Name = "dateTimePicker5";
             this.dateTimePicker5.Size = new System.Drawing.Size(176, 20);
             this.dateTimePicker5.TabIndex = 116;
@@ -1588,7 +1588,7 @@
             // label64
             // 
             this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(723, 83);
+            this.label64.Location = new System.Drawing.Point(620, 83);
             this.label64.Name = "label64";
             this.label64.Size = new System.Drawing.Size(71, 13);
             this.label64.TabIndex = 117;
@@ -1597,15 +1597,15 @@
             // label65
             // 
             this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(723, 57);
+            this.label65.Location = new System.Drawing.Point(620, 57);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(68, 13);
+            this.label65.Size = new System.Drawing.Size(69, 13);
             this.label65.TabIndex = 119;
             this.label65.Text = "Patient Code";
             // 
             // textBox25
             // 
-            this.textBox25.Location = new System.Drawing.Point(808, 54);
+            this.textBox25.Location = new System.Drawing.Point(705, 54);
             this.textBox25.Name = "textBox25";
             this.textBox25.Size = new System.Drawing.Size(176, 20);
             this.textBox25.TabIndex = 118;
@@ -1613,7 +1613,7 @@
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(723, 108);
+            this.label66.Location = new System.Drawing.Point(620, 108);
             this.label66.Name = "label66";
             this.label66.Size = new System.Drawing.Size(67, 13);
             this.label66.TabIndex = 121;
@@ -1621,7 +1621,7 @@
             // 
             // textBox26
             // 
-            this.textBox26.Location = new System.Drawing.Point(808, 105);
+            this.textBox26.Location = new System.Drawing.Point(705, 105);
             this.textBox26.Name = "textBox26";
             this.textBox26.Size = new System.Drawing.Size(176, 20);
             this.textBox26.TabIndex = 120;
@@ -1630,7 +1630,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1362, 741);
+            this.ClientSize = new System.Drawing.Size(890, 741);
             this.Controls.Add(this.label66);
             this.Controls.Add(this.textBox26);
             this.Controls.Add(this.label65);
@@ -1655,7 +1655,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label18);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "OBSTATRIC_HISTORY";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OBSTATRIC_HISTORY";
             this.Load += new System.EventHandler(this.OBSTATRIC_HISTORY_Load);
             this.tabControl1.ResumeLayout(false);

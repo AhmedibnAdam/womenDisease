@@ -28,13 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.search = new System.Windows.Forms.Button();
             this.ins = new System.Windows.Forms.Button();
-            this.exit = new System.Windows.Forms.Button();
             this.update = new System.Windows.Forms.Button();
             this.patient_id = new System.Windows.Forms.TextBox();
             this.visit_id = new System.Windows.Forms.TextBox();
@@ -188,10 +187,11 @@
             this.label18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.label18.BackColor = System.Drawing.SystemColors.Highlight;
-            this.label18.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Font = new System.Drawing.Font("Tahoma", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label18.Location = new System.Drawing.Point(6, 5);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(1028, 54);
+            this.label18.Size = new System.Drawing.Size(878, 54);
             this.label18.TabIndex = 2;
             this.label18.Text = "Gynecologic history sheet";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -199,7 +199,7 @@
             // search
             // 
             this.search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.search.Location = new System.Drawing.Point(671, 66);
+            this.search.Location = new System.Drawing.Point(533, 72);
             this.search.Name = "search";
             this.search.Size = new System.Drawing.Size(75, 23);
             this.search.TabIndex = 43;
@@ -210,7 +210,7 @@
             // ins
             // 
             this.ins.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.ins.Location = new System.Drawing.Point(833, 66);
+            this.ins.Location = new System.Drawing.Point(695, 72);
             this.ins.Name = "ins";
             this.ins.Size = new System.Drawing.Size(75, 23);
             this.ins.TabIndex = 44;
@@ -218,21 +218,10 @@
             this.ins.UseVisualStyleBackColor = true;
             this.ins.Click += new System.EventHandler(this.button1_Click);
             // 
-            // exit
-            // 
-            this.exit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.exit.Location = new System.Drawing.Point(914, 66);
-            this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(75, 23);
-            this.exit.TabIndex = 45;
-            this.exit.Text = "Exist";
-            this.exit.UseVisualStyleBackColor = true;
-            this.exit.Click += new System.EventHandler(this.button4_Click);
-            // 
             // update
             // 
             this.update.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.update.Location = new System.Drawing.Point(752, 66);
+            this.update.Location = new System.Drawing.Point(614, 72);
             this.update.Name = "update";
             this.update.Size = new System.Drawing.Size(75, 23);
             this.update.TabIndex = 46;
@@ -242,7 +231,7 @@
             // 
             // patient_id
             // 
-            this.patient_id.Location = new System.Drawing.Point(382, 68);
+            this.patient_id.Location = new System.Drawing.Point(283, 75);
             this.patient_id.Name = "patient_id";
             this.patient_id.Size = new System.Drawing.Size(100, 20);
             this.patient_id.TabIndex = 47;
@@ -250,7 +239,7 @@
             // 
             // visit_id
             // 
-            this.visit_id.Location = new System.Drawing.Point(245, 68);
+            this.visit_id.Location = new System.Drawing.Point(146, 75);
             this.visit_id.Name = "visit_id";
             this.visit_id.Size = new System.Drawing.Size(100, 20);
             this.visit_id.TabIndex = 48;
@@ -262,7 +251,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 22);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1022, 525);
+            this.tabPage6.Size = new System.Drawing.Size(812, 525);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "Patient Names";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -277,26 +266,26 @@
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 8F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgv.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle16.Font = new System.Drawing.Font("Tahoma", 8F);
+            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgv.DefaultCellStyle = dataGridViewCellStyle16;
             this.dgv.Location = new System.Drawing.Point(35, 23);
             this.dgv.Name = "dgv";
-            this.dgv.Size = new System.Drawing.Size(959, 429);
+            this.dgv.Size = new System.Drawing.Size(749, 429);
             this.dgv.TabIndex = 0;
             this.dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellClick);
             // 
@@ -310,7 +299,7 @@
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(1022, 525);
+            this.tabPage5.Size = new System.Drawing.Size(812, 525);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "COMPLEMENT AND ITS DURATION";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -351,7 +340,7 @@
             "Weeks",
             "Months",
             "years"});
-            this.type.Location = new System.Drawing.Point(663, 101);
+            this.type.Location = new System.Drawing.Point(625, 102);
             this.type.Name = "type";
             this.type.Size = new System.Drawing.Size(145, 21);
             this.type.TabIndex = 28;
@@ -399,7 +388,7 @@
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1022, 525);
+            this.tabPage4.Size = new System.Drawing.Size(812, 525);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Patient Identification";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -540,7 +529,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1022, 525);
+            this.tabPage2.Size = new System.Drawing.Size(812, 525);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Operative history";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -672,7 +661,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1022, 525);
+            this.tabPage1.Size = new System.Drawing.Size(854, 525);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Present history";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -685,9 +674,9 @@
             this.groupBox6.Controls.Add(this.label2);
             this.groupBox6.Controls.Add(this.bloodtrans);
             this.groupBox6.Controls.Add(this.Drug_intak);
-            this.groupBox6.Location = new System.Drawing.Point(32, 192);
+            this.groupBox6.Location = new System.Drawing.Point(6, 192);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(978, 244);
+            this.groupBox6.Size = new System.Drawing.Size(829, 244);
             this.groupBox6.TabIndex = 25;
             this.groupBox6.TabStop = false;
             // 
@@ -729,7 +718,7 @@
             this.Drug_intak.Location = new System.Drawing.Point(35, 112);
             this.Drug_intak.Multiline = true;
             this.Drug_intak.Name = "Drug_intak";
-            this.Drug_intak.Size = new System.Drawing.Size(916, 112);
+            this.Drug_intak.Size = new System.Drawing.Size(767, 112);
             this.Drug_intak.TabIndex = 20;
             // 
             // label24
@@ -757,9 +746,9 @@
             this.groupBox1.Controls.Add(this.Dia_mell);
             this.groupBox1.Controls.Add(this.no);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.groupBox1.Location = new System.Drawing.Point(32, 26);
+            this.groupBox1.Location = new System.Drawing.Point(6, 26);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(978, 160);
+            this.groupBox1.Size = new System.Drawing.Size(829, 160);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Medical disorder";
@@ -783,7 +772,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.chronic.AutoSize = true;
             this.chronic.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.chronic.Location = new System.Drawing.Point(535, 114);
+            this.chronic.Location = new System.Drawing.Point(443, 114);
             this.chronic.Name = "chronic";
             this.chronic.Size = new System.Drawing.Size(168, 23);
             this.chronic.TabIndex = 10;
@@ -796,7 +785,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.acute.AutoSize = true;
             this.acute.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.acute.Location = new System.Drawing.Point(726, 114);
+            this.acute.Location = new System.Drawing.Point(618, 114);
             this.acute.Name = "acute";
             this.acute.Size = new System.Drawing.Size(154, 23);
             this.acute.TabIndex = 9;
@@ -809,7 +798,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.hyperthy.AutoSize = true;
             this.hyperthy.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.hyperthy.Location = new System.Drawing.Point(535, 64);
+            this.hyperthy.Location = new System.Drawing.Point(443, 64);
             this.hyperthy.Name = "hyperthy";
             this.hyperthy.Size = new System.Drawing.Size(143, 23);
             this.hyperthy.TabIndex = 8;
@@ -822,7 +811,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.bronch.AutoSize = true;
             this.bronch.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.bronch.Location = new System.Drawing.Point(726, 64);
+            this.bronch.Location = new System.Drawing.Point(618, 64);
             this.bronch.Name = "bronch";
             this.bronch.Size = new System.Drawing.Size(149, 23);
             this.bronch.TabIndex = 7;
@@ -848,7 +837,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.Rheu.AutoSize = true;
             this.Rheu.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.Rheu.Location = new System.Drawing.Point(726, 16);
+            this.Rheu.Location = new System.Drawing.Point(618, 16);
             this.Rheu.Name = "Rheu";
             this.Rheu.Size = new System.Drawing.Size(199, 23);
             this.Rheu.TabIndex = 5;
@@ -887,7 +876,7 @@
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.Hyper.AutoSize = true;
             this.Hyper.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.Hyper.Location = new System.Drawing.Point(535, 16);
+            this.Hyper.Location = new System.Drawing.Point(443, 16);
             this.Hyper.Name = "Hyper";
             this.Hyper.Size = new System.Drawing.Size(121, 23);
             this.Hyper.TabIndex = 2;
@@ -935,7 +924,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 104);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1030, 551);
+            this.tabControl1.Size = new System.Drawing.Size(862, 551);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage3
@@ -952,7 +941,7 @@
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1022, 525);
+            this.tabPage3.Size = new System.Drawing.Size(812, 525);
             this.tabPage3.TabIndex = 7;
             this.tabPage3.Text = "Menstrual history";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -999,7 +988,7 @@
             this.groupBox2.Controls.Add(this.label);
             this.groupBox2.Location = new System.Drawing.Point(561, 74);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(273, 60);
+            this.groupBox2.Size = new System.Drawing.Size(231, 60);
             this.groupBox2.TabIndex = 37;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "peri-menopausal";
@@ -1237,7 +1226,7 @@
             this.groupBox4.Controls.Add(this.label12);
             this.groupBox4.Location = new System.Drawing.Point(561, 268);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(273, 60);
+            this.groupBox4.Size = new System.Drawing.Size(242, 60);
             this.groupBox4.TabIndex = 39;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Amenorrhea";
@@ -1293,7 +1282,7 @@
             this.groupBox5.Controls.Add(this.label0);
             this.groupBox5.Location = new System.Drawing.Point(561, 173);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(273, 60);
+            this.groupBox5.Size = new System.Drawing.Size(242, 60);
             this.groupBox5.TabIndex = 38;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Post-menopausal";
@@ -1360,7 +1349,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 22);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1022, 525);
+            this.tabPage7.Size = new System.Drawing.Size(812, 525);
             this.tabPage7.TabIndex = 8;
             this.tabPage7.Text = "OBSTATRIC HISTORY";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -1405,7 +1394,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(746, 75);
+            this.label29.Location = new System.Drawing.Point(648, 72);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(18, 18);
             this.label29.TabIndex = 136;
@@ -1435,9 +1424,9 @@
             "18",
             "19",
             "20"});
-            this.v2.Location = new System.Drawing.Point(802, 72);
+            this.v2.Location = new System.Drawing.Point(689, 69);
             this.v2.Name = "v2";
-            this.v2.Size = new System.Drawing.Size(138, 21);
+            this.v2.Size = new System.Drawing.Size(106, 21);
             this.v2.TabIndex = 135;
             // 
             // v1
@@ -1466,7 +1455,7 @@
             "20"});
             this.v1.Location = new System.Drawing.Point(530, 72);
             this.v1.Name = "v1";
-            this.v1.Size = new System.Drawing.Size(181, 21);
+            this.v1.Size = new System.Drawing.Size(95, 21);
             this.v1.TabIndex = 134;
             // 
             // G
@@ -1656,11 +1645,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1046, 590);
+            this.ClientSize = new System.Drawing.Size(886, 590);
             this.Controls.Add(this.visit_id);
             this.Controls.Add(this.patient_id);
             this.Controls.Add(this.update);
-            this.Controls.Add(this.exit);
             this.Controls.Add(this.ins);
             this.Controls.Add(this.search);
             this.Controls.Add(this.label18);
@@ -1718,7 +1706,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Button search;
         private System.Windows.Forms.Button ins;
-        private System.Windows.Forms.Button exit;
         private System.Windows.Forms.Button update;
         private System.Windows.Forms.TextBox patient_id;
         private System.Windows.Forms.TextBox visit_id;

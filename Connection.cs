@@ -12,7 +12,7 @@ namespace womenDisease
     {
 
         //string ConnectionString = @"Data Source=KOKO\SQLEXPRESS;Initial Catalog=PHIS;Integrated Security=True";
-        string ConnectionString = @"server=(localdb)\projects;database=NEW_PHIS;uid=sa;pwd=root";
+        string ConnectionString = @"server=FCI-PC\SQLEXPRESS;database=NEW_PHIS;Integrated Security=True";
      
         public SqlConnection con;
 
