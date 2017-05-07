@@ -36,7 +36,7 @@ namespace womenDisease
             else
             {
                 string query = "SELECT  entry_date, entry_state, exit_date, exit_Status, Initial_diagnosis, Final_diagnosis, recommendation, Visit_type, visit_id FROM PHIS_patient_Visits where visit_id= " + txt_visit_id.Text;
-                da = new SqlDataAdapter(query, connection);
+                da =  new SqlDataAdapter(query, connection);
                 dt = new DataTable();
                 da.Fill(dt);
 

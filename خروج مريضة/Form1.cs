@@ -12,13 +12,13 @@ using System.Drawing.Printing;
 
 namespace womenDisease
 {
-    public partial class Form1 : Form
+    public partial class doctor_orders : Form
     {
         string strfilename;
         private PrintDocument printDocument1 = new PrintDocument();
         Connection conn = new Connection();
         
-        public Form1()
+        public doctor_orders()
         {
             InitializeComponent();
            
