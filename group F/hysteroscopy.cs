@@ -78,7 +78,7 @@ namespace womenDisease
         public hysteroscopy()
         {
             InitializeComponent();
-            this.WindowState = FormWindowState.Maximized;
+           
         }
         // String biopsy; 
         string strCheckValue = "";
@@ -226,6 +226,11 @@ namespace womenDisease
                 e.Handled = true;
                 MessageBox.Show(" من فضلك ادخل حروف فقط");
             }
+
+        }
+
+        private void hysteroscopy_Load(object sender, EventArgs e)
+        {
 
         }
 
