@@ -120,7 +120,12 @@ namespace womenDisease
 
         private void Home_Load(object sender, EventArgs e)
         {
-
+            أذن_دخول_مريضة frm = new أذن_دخول_مريضة();
+            frm.TopLevel = false;
+            frm.Visible = true;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+            tabcontrol1.TabPages[0].Controls.Add(frm);
         }
 
         private void tabPage2_Click(object sender, EventArgs e)
@@ -370,6 +375,7 @@ namespace womenDisease
         {
 
         }
+        //فتح زيارة
 
     }
 }

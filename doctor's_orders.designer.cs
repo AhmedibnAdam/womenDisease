@@ -43,16 +43,18 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(129, 34);
+            this.dateTimePicker1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(539, 35);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(232, 20);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // lbl_date
             // 
+            this.lbl_date.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_date.AutoSize = true;
             this.lbl_date.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_date.Location = new System.Drawing.Point(416, 34);
+            this.lbl_date.Location = new System.Drawing.Point(843, 36);
             this.lbl_date.Name = "lbl_date";
             this.lbl_date.Size = new System.Drawing.Size(45, 20);
             this.lbl_date.TabIndex = 1;
@@ -60,30 +62,34 @@
             // 
             // txt_ph_notes
             // 
-            this.txt_ph_notes.Location = new System.Drawing.Point(254, 135);
+            this.txt_ph_notes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_ph_notes.Location = new System.Drawing.Point(581, 185);
             this.txt_ph_notes.Name = "txt_ph_notes";
-            this.txt_ph_notes.Size = new System.Drawing.Size(200, 20);
+            this.txt_ph_notes.Size = new System.Drawing.Size(303, 20);
             this.txt_ph_notes.TabIndex = 2;
             // 
             // txt_doctor_order
             // 
-            this.txt_doctor_order.Location = new System.Drawing.Point(254, 181);
+            this.txt_doctor_order.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_doctor_order.Location = new System.Drawing.Point(581, 227);
             this.txt_doctor_order.Name = "txt_doctor_order";
-            this.txt_doctor_order.Size = new System.Drawing.Size(200, 20);
+            this.txt_doctor_order.Size = new System.Drawing.Size(303, 20);
             this.txt_doctor_order.TabIndex = 2;
             // 
             // txt_doctor_name
             // 
-            this.txt_doctor_name.Location = new System.Drawing.Point(71, 248);
+            this.txt_doctor_name.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.txt_doctor_name.Location = new System.Drawing.Point(539, 115);
             this.txt_doctor_name.Name = "txt_doctor_name";
-            this.txt_doctor_name.Size = new System.Drawing.Size(200, 20);
+            this.txt_doctor_name.Size = new System.Drawing.Size(232, 20);
             this.txt_doctor_name.TabIndex = 2;
             // 
             // lbl_ph_notes
             // 
+            this.lbl_ph_notes.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_ph_notes.AutoSize = true;
             this.lbl_ph_notes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_ph_notes.Location = new System.Drawing.Point(33, 135);
+            this.lbl_ph_notes.Location = new System.Drawing.Point(389, 185);
             this.lbl_ph_notes.Name = "lbl_ph_notes";
             this.lbl_ph_notes.Size = new System.Drawing.Size(188, 20);
             this.lbl_ph_notes.TabIndex = 1;
@@ -91,9 +97,10 @@
             // 
             // lbl_doctor_orders
             // 
+            this.lbl_doctor_orders.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_doctor_orders.AutoSize = true;
             this.lbl_doctor_orders.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_doctor_orders.Location = new System.Drawing.Point(33, 181);
+            this.lbl_doctor_orders.Location = new System.Drawing.Point(419, 229);
             this.lbl_doctor_orders.Name = "lbl_doctor_orders";
             this.lbl_doctor_orders.Size = new System.Drawing.Size(120, 20);
             this.lbl_doctor_orders.TabIndex = 1;
@@ -101,9 +108,10 @@
             // 
             // lbl_doctor_name
             // 
+            this.lbl_doctor_name.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_doctor_name.AutoSize = true;
             this.lbl_doctor_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_doctor_name.Location = new System.Drawing.Point(378, 248);
+            this.lbl_doctor_name.Location = new System.Drawing.Point(818, 115);
             this.lbl_doctor_name.Name = "lbl_doctor_name";
             this.lbl_doctor_name.Size = new System.Drawing.Size(70, 20);
             this.lbl_doctor_name.TabIndex = 1;
@@ -111,17 +119,19 @@
             // 
             // dateTimePicker2
             // 
+            this.dateTimePicker2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateTimePicker2.Location = new System.Drawing.Point(129, 75);
+            this.dateTimePicker2.Location = new System.Drawing.Point(539, 76);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(232, 20);
             this.dateTimePicker2.TabIndex = 0;
             // 
             // lbl_time
             // 
+            this.lbl_time.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_time.AutoSize = true;
             this.lbl_time.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_time.Location = new System.Drawing.Point(416, 75);
+            this.lbl_time.Location = new System.Drawing.Point(843, 77);
             this.lbl_time.Name = "lbl_time";
             this.lbl_time.Size = new System.Drawing.Size(38, 20);
             this.lbl_time.TabIndex = 1;
@@ -129,9 +139,10 @@
             // 
             // btn_save
             // 
-            this.btn_save.Location = new System.Drawing.Point(71, 331);
+            this.btn_save.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_save.Location = new System.Drawing.Point(389, 297);
             this.btn_save.Name = "btn_save";
-            this.btn_save.Size = new System.Drawing.Size(75, 23);
+            this.btn_save.Size = new System.Drawing.Size(103, 23);
             this.btn_save.TabIndex = 3;
             this.btn_save.Text = "حفظ";
             this.btn_save.UseVisualStyleBackColor = true;
@@ -140,7 +151,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(483, 400);
+            this.ClientSize = new System.Drawing.Size(944, 400);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.txt_doctor_name);
             this.Controls.Add(this.txt_doctor_order);
@@ -153,6 +164,7 @@
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Name = "frm_doctor_orders";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.Text = "أوامر الطبيب";
             this.ResumeLayout(false);
             this.PerformLayout();
