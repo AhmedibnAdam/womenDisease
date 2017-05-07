@@ -62,7 +62,7 @@
             this.label1.BackColor = System.Drawing.SystemColors.HotTrack;
             this.label1.Font = new System.Drawing.Font("Tahoma", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(332, 19);
+            this.label1.Location = new System.Drawing.Point(332, -45);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 45);
             this.label1.TabIndex = 0;
@@ -111,7 +111,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(18, 293);
+            this.label6.Location = new System.Drawing.Point(18, 283);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(83, 25);
             this.label6.TabIndex = 1;
@@ -121,7 +121,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(18, 346);
+            this.label7.Location = new System.Drawing.Point(17, 330);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(84, 25);
             this.label7.TabIndex = 1;
@@ -131,7 +131,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(18, 399);
+            this.label8.Location = new System.Drawing.Point(18, 382);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(155, 25);
             this.label8.TabIndex = 1;
@@ -141,7 +141,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(18, 469);
+            this.label9.Location = new System.Drawing.Point(18, 431);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(95, 25);
             this.label9.TabIndex = 1;
@@ -151,7 +151,7 @@
             // 
             this.chkCervical.AutoSize = true;
             this.chkCervical.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkCervical.Location = new System.Drawing.Point(23, 513);
+            this.chkCervical.Location = new System.Drawing.Point(46, 477);
             this.chkCervical.Name = "chkCervical";
             this.chkCervical.Size = new System.Drawing.Size(104, 29);
             this.chkCervical.TabIndex = 2;
@@ -162,7 +162,7 @@
             // 
             this.chkEndocervical.AutoSize = true;
             this.chkEndocervical.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkEndocervical.Location = new System.Drawing.Point(23, 548);
+            this.chkEndocervical.Location = new System.Drawing.Point(233, 477);
             this.chkEndocervical.Name = "chkEndocervical";
             this.chkEndocervical.Size = new System.Drawing.Size(148, 29);
             this.chkEndocervical.TabIndex = 2;
@@ -173,7 +173,7 @@
             // 
             this.chkEndometrial.AutoSize = true;
             this.chkEndometrial.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkEndometrial.Location = new System.Drawing.Point(23, 583);
+            this.chkEndometrial.Location = new System.Drawing.Point(474, 477);
             this.chkEndometrial.Name = "chkEndometrial";
             this.chkEndometrial.Size = new System.Drawing.Size(143, 29);
             this.chkEndometrial.TabIndex = 2;
@@ -184,7 +184,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(18, 637);
+            this.label10.Location = new System.Drawing.Point(8, 534);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(277, 25);
             this.label10.TabIndex = 1;
@@ -208,7 +208,7 @@
             // 
             // txtCuvity
             // 
-            this.txtCuvity.Location = new System.Drawing.Point(180, 298);
+            this.txtCuvity.Location = new System.Drawing.Point(180, 288);
             this.txtCuvity.Name = "txtCuvity";
             this.txtCuvity.Size = new System.Drawing.Size(799, 20);
             this.txtCuvity.TabIndex = 3;
@@ -224,7 +224,7 @@
             // 
             // txtMucos
             // 
-            this.txtMucos.Location = new System.Drawing.Point(180, 353);
+            this.txtMucos.Location = new System.Drawing.Point(179, 337);
             this.txtMucos.Name = "txtMucos";
             this.txtMucos.Size = new System.Drawing.Size(799, 20);
             this.txtMucos.TabIndex = 3;
@@ -232,7 +232,7 @@
             // 
             // txtTubal
             // 
-            this.txtTubal.Location = new System.Drawing.Point(180, 406);
+            this.txtTubal.Location = new System.Drawing.Point(180, 389);
             this.txtTubal.Name = "txtTubal";
             this.txtTubal.Size = new System.Drawing.Size(799, 20);
             this.txtTubal.TabIndex = 3;
@@ -240,14 +240,14 @@
             // 
             // txtSuggested
             // 
-            this.txtSuggested.Location = new System.Drawing.Point(316, 642);
+            this.txtSuggested.Location = new System.Drawing.Point(306, 539);
             this.txtSuggested.Name = "txtSuggested";
             this.txtSuggested.Size = new System.Drawing.Size(663, 20);
             this.txtSuggested.TabIndex = 3;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(316, 684);
+            this.button1.Location = new System.Drawing.Point(306, 581);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
@@ -257,7 +257,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(440, 684);
+            this.button2.Location = new System.Drawing.Point(430, 581);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 5;
@@ -301,7 +301,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(990, 741);
+            this.ClientSize = new System.Drawing.Size(990, 612);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.txt_visit_id);
             this.Controls.Add(this.label11);
@@ -328,9 +328,11 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
             this.Name = "hysteroscopy";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HYSTEROSCOPY";
+            this.Load += new System.EventHandler(this.hysteroscopy_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
