@@ -25,7 +25,7 @@ namespace womenDisease
         private void button1_Click(object sender, EventArgs e)
         {
             
-            new doctor_orders().Show();
+            new Form1().Show();
 
         }
 

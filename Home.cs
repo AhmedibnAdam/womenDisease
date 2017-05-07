@@ -328,14 +328,14 @@ namespace womenDisease
 
         private void tabcontrol1_MouseClick(object sender, MouseEventArgs e)
         {
-            /*قسم النساء */
+            
             groupH frm = new groupH();
             frm.TopLevel = false;
             frm.Visible = true;
             frm.FormBorderStyle = FormBorderStyle.None;
             frm.Dock = DockStyle.Fill;
             tabcontrol1.TabPages[2].Controls.Add(frm);
-            /* قسم الحوامل */
+
             OBSTATRIC_HISTORY obs= new OBSTATRIC_HISTORY();
             obs.TopLevel = false;
             obs.Visible = true;
@@ -343,22 +343,6 @@ namespace womenDisease
             obs.Dock = DockStyle.Fill;
             tabcontrol1.TabPages[3].Controls.Add(obs);
 
-            /*قسم الأستقبال */
-            //أوامر الطبيب
-            frm_doctor_orders doctors = new frm_doctor_orders();
-            doctors.TopLevel = false;
-            doctors.Visible = true;
-            doctors.FormBorderStyle = FormBorderStyle.None;
-            doctors.Dock = DockStyle.Fill;
-            tabControl2.TabPages[0].Controls.Add(doctors);
-            //تنفيذ علاج 
-
-            frm_treatment tream = new frm_treatment();
-            tream.TopLevel = false;
-            tream.Visible = true;
-            tream.FormBorderStyle = FormBorderStyle.None;
-            tream.Dock = DockStyle.Fill;
-            tabControl2.TabPages[1].Controls.Add(tream);
         }
 
         private void tabPage2_MouseClick(object sender, MouseEventArgs e)
