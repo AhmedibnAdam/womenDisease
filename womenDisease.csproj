@@ -55,12 +55,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="doctor%27s_orders.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="doctor%27s_orders.designer.cs">
-      <DependentUpon>doctor%27s_orders.cs</DependentUpon>
-    </Compile>
     <Compile Include="group C\doc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +107,18 @@
     </Compile>
     <Compile Include="group H\groupH.designer.cs">
       <DependentUpon>groupH.cs</DependentUpon>
+    </Compile>
+    <Compile Include="group I\doctor%27s_orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="group I\doctor%27s_orders.designer.cs">
+      <DependentUpon>doctor%27s_orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="group I\ورقة تنفيذ العلاج.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="group I\ورقة تنفيذ العلاج.designer.cs">
+      <DependentUpon>ورقة تنفيذ العلاج.cs</DependentUpon>
     </Compile>
     <Compile Include="Group J\afterOPeration.cs">
       <SubType>Form</SubType>
@@ -199,15 +205,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="ورقة تنفيذ العلاج.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ورقة تنفيذ العلاج.designer.cs">
-      <DependentUpon>ورقة تنفيذ العلاج.cs</DependentUpon>
-    </Compile>
-    <EmbeddedResource Include="doctor%27s_orders.resx">
-      <DependentUpon>doctor%27s_orders.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="group C\doc.resx">
       <DependentUpon>doc.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,6 +229,12 @@
     <EmbeddedResource Include="ested3a.rdlc" />
     <EmbeddedResource Include="group H\groupH.resx">
       <DependentUpon>groupH.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="group I\doctor%27s_orders.resx">
+      <DependentUpon>doctor%27s_orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="group I\ورقة تنفيذ العلاج.resx">
+      <DependentUpon>ورقة تنفيذ العلاج.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Group J\afterOPeration.resx">
       <DependentUpon>afterOPeration.cs</DependentUpon>
@@ -277,9 +280,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="rpt_past_history.rdlc" />
-    <EmbeddedResource Include="ورقة تنفيذ العلاج.resx">
-      <DependentUpon>ورقة تنفيذ العلاج.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
