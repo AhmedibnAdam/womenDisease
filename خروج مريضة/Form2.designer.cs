@@ -155,7 +155,7 @@
             this.textBox4.Size = new System.Drawing.Size(320, 23);
             this.textBox4.TabIndex = 35;
             // 
-            // Form2
+            // frm_Treatment_paper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -176,9 +176,10 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.Name = "Form2";
+            this.Name = "frm_Treatment_paper";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "اقرار_خروج_حسب_الطلب";
+            this.Load += new System.EventHandler(this.frm_Treatment_paper_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -15,5 +15,10 @@ namespace womenDisease
         {
             InitializeComponent();
         }
+
+        private void frm_Treatment_paper_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

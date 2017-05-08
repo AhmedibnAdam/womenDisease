@@ -39,7 +39,7 @@ namespace womenDisease
         int yellow = 0;
         int epilepsy = 0;
         int tuberculosis = 0;
-        int pallor, jaundicc, heart, cur_feeding, breast, vulval, uretheral, vaginal, prolapse, position, mass, tenderness, position2, vaginal_w, vaginal_masses, vaginal_masses2 = 1;
+        int pallor, jaundicc, heart, cur_feeding, breast, vulval, uretheral, vaginal, prolapse, position, mass, tenderness, position2, vaginal_w, vaginal_masses, vaginal_masses2 = 0;
         public fol_serv()
         {
             InitializeComponent();
@@ -68,10 +68,71 @@ namespace womenDisease
             
 
             
+                //create procedure insert_into_patient(
+                //    @patient_name varchar(255) ,
+                //    @age int ,
+                //    @marital_status varchar(255) ,
+                //    @job varchar(255) ,
+                //    @nationality varchar(255) ,
+                //    @identity_type varchar(255),
+                //    @identity_side varchar(255) ,
+                //    @date_Regist varchar(255) ,
+                //    @phone varchar(255) ,
+                //    @address_working varchar(255) ,
+                //    @address_of_patient varchar(255) ,
+                //    @married_since varchar(255) ,
+                //    @married_duration  varchar(255) ,
+                //    @husband_name varchar(255) ,
+                //    @husband_identity varchar(255) ,
+                //    @patient_Relative_name varchar(255) ,
+                //    @patient_Relative_identity varchar(255) ,
+                //    @patient_Relative_state varchar(255),
+                //    @patient_Relative_phone varchar(255) )
+                //    as 
+                //    begin
+                //    insert into [dbo].[PHIS_patient] (patient_name,age,marital_status,job,nationality,identity_type,identity_side,
+                //    date_Regist,phone,address_working,address_of_patient,married_since,married_duration,husband_name,husband_identity
+                //    ,patient_Relative_name,patient_Relative_identity,patient_Relative_state,patient_Relative_phone) values 
+                //     (@patient_name,@age,@marital_status,@job,@nationality,@identity_type,@identity_side,
+                //    @date_Regist,@phone,@address_working,@address_of_patient,@married_since,@married_duration,@husband_name,@husband_identity
+                //    ,@patient_Relative_name,@patient_Relative_identity,@patient_Relative_state,@patient_Relative_phone);
+                //    end
+
+
+
+            con.OpenConection();
+
+            DateTime now=DateTime.Now;
+            string name = textBox6.Text + " Clinic";
+
+            types = new SqlDbType[] { SqlDbType.VarChar, SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.VarChar,SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar};
+            name_input = new string[] { "@patient_name","@age","@marital_status","@job","@nationality","@identity_type","@identity_side",
+                   "@date_Regist","@phone","@address_working","@address_of_patient","@married_since","@married_duration","@husband_name","@husband_identity"
+                    ,"@patient_Relative_name","@patient_Relative_identity","@patient_Relative_state","@patient_Relative_phone"};
+
+            values = new string[] {textBox6.Text,textBox1.Text ,"Marriage","Work","Egyption",textBox5.Text,"NULL",Convert.ToString(now),textBox4.Text,"NULL",textBox3.Text,
+            textBox8.Text,textBox8.Text,textBox7.Text,textBox5.Text,name,"111","NULL",textBox4.Text};
+
+
+            con.ExecuteNonQueryProcedure("insert_into_patient", name_input, values, types);
+
+            con.CloseConnection();
+
+
+
+
+
+
+            
 
            
 
+
             
+
+
 
             //create procedure insert_clinic_patient
             //(@num_preg int,@num_mis int,@num_live int,@old decimal,@small decimal,@date datetime,@over int,@normal int,@num_nat int,@num_sur int,@type int
@@ -122,6 +183,48 @@ namespace womenDisease
             con.ExecuteNonQueryProcedure("insert_clinic_patient", name_input, values, types);
             
             con.CloseConnection();
+
+
+            con.OpenConection();
+
+
+
+
+            types = new SqlDbType[] { SqlDbType.Int,SqlDbType.VarChar,SqlDbType.VarChar, SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.VarChar,SqlDbType.Int,SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int,
+                        SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar, SqlDbType.Int,SqlDbType.VarChar,SqlDbType.VarChar, SqlDbType.Int,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar, SqlDbType.Int,
+                        SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.VarChar, SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.Int,SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar};
+            name_input = new string[] { "@p" ,"@p1" ,"@p2" ,"@j" ,"@j1" ,"@j2" ,"@thy" ,"@thy1" ,"@thy2" ,"@h" ,"@h1" ,"@h2" ,
+                                        "@abdo" ,"@abdo1" ,"@abdo2" ,"@abdo3" ,"@cf" ,"@cf1" ,"@cf2" ,"@b" ,"@b1" ,"@b2" ,"@n" ,"@n1" ,"@n2" ,"@l" ,"@l1" ,
+                                        "@l2" ,"@vu" ,"@vu1" ,"@vu2" ,"@urc" ,"@urc1" ,"@urc2" ,"@vag" ,"@vag1" ,"@vag2","@pro" ,"@pro1" ,
+                                        "@pro2" ,"@g" ,"@uter" ,"@uter1" ,"@uter2" ,"@uter_s" ,"@uter_s1" ,"@uter_s2" ,"@uter_m" ,"@uter_m1" ,
+                                        "@uter_m2" ,"@spec" ,"@t" ,"@t1" ,"@t2" ,"@adn_mass" ,"@adn_mass1" ,"@adn_mass2" ,"@w" ,"@w1" ,
+                                        "@w2" ,"@w3" ,"@speu" ,"@speu1" ,"@speu2" ,"@speu3" ,"@sp" ,"@sp1" ,"@sp2" ,"@Suger" ,
+                                        "@Blood" ,"@HB" ,"@Preg_test" ,"@Urine" ,"@Other" ,"@con"};
+
+            values = new string[] { Convert.ToString(pallor),textBox37.Text,textBox44.Text, Convert.ToString(jaundicc),textBox38.Text,textBox45.Text, thyroid,
+                textBox39.Text,textBox46.Text,Convert.ToString(heart), textBox40.Text,textBox47.Text,abdomen,textBox41.Text,textBox48.Text,textBox64.Text,
+                Convert.ToString(cur_feeding),textBox42.Text,textBox49.Text, Convert.ToString(breast) ,textBox43.Text,textBox51.Text,nipple,textBox50.Text,textBox52.Text,
+                lower,textBox53.Text,textBox54.Text,Convert.ToString(vulval),textBox55.Text,textBox56.Text,Convert.ToString(uretheral),textBox58.Text,textBox57.Text,
+                Convert.ToString(vaginal),textBox60.Text,textBox59.Text,Convert.ToString(prolapse),textBox62.Text,textBox61.Text,textBox63.Text,
+                Convert.ToString(position),textBox66.Text,textBox65.Text,size,textBox68.Text,textBox67.Text,Convert.ToString(mass),textBox70.Text,textBox69.Text,
+                textBox73.Text,Convert.ToString(tenderness),textBox72.Text,textBox71.Text,Convert.ToString(position2),textBox75.Text,textBox74.Text,
+                Convert.ToString(vaginal_w),textBox77.Text,textBox76.Text,textBox82.Text,Convert.ToString(vaginal_masses),textBox79.Text,textBox78.Text,textBox83.Text,
+                Convert.ToString(vaginal_masses2),textBox81.Text,textBox80.Text,textBox84.Text,textBox85.Text,textBox87.Text,textBox86.Text,textBox88.Text,textBox89.Text,textBox90.Text};
+
+
+
+            con.ExecuteNonQueryProcedure("insret_clinic_exm", name_input, values, types);
+
+            con.CloseConnection();
+            MessageBox.Show("تمت بنجاح");
+
+
         }
         //هل ترضعين حاليا رضاعة طبيعية
         private void radioButton8_CheckedChanged(object sender, EventArgs e)
@@ -309,7 +412,7 @@ namespace womenDisease
         {
             if (radioButton49.Checked)
             {
-                pallor = 0;
+                pallor = 1;
             }
 
         }
@@ -318,7 +421,7 @@ namespace womenDisease
         {
             if (radioButton64.Checked)
             {
-                jaundicc = 0;
+                jaundicc = 1;
             }
         }
         //Thyroid
@@ -345,7 +448,7 @@ namespace womenDisease
         {
             if (radioButton56.Checked)
             {
-                heart =0;
+                heart =1;
             }
 
         }
@@ -372,7 +475,7 @@ namespace womenDisease
         {
             if (radioButton60.Checked)
             {
-                cur_feeding = 0;
+                cur_feeding = 1;
             }
         }
         //Breast
@@ -380,7 +483,7 @@ namespace womenDisease
         {
             if (radioButton62.Checked)
             {
-                breast = 0;
+                breast = 1;
             }
         }
         //Nipple Discharge
@@ -423,7 +526,7 @@ namespace womenDisease
         {
             if (radioButton72.Checked)
             {
-                vulval = 0;
+                vulval = 1;
             }
 
         }
@@ -432,7 +535,7 @@ namespace womenDisease
         {
             if (radioButton74.Checked)
             {
-                uretheral = 0;
+                uretheral = 1;
             }
         }
         //Vaginal Discharge
@@ -440,7 +543,7 @@ namespace womenDisease
         {
             if (radioButton76.Checked)
             {
-                vaginal = 0;
+                vaginal = 1;
             }
         }
         //Prolapse
@@ -448,7 +551,7 @@ namespace womenDisease
         {
             if (radioButton78.Checked)
             {
-                prolapse = 0;
+                prolapse = 1;
             }
 
         }
@@ -457,7 +560,7 @@ namespace womenDisease
         {
             if (radioButton80.Checked)
             {
-                position = 0;
+                position = 1;
             }
 
         }
@@ -486,7 +589,7 @@ namespace womenDisease
         {
             if (radioButton84.Checked)
             {
-                mass = 0;
+                mass = 1;
             }
 
         }
@@ -496,7 +599,7 @@ namespace womenDisease
 
             if (radioButton86.Checked)
             {
-                tenderness = 0;
+                tenderness = 1;
             }
         }
         //Position 2
@@ -504,7 +607,7 @@ namespace womenDisease
         {
             if (radioButton89.Checked)
             {
-                position2 = 0;
+                position2 = 1;
             }
         }
         //Vaginal Walls
@@ -513,7 +616,7 @@ namespace womenDisease
         {
             if (radioButton91.Checked)
             {
-                vaginal_w = 0;
+                vaginal_w = 1;
             }
         }
 
@@ -521,7 +624,7 @@ namespace womenDisease
         {
             if (radioButton93.Checked)
             {
-                vaginal_masses = 0;
+                vaginal_masses = 1;
             }
 
         }
@@ -530,40 +633,56 @@ namespace womenDisease
         {
             if (radioButton95.Checked)
             {
-                vaginal_masses2 = 0;
+                vaginal_masses2 = 1;
             }
 
         }
         //Second One Save
-        private void button2_Click(object sender, EventArgs e)
+       /* private void button2_Click(object sender, EventArgs e)
         {
+                    // create procedure insret_clinic_exm
+                    //(@p int,@p1 varchar (100),@p2 varchar (100),@j int,@j1 varchar (100),@j2 varchar (100),
+                    //@thy varchar (100),@thy1 varchar (100),@thy2 varchar (100),@h int,@h1 varchar (100),@h2 varchar (100),
+                    //@abdo varchar (100),@abdo1 varchar (100),@abdo2 varchar (100),@abdo3 varchar (100),
+                    //@cf int,@cf1 varchar (100),@cf2 varchar (100),@b varchar (100),@b1 varchar (100),@b2 varchar (100),
+                    //@n varchar (100),@n1 varchar (100),@n2 varchar (100),@l varchar (100),@l1 varchar (100),
+                    //@l2 varchar (100),@vu int,@vu1 varchar (100),@vu2 varchar (100),@urc int,@urc1 varchar (100),
+                    //@urc2 varchar (100),@vag int,@vag1 varchar (100),@vag2 varchar (100),@pro int,@pro1 varchar (100),
+                    //@pro2 varchar (100),@g varchar (100),@uter int,@uter1 varchar (100),@uter2 varchar (100),
+                    //@uter_s varchar (100),@uter_s1 varchar (100),@uter_s2 varchar (100),@uter_m int,@uter_m1 varchar (100),
+                    //@uter_m2 varchar (100),@spec varchar (100),@t int,@t1 varchar (100),@t2 varchar (100),
+                    //@adn_mass int,@adn_mass1 varchar (100),@adn_mass2 varchar (100),@w int,@w1 varchar (100),
+                    //@w2 varchar (100),@w3 varchar (100),@speu int,@speu1 varchar (100),@speu2 varchar (100),
+                    //@speu3 varchar (100),@sp int,@sp1 varchar (100),@sp2 varchar (100),@Suger varchar (100),
+                    //@Blood varchar (100),@HB varchar (100),@Preg_test varchar (100),@Urine varchar (100),
+                    //@Other varchar (100),@con varchar (100))
+                    //as 
+                    //begin
+                    //declare @id int
+                    //set @id=(select  max(visit_id) from [dbo].[PHIS_patient_Visits])
+                    //insert into PHIS_Clinic_Examination
+                    //([visit_id] ,[Pallor] ,[Pallor_n] ,[Pallor_r] ,[Jaundice] ,[Jaundice_n] ,[Jaundice_r] ,[thyroid] ,
+                    //[thyroid_n] ,[thyroid_r] ,[Heart] ,[Heart_n] ,[Heart_r] ,[Abdomen] ,[Abdomen_n] ,[Abdomen_r] ,
+                    //[Abdomen_s] ,[Currently_breast_Feeding] ,[Currently_n] ,[Currently_r] ,[Breast_Mass] ,[Breast_n] ,
+                    //[Breast_r] ,[Breast_Nipple_Discharge] ,[Nipple_n] ,[Nipple_r] ,[Lower_extremities] ,[Lower_n] ,
+                    //[Lower_r] ,[Vulval_Scarring_ULcer] ,[Vulval_n] ,[Vulval_r] ,[Urctheral_Discharge],[Urctheral_n] ,
+                    //[Urctheral_r] ,[vaginal_Discharge] ,[vaginal_n] ,[vaginal_r] ,[Prolapse] ,[Prolapse_n] ,
+                    //[Prolapse_r] ,[Grade] ,[Uterus_Position] ,[Position_n] ,[Position_r] ,[Uterus_size] ,
+                    //[size_n] ,[size_r] ,[Uterus_Masses] ,[Masses_n] ,[Masses_r] ,[Specify] ,[Uterus_Tenderness] ,
+                    //[Tenderness_n] ,[Tenderness_r] ,[adnexa_masses] ,[adnexa_n] ,[adnexa_r] ,[Vaginal_walls] ,
+                    //[walls_n] ,[walls_r] ,[walls_s] ,[Speu] ,[Speu_n] ,[Speu_r] ,[Speu_s] ,[Speu1] ,[Speu_n1] ,
+                    //[Speu_r1] ,[Suger_in_Urince],[Blood_suger] ,[HB] ,[Pregnancy_test] ,
+                    //[Urine_analysis_Main_findings] ,[Other] ,[CONCLUSION])
 
-
-
-            
-
-        
-            //create procedure insret_clinic_exm
-            //(@pallor int,@jaun int,@thy varchar,@heart int,@abdo varchar,@curFeed int,@breast_m varchar,@nipple varchar,@lower varchar,@vulval int,@urc_dis int,@vag_dis int,@prol int
-            //,@g varchar,@uter_pos int,@uter_size varchar,@uter_mass int,@spec varchar,@uter_tend int,@adn_mass int,@Vag_walls int,@Cervix int
-            //,@Suger varchar,@Blood varchar,@HB varchar,@Preg_test varchar,@Urine varchar,@Other varchar,@con varchar)
-            //as 
-            //begin
-            //declare @id int
-            //set @id=(select  max(visit_id) from [dbo].[PHIS_patient_Visits])
-            //insert into PHIS_Clinic_Examination
-            //([visit_id],[Pallor],[Jaundice],[thyroid],[Heart],[Abdomen],[Currently_breast_Feeding]
-            //,[Breast_Mass],[Breast_Nipple_Discharge],[Lower_extremities],[Vulval_Scarring_ULcer],[Urctheral_Discharge]
-            //,[vaginal_Discharge],[Prolapse],[Grade],[Uterus_Position],[Uterus_size],[Uterus_Masses],[Specify]
-            //,[Uterus_Tenderness],[adnexa_masses],[Vaginal_walls],[Cervix],[Suger_in_Urince]
-            //,[Blood_suger],[HB],[Pregnancy_test],[Urine_analysis_Main_findings],[Other],[CONCLUSION])
-
-            //values
-            //(@id,@pallor ,@jaun ,@thy ,@heart ,@abdo ,@curFeed ,@breast_m ,@nipple ,@lower ,@vulval ,@urc_dis ,@vag_dis ,@prol 
-            //,@g ,@uter_pos ,@uter_size ,@uter_mass ,@spec ,@uter_tend ,@adn_mass ,@Vag_walls ,@Cervix 
-            // ,@Suger ,@Blood ,@HB ,@Preg_test ,@Urine ,@Other ,@con )
-            //end
-	
+                    //values
+                    //(@id,@p ,@p1 ,@p2 ,@j ,@j1 ,@j2 ,@thy ,@thy1 ,@thy2 ,@h ,@h1 ,@h2 ,
+                    //@abdo ,@abdo1 ,@abdo2 ,@abdo3 ,@cf ,@cf1 ,@cf2 ,@b ,@b1 ,@b2 ,@n ,@n1 ,@n2 ,@l ,@l1 ,
+                    //@l2 ,@vu ,@vu1 ,@vu2 ,@urc ,@urc1 ,@urc2 ,@vag ,@vag1 ,@vag2,@pro ,@pro1 ,
+                    //@pro2 ,@g ,@uter ,@uter1 ,@uter2 ,@uter_s ,@uter_s1 ,@uter_s2 ,@uter_m ,@uter_m1 ,
+                    //@uter_m2 ,@spec ,@t ,@t1 ,@t2 ,@adn_mass ,@adn_mass1 ,@adn_mass2 ,@w ,@w1 ,
+                    //@w2 ,@w3 ,@speu ,@speu1 ,@speu2 ,@speu3 ,@sp ,@sp1 ,@sp2 ,@Suger ,
+                    //@Blood ,@HB ,@Preg_test ,@Urine ,@Other ,@con)
+                    //end
 	
 	
 
@@ -576,22 +695,36 @@ namespace womenDisease
 
 
             con.OpenConection();
-			
 
 
 
-            types = new SqlDbType[] { SqlDbType.Int, SqlDbType.Int, SqlDbType.VarChar, SqlDbType.Int, SqlDbType.VarChar, SqlDbType.Int,
-                SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.Int, SqlDbType.Int, SqlDbType.Int, SqlDbType.Int, SqlDbType.VarChar, SqlDbType.Int, SqlDbType.VarChar, SqlDbType.Int, SqlDbType.VarChar
-                , SqlDbType.Int, SqlDbType.Int, SqlDbType.Int, SqlDbType.Int
-                , SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar};
-            name_input = new string[] { "@pallor" ,"@jaun" ,"@thy" ,"@heart" ,"@abdo" ,"@curFeed" ,"@breast_m" ,"@nipple" ,"@lower" ,"@vulval" ,"@urc_dis" ,"@vag_dis" ,"@prol" 
-,"@g" ,"@uter_pos" ,"@uter_size" ,"@uter_mass" ,"@spec" ,"@uter_tend" ,"@adn_mass" ,"@Vag_walls" ,"@Cervix"
- ,"@Suger" ,"@Blood" ,"@HB" ,"@Preg_test" ,"@Urine" ,"@Other" ,"@con"};
 
-            values = new string[] { Convert.ToString(pallor), Convert.ToString(jaundicc), thyroid, Convert.ToString(heart), abdomen, Convert.ToString(cur_feeding), Convert.ToString(breast) 
-                ,nipple,lower,Convert.ToString(vulval),Convert.ToString(uretheral),Convert.ToString(vaginal),Convert.ToString(prolapse),textBox63.Text,Convert.ToString(position)
-                ,size,Convert.ToString(mass),textBox73.Text,Convert.ToString(tenderness),Convert.ToString(position2),Convert.ToString(vaginal_w),Convert.ToString(vaginal_masses)
-                ,Convert.ToString(vaginal_masses2),textBox84.Text,textBox85.Text,textBox87.Text,textBox86.Text,textBox88.Text,textBox89.Text,textBox90.Text};
+            types = new SqlDbType[] { SqlDbType.Int,SqlDbType.VarChar,SqlDbType.VarChar, SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.VarChar,SqlDbType.Int,SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int,
+                        SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar, SqlDbType.Int,SqlDbType.VarChar,SqlDbType.VarChar, SqlDbType.Int,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar, SqlDbType.Int,
+                        SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.VarChar, SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.Int, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.Int,SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar,
+                        SqlDbType.Int,SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar, SqlDbType.VarChar,SqlDbType.VarChar,SqlDbType.VarChar};
+            name_input = new string[] { "@p" ,"@p1" ,"@p2" ,"@j" ,"@j1" ,"@j2" ,"@thy" ,"@thy1" ,"@thy2" ,"@h" ,"@h1" ,"@h2" ,
+                                        "@abdo" ,"@abdo1" ,"@abdo2" ,"@abdo3" ,"@cf" ,"@cf1" ,"@cf2" ,"@b" ,"@b1" ,"@b2" ,"@n" ,"@n1" ,"@n2" ,"@l" ,"@l1" ,
+                                        "@l2" ,"@vu" ,"@vu1" ,"@vu2" ,"@urc" ,"@urc1" ,"@urc2" ,"@vag" ,"@vag1" ,"@vag2","@pro" ,"@pro1" ,
+                                        "@pro2" ,"@g" ,"@uter" ,"@uter1" ,"@uter2" ,"@uter_s" ,"@uter_s1" ,"@uter_s2" ,"@uter_m" ,"@uter_m1" ,
+                                        "@uter_m2" ,"@spec" ,"@t" ,"@t1" ,"@t2" ,"@adn_mass" ,"@adn_mass1" ,"@adn_mass2" ,"@w" ,"@w1" ,
+                                        "@w2" ,"@w3" ,"@speu" ,"@speu1" ,"@speu2" ,"@speu3" ,"@sp" ,"@sp1" ,"@sp2" ,"@Suger" ,
+                                        "@Blood" ,"@HB" ,"@Preg_test" ,"@Urine" ,"@Other" ,"@con"};
+
+            values = new string[] { Convert.ToString(pallor),textBox37.Text,textBox44.Text, Convert.ToString(jaundicc),textBox38.Text,textBox45.Text, thyroid,
+                textBox39.Text,textBox46.Text,Convert.ToString(heart), textBox40.Text,textBox47.Text,abdomen,textBox41.Text,textBox48.Text,textBox64.Text,
+                Convert.ToString(cur_feeding),textBox42.Text,textBox49.Text, Convert.ToString(breast) ,textBox43.Text,textBox51.Text,nipple,textBox50.Text,textBox52.Text,
+                lower,textBox53.Text,textBox54.Text,Convert.ToString(vulval),textBox55.Text,textBox56.Text,Convert.ToString(uretheral),textBox58.Text,textBox57.Text,
+                Convert.ToString(vaginal),textBox60.Text,textBox59.Text,Convert.ToString(prolapse),textBox62.Text,textBox61.Text,textBox63.Text,
+                Convert.ToString(position),textBox66.Text,textBox65.Text,size,textBox68.Text,textBox67.Text,Convert.ToString(mass),textBox70.Text,textBox69.Text,
+                textBox73.Text,Convert.ToString(tenderness),textBox72.Text,textBox71.Text,Convert.ToString(position2),textBox75.Text,textBox74.Text,
+                Convert.ToString(vaginal_w),textBox77.Text,textBox76.Text,textBox82.Text,Convert.ToString(vaginal_masses),textBox79.Text,textBox78.Text,textBox83.Text,
+                Convert.ToString(vaginal_masses2),textBox81.Text,textBox80.Text,textBox84.Text,textBox85.Text,textBox87.Text,textBox86.Text,textBox88.Text,textBox89.Text,textBox90.Text};
                 
                 
                 
@@ -605,6 +738,8 @@ namespace womenDisease
 
 			
         }
+        */
+       
 
         
     }
