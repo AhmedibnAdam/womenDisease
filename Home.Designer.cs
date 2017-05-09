@@ -234,6 +234,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.tabPage1.Size = new System.Drawing.Size(1201, 682);
             this.tabPage1.TabIndex = 4;
             this.tabPage1.Text = "قسم النساء ";
