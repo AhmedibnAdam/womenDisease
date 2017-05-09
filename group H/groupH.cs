@@ -302,64 +302,66 @@ namespace womenDisease
             d = (DataTable)x;
             d1 = (DataTable)y;
             //present history data
-            //string[] pram_name1 = new string[1];
-            //string[] pramval1 = new string[1];
-            //SqlDbType[] pram_type1 = new SqlDbType[1];
-            //pram_name1[0] = "@visit_id";
-            //pramval1[0] = v_id.ToString();
-            //pram_type1[0] = SqlDbType.Int;
-            //object z = con.ShowDataInGridViewUsingStoredProc("PHIS_present_history_select", pram_name1, pramval1, pram_type1);
-            //DataTable dtt = new DataTable();
-            //dtt = (DataTable)z;
+            string[] pram_name1 = new string[1];
+            string[] pramval1 = new string[1];
+            SqlDbType[] pram_type1 = new SqlDbType[1];
+            pram_name1[0] = "@visit_id";
+            pramval1[0] = v_id.ToString();
+            pram_type1[0] = SqlDbType.Int;
+            object z = con.ShowDataInGridViewUsingStoredProc("PHIS_present_history_select", pram_name1, pramval1, pram_type1);
+            DataTable dtt = new DataTable();
+            dtt = (DataTable)z;
+            if(dtt.Rows.Count>=1)
+            {
+            if (dtt.Rows[0][0].ToString() != " ")
+            {
+                //MessageBox.Show(dtt.Rows[0][0].ToString());
 
-            //if (dtt.Rows[0][0].ToString() != " ")
-            //{
-            //    MessageBox.Show(dtt.Rows[0][0].ToString());
-
-            //    string[] strr = dtt.Rows[0][0].ToString().Split(',');
-
-
-            //    for (int i = 0; i < strr.Length; i++)
-            //    {
-            //        if (strr[i] == "no diseases")
-            //            no.Checked = true;
-            //        if (strr[i] == "Diabetes Mellitus")
-            //            Dia_mell.Checked = true;
-            //        if (strr[i] == "Hypertension")
-            //            Hyper.Checked = true;
-            //        if (strr[i] == "Rheumatic heart disease")
-            //            Rheu.Checked = true;
-            //        if (strr[i] == "congenital heart disease")
-            //            cong.Checked = true;
-            //        if (strr[i] == "ischemic heart disease")
-            //            isch.Checked = true;
-            //        if (strr[i] == "hyperthyroidism")
-            //            hyperthy.Checked = true;
-            //        if (strr[i] == "bronchial asthma")
-            //            bronch.Checked = true;
-            //        if (strr[i] == "SLE")
-            //            sle.Checked = true;
-            //        if (strr[i] == "rheumatoid arthritis")
-            //            rheum.Checked = true;
-            //        if (strr[i] == "chronic renal failure")
-            //            chronic.Checked = true;
-            //        if (strr[i] == "acute renal failure")
-            //            acute.Checked = true;
+                string[] strr = dtt.Rows[0][0].ToString().Split(',');
 
 
-            //    }
-            //}
-            //if (dtt.Rows[0][2].ToString() != "")
-            //{
-            //    bloodtrans.Checked = true;
+                for (int i = 0; i < strr.Length; i++)
+                {
+                    if (strr[i] == "no diseases")
+                        no.Checked = true;
+                    if (strr[i] == "Diabetes Mellitus")
+                        Dia_mell.Checked = true;
+                    if (strr[i] == "Hypertension")
+                        Hyper.Checked = true;
+                    if (strr[i] == "Rheumatic heart disease")
+                        Rheu.Checked = true;
+                    if (strr[i] == "congenital heart disease")
+                        cong.Checked = true;
+                    if (strr[i] == "ischemic heart disease")
+                        isch.Checked = true;
+                    if (strr[i] == "hyperthyroidism")
+                        hyperthy.Checked = true;
+                    if (strr[i] == "bronchial asthma")
+                        bronch.Checked =true;
+                    if (strr[i] == "SLE")
+                        sle.Checked = true;
+                    if (strr[i] == "rheumatoid arthritis")
+                        rheum.Checked = true;
+                    if (strr[i] == "chronic renal failure")
+                        chronic.Checked = true;
+                    if (strr[i] == "acute renal failure")
+                        acute.Checked = true;
 
-            //}
-            //if (dtt.Rows[0][3].ToString() != "")
-            //{
-            //    allerg.Checked = true;
 
-            //}
-            //Drug_intak.Text = dtt.Rows[0][1].ToString();
+                }
+            }
+            if (dtt.Rows[0][2].ToString() != "")
+            {
+                bloodtrans.Checked = true;
+
+            }
+            if (dtt.Rows[0][3].ToString() != "")
+            {
+                allerg.Checked = true;
+
+            }
+            Drug_intak.Text = dtt.Rows[0][1].ToString();
+        }
             if (d.Rows.Count >= 1)
             {
                 //menustral history
@@ -420,35 +422,35 @@ namespace womenDisease
                 string s2 = "";
                 string s3 = "";
                 if (no.Checked == true)
-                    s += "no diseases";
+                    s += "no diseases,";
                 if (Dia_mell.Checked == true)
-                    s += "Diabetes Mellitus";
+                    s += "Diabetes Mellitus,";
                 if (Hyper.Checked == true)
-                    s += "Hypertension";
+                    s += "Hypertension,";
                 if (Rheu.Checked == true)
-                    s += "Rheumatic heart disease";
+                    s += "Rheumatic heart disease,";
                 if (cong.Checked == true)
-                    s += "congenital heart disease";
+                    s += "congenital heart disease,";
                 if (isch.Checked == true)
-                    s += "ischemic heart disease";
+                    s += "ischemic heart disease,";
                 if (hyperthy.Checked == true)
-                    s += "hyperthyroidism";
+                    s += "hyperthyroidism,";
 
                 if (bronch.Checked == true)
-                    s += "bronchial asthma";
+                    s += "bronchial asthma,";
 
                 if (sle.Checked == true)
-                    s += "SLE";
+                    s += "SLE,";
                 if (rheum.Checked == true)
-                    s += "rheumatoid arthritis";
+                    s += "rheumatoid arthritis,";
                 if (chronic.Checked == true)
-                    s += "chronic renal failure";
+                    s += "chronic renal failure,";
                 if (acute.Checked == true)
-                    s += "acute renal failure";
+                    s += "acute renal failure,";
                 if (bloodtrans.Checked == true)
                     s1 = "Blood transfusion";
                 if (allerg.Checked == true)
-                    s2 = "Allergies";
+                    s2 = "Allergies,";
                 if (Drug_intak.Text != "")
                     s3 = Drug_intak.Text;
                 con.OpenConection();

@@ -215,7 +215,6 @@
             this.tabcontrol1.SizeMode = System.Windows.Forms.TabSizeMode.FillToRight;
             this.tabcontrol1.TabIndex = 4;
             this.tabcontrol1.Tag = "";
-            this.tabcontrol1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tabcontrol1_MouseClick);
             // 
             // tabPage15
             // 
@@ -249,7 +248,6 @@
             this.tabPage2.TabIndex = 5;
             this.tabPage2.Text = "قسم الحوامل ";
             this.tabPage2.UseVisualStyleBackColor = true;
-            this.tabPage2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.tabPage2_MouseClick);
             // 
             // Home
             // 
@@ -264,7 +262,7 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "Home";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Home";
+            this.Text = "متابعة مريضة";
             this.TransparencyKey = System.Drawing.Color.White;
             this.Load += new System.EventHandler(this.Home_Load);
             this.menuStrip.ResumeLayout(false);
