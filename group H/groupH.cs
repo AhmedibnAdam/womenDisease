@@ -525,33 +525,33 @@ namespace womenDisease
             {
                 con.OpenConection();
                 if (no.Checked == true)
-                    s += "no diseases";
+                    s += "no diseases,";
                 if (Dia_mell.Checked == true)
-                    s += "Diabetes Mellitus";
+                    s += "Diabetes Mellitus,";
                 if (Hyper.Checked == true)
-                    s += "Hypertension";
+                    s += "Hypertension,";
                 if (Rheu.Checked == true)
-                    s += "Rheumatic heart disease";
+                    s += "Rheumatic heart disease,";
                 if (cong.Checked == true)
-                    s += "congenital heart disease";
+                    s += "congenital heart disease,";
                 if (isch.Checked == true)
-                    s += "ischemic heart disease";
+                    s += "ischemic heart disease,";
                 if (hyperthy.Checked == true)
-                    s += "hyperthyroidism";
+                    s += "hyperthyroidism,";
 
                 if (bronch.Checked == true)
-                    s += "bronchial asthma";
+                    s += "bronchial asthma,";
 
                 if (sle.Checked == true)
-                    s += "SLE";
+                    s += "SLE,";
                 if (rheum.Checked == true)
-                    s += "rheumatoid arthritis";
+                    s += "rheumatoid arthritis,";
                 if (chronic.Checked == true)
-                    s += "chronic renal failure";
+                    s += "chronic renal failure,";
                 if (acute.Checked == true)
-                    s += "acute renal failure";
+                    s += "acute renal failure,";
                 if (bloodtrans.Checked == true)
-                    s1 = "Blood transfusion";
+                    s1 = "Blood transfusion,";
                 if (allerg.Checked == true)
                     s2 = "Allergies";
                 if (Drug_intak.Text != "")

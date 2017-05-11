@@ -120,6 +120,7 @@ namespace womenDisease
 
         private void Home_Load(object sender, EventArgs e)
         {
+
             /*قسم النساء */
             groupH frm = new groupH();
             frm.TopLevel = false;
@@ -127,7 +128,7 @@ namespace womenDisease
             frm.FormBorderStyle = FormBorderStyle.None;
             frm.Dock = DockStyle.Fill;
             tabcontrol1.TabPages[2].Controls.Add(frm);
-           
+
             /* قسم الحوامل */
             OBSTATRIC_HISTORY obs = new OBSTATRIC_HISTORY();
             obs.TopLevel = false;
@@ -135,7 +136,7 @@ namespace womenDisease
             obs.FormBorderStyle = FormBorderStyle.None;
             obs.Dock = DockStyle.Fill;
             tabcontrol1.TabPages[3].Controls.Add(obs);
-           
+
             /*قسم الأستقبال */
             //أوامر الطبيب
             frm_doctor_orders doctors = new frm_doctor_orders();
